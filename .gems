@@ -1,0 +1,2 @@
+rails -v 2.3.4
+mongo_mapper --version '>= 0.8.2'
