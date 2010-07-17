@@ -244,3 +244,397 @@ Processing PollsController#index (for 127.0.0.1 at 2010-07-16 14:43:33) [GET]
 Rendering template within layouts/application
 Rendering polls/index
 Completed in 123ms (View: 40 | 200 OK [http://localhost/polls]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-16 19:35:17) [GET]
+
+NameError (uninitialized constant PollController):
+  
+
+Rendered rescues/_trace (247.2ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-16 19:36:59) [GET]
+
+NameError (uninitialized constant PollController):
+  
+
+Rendered rescues/_trace (140.0ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-07-16 19:37:49) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+
+ActionView::TemplateError (undefined method `poll_path' for #<ActionView::Base:0xaf814e8>) on line #10 of app/views/polls/index.html.erb:
+7:   <% for poll in @polls %>
+8:     <tr>
+9:       <td><%=h poll.title %></td>
+10:       <td><%= link_to "Show", poll %></td>
+11:       <td><%= link_to "Edit", edit_poll_path(poll) %></td>
+12:       <td><%= link_to "Destroy", poll, :confirm => 'Are you sure?', :method => :delete %></td>
+13:     </tr>
+
+    app/views/polls/index.html.erb:10
+    app/views/polls/index.html.erb:7:in `each'
+    app/views/polls/index.html.erb:7
+
+Rendered rescues/_trace (312.8ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-07-16 19:38:18) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 73ms (View: 32 | 200 OK [http://localhost/]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-16 19:45:11) [GET]
+  Parameters: {"id"=>"4c4053f0baba320c9d000003"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 108ms (View: 31 | 200 OK [http://localhost/polls/4c4053f0baba320c9d000003]
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-07-16 19:45:14) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 106ms (View: 36 | 200 OK [http://localhost/polls]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-16 19:45:16) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Rendered polls/_form (22.3ms)
+Completed in 97ms (View: 40 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-16 19:45:36) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Rendered polls/_form (30.1ms)
+Completed in 152ms (View: 67 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-07-16 19:47:43) [POST]
+  Parameters: {"poll"=>{"title"=>"What a poll", "story"=>"This is a long story."}, "commit"=>"Save changes", "authenticity_token"=>"38PYZ3y44CRo9meV0VxOR8KHuGNXzsgsETNouyTh3Nw="}
+Redirected to http://localhost:3000/polls/4c409b3fbaba320c9d000006
+Completed in 219ms | 302 Found [http://localhost/polls]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-16 19:47:43) [GET]
+  Parameters: {"id"=>"4c409b3fbaba320c9d000006"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 182ms (View: 101 | 200 OK [http://localhost/polls/4c409b3fbaba320c9d000006]
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-07-16 19:47:47) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 93ms (View: 51 | 200 OK [http://localhost/polls]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-16 19:47:50) [GET]
+  Parameters: {"id"=>"4c4053f0baba320c9d000003"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 109ms (View: 36 | 200 OK [http://localhost/polls/4c4053f0baba320c9d000003]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-16 19:47:56) [GET]
+  Parameters: {"id"=>"4c409b3fbaba320c9d000006"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 117ms (View: 38 | 200 OK [http://localhost/polls/4c409b3fbaba320c9d000006]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-16 19:49:43) [GET]
+  Parameters: {"id"=>"4c409b3fbaba320c9d000006"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 129ms (View: 46 | 200 OK [http://localhost/polls/4c409b3fbaba320c9d000006]
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-07-16 19:50:54) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 141ms (View: 56 | 200 OK [http://localhost/polls]
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-07-16 19:51:48) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 140ms (View: 53 | 200 OK [http://localhost/polls]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-16 19:51:50) [GET]
+  Parameters: {"id"=>"4c409b3fbaba320c9d000006"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 126ms (View: 53 | 200 OK [http://localhost/polls/4c409b3fbaba320c9d000006]
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-07-17 13:54:04) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 138ms (View: 63 | 200 OK [http://localhost/polls]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-17 13:55:03) [GET]
+
+SyntaxError (/home/virtualrails/code/babynames/app/models/poll.rb:6: syntax error, unexpected tCONSTANT, expecting kEND
+	key :ins_at=Date.new, Date
+	                ^
+/home/virtualrails/code/babynames/app/models/poll.rb:6: syntax error, unexpected '\n', expecting '='):
+  app/controllers/polls_controller.rb:11:in `new'
+
+Rendered rescues/_trace (116.9ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-17 13:56:36) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Rendered polls/_form (31.7ms)
+Completed in 157ms (View: 76 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-07-17 13:56:54) [POST]
+  Parameters: {"poll"=>{"title"=>"NEw one with date", "story"=>"What is the date"}, "commit"=>"Save changes", "authenticity_token"=>"38PYZ3y44CRo9meV0VxOR8KHuGNXzsgsETNouyTh3Nw="}
+Redirected to http://localhost:3000/polls/4c419a86baba320c9d000008
+Completed in 121ms | 302 Found [http://localhost/polls]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-17 13:56:54) [GET]
+  Parameters: {"id"=>"4c419a86baba320c9d000008"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 76ms (View: 31 | 200 OK [http://localhost/polls/4c419a86baba320c9d000008]
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-07-17 13:57:00) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 171ms (View: 90 | 200 OK [http://localhost/polls]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-17 13:57:03) [GET]
+  Parameters: {"id"=>"4c419a86baba320c9d000008"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 124ms (View: 40 | 200 OK [http://localhost/polls/4c419a86baba320c9d000008]
+
+
+Processing PollsController#edit (for 127.0.0.1 at 2010-07-17 13:57:22) [GET]
+  Parameters: {"id"=>"4c419a86baba320c9d000008"}
+Rendering template within layouts/application
+Rendering polls/edit
+Rendered polls/_form (18.1ms)
+Completed in 226ms (View: 42 | 200 OK [http://localhost/polls/4c419a86baba320c9d000008/edit]
+
+
+Processing PollsController#update (for 127.0.0.1 at 2010-07-17 13:57:31) [PUT]
+  Parameters: {"poll"=>{"title"=>"NEw one with no date", "story"=>"What is the date"}, "commit"=>"Save changes", "authenticity_token"=>"38PYZ3y44CRo9meV0VxOR8KHuGNXzsgsETNouyTh3Nw=", "id"=>"4c419a86baba320c9d000008"}
+Redirected to http://localhost:3000/polls/4c419a86baba320c9d000008
+Completed in 104ms | 302 Found [http://localhost/polls/4c419a86baba320c9d000008]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-17 13:57:32) [GET]
+  Parameters: {"id"=>"4c419a86baba320c9d000008"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 68ms (View: 28 | 200 OK [http://localhost/polls/4c419a86baba320c9d000008]
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-07-17 14:01:06) [GET]
+
+ArgumentError (wrong number of arguments (2 for 0)):
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:62:in `initialize'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:62:in `new'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:62:in `load'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:25:in `all'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:25:in `map'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:25:in `all'
+  app/controllers/polls_controller.rb:3:in `index'
+
+Rendered rescues/_trace (306.0ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-07-17 14:01:59) [GET]
+
+ArgumentError (wrong number of arguments (2 for 0)):
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:62:in `initialize'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:62:in `new'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:62:in `load'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:25:in `all'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:25:in `map'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:25:in `all'
+  app/controllers/polls_controller.rb:3:in `index'
+
+Rendered rescues/_trace (636.4ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-07-17 14:02:21) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 215ms (View: 147 | 200 OK [http://localhost/polls]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-17 14:02:26) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Rendered polls/_form (33.8ms)
+Completed in 111ms (View: 39 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-07-17 14:08:04) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 161ms (View: 87 | 200 OK [http://localhost/polls]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-17 14:08:07) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Rendered polls/_form (33.7ms)
+Completed in 100ms (View: 40 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-07-17 14:08:21) [POST]
+  Parameters: {"poll"=>{"title"=>"Another Date", "story"=>"Go team"}, "commit"=>"Save changes", "authenticity_token"=>"38PYZ3y44CRo9meV0VxOR8KHuGNXzsgsETNouyTh3Nw="}
+Redirected to http://localhost:3000/polls/4c419d35baba320c9d00000b
+Completed in 110ms | 302 Found [http://localhost/polls]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-17 14:08:21) [GET]
+  Parameters: {"id"=>"4c419d35baba320c9d00000b"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 75ms (View: 34 | 200 OK [http://localhost/polls/4c419d35baba320c9d00000b]
+
+
+Processing PollsController#edit (for 127.0.0.1 at 2010-07-17 14:08:58) [GET]
+  Parameters: {"id"=>"4c419d35baba320c9d00000b"}
+Rendering template within layouts/application
+Rendering polls/edit
+Rendered polls/_form (25.4ms)
+Completed in 109ms (View: 37 | 200 OK [http://localhost/polls/4c419d35baba320c9d00000b/edit]
+
+
+Processing PollsController#update (for 127.0.0.1 at 2010-07-17 14:09:04) [PUT]
+  Parameters: {"poll"=>{"title"=>"Another Date today", "story"=>"Go team"}, "commit"=>"Save changes", "authenticity_token"=>"38PYZ3y44CRo9meV0VxOR8KHuGNXzsgsETNouyTh3Nw=", "id"=>"4c419d35baba320c9d00000b"}
+Redirected to http://localhost:3000/polls/4c419d35baba320c9d00000b
+Completed in 216ms | 302 Found [http://localhost/polls/4c419d35baba320c9d00000b]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-17 14:09:04) [GET]
+  Parameters: {"id"=>"4c419d35baba320c9d00000b"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 89ms (View: 34 | 200 OK [http://localhost/polls/4c419d35baba320c9d00000b]
+
+
+Processing PollsController#edit (for 127.0.0.1 at 2010-07-17 14:14:23) [GET]
+  Parameters: {"id"=>"4c419d35baba320c9d00000b"}
+Rendering template within layouts/application
+Rendering polls/edit
+Rendered polls/_form (25.8ms)
+Completed in 120ms (View: 33 | 200 OK [http://localhost/polls/4c419d35baba320c9d00000b/edit]
+
+
+Processing PollsController#update (for 127.0.0.1 at 2010-07-17 14:14:31) [PUT]
+  Parameters: {"poll"=>{"title"=>"Another Date today more", "story"=>"Go team"}, "commit"=>"Save changes", "authenticity_token"=>"38PYZ3y44CRo9meV0VxOR8KHuGNXzsgsETNouyTh3Nw=", "id"=>"4c419d35baba320c9d00000b"}
+Redirected to http://localhost:3000/polls/4c419d35baba320c9d00000b
+Completed in 107ms | 302 Found [http://localhost/polls/4c419d35baba320c9d00000b]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-17 14:14:31) [GET]
+  Parameters: {"id"=>"4c419d35baba320c9d00000b"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 68ms (View: 29 | 200 OK [http://localhost/polls/4c419d35baba320c9d00000b]
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-07-17 14:14:42) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 196ms (View: 115 | 200 OK [http://localhost/polls]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-17 14:14:45) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Rendered polls/_form (24.4ms)
+Completed in 141ms (View: 45 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-07-17 14:14:53) [POST]
+  Parameters: {"poll"=>{"title"=>"I like this", "story"=>""}, "commit"=>"Save changes", "authenticity_token"=>"38PYZ3y44CRo9meV0VxOR8KHuGNXzsgsETNouyTh3Nw="}
+Redirected to http://localhost:3000/polls/4c419ebdbaba320c9d00000d
+Completed in 111ms | 302 Found [http://localhost/polls]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-17 14:14:53) [GET]
+  Parameters: {"id"=>"4c419ebdbaba320c9d00000d"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 69ms (View: 28 | 200 OK [http://localhost/polls/4c419ebdbaba320c9d00000d]
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-07-17 14:25:55) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 326ms (View: 117 | 200 OK [http://localhost/polls]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-17 14:25:57) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Rendered polls/_form (29.9ms)
+Completed in 98ms (View: 34 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-07-17 14:26:12) [POST]
+  Parameters: {"poll"=>{"title"=>"Super dates", "story"=>"awesome"}, "commit"=>"Save changes", "authenticity_token"=>"38PYZ3y44CRo9meV0VxOR8KHuGNXzsgsETNouyTh3Nw="}
+Redirected to http://localhost:3000/polls/4c41a164baba320c9d00000f
+Completed in 485ms | 302 Found [http://localhost/polls]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-17 14:26:13) [GET]
+  Parameters: {"id"=>"4c41a164baba320c9d00000f"}
+Rendering template within layouts/application
+Rendering polls/show
+
+ActionView::TemplateError (undefined method `created_on' for #<Poll:0xada5160>) on line #16 of app/views/polls/show.html.erb:
+13: </p>
+14: <p>
+15:   <strong>Inserted Date:</strong>
+16:   <%=h @poll.created_on %>
+17: </p>
+18: 
+19: <p>
+
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/dirty.rb:26:in `method_missing'
+    app/views/polls/show.html.erb:16
+
+Rendered rescues/_trace (307.6ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-17 14:26:43) [GET]
+  Parameters: {"id"=>"4c41a164baba320c9d00000f"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 132ms (View: 44 | 200 OK [http://localhost/polls/4c41a164baba320c9d00000f]
