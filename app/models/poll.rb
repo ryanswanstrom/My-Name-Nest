@@ -3,10 +3,16 @@ class Poll
 	
 	key :title, String
 	key :story, String
-	key :ins_at, Date
+  #this needs to be a list
+  #key :baby_name, Babyname
 	timestamps!
+  key :babyname_ids, Array
 
-	many :babynames
+  def babynames
+    Babyname.find(self.babyname_ids)
+  end
+
+#	many :babynames
 
 	
 end
