@@ -1,5 +1,30 @@
 <% title "New Poll" %>
 
-<%= render :partial => 'form' %>
+<% form_tag( {:action => 'save_poll'}, :multipart => true) do  %>
+  <label for="title">Title </label>
+  <%= text_field_tag :title %>
+
+  <h1>Boy Names</h1>
+  <input id="boy_1" name="boy_1" type="text"/>
+  <input id="boy_2" name="boy_2" type="text"/>
+  <input id="boy_3" name="boy_3" type="text"/>
+  <input id="boy_4" name="boy_4" type="text"/>
+  <input id="boy_5" name="boy_5" type="text"/>
+
+  <h1>Girl Names</h1>
+  <input id="girl_1" name="girl_1" type="text"/>
+  <input id="girl_2" name="girl_2" type="text"/>
+  <input id="girl_3" name="girl_3" type="text"/>
+  <input id="girl_4" name="girl_4" type="text"/>
+  <input id="girl_5" name="girl_5" type="text"/>
+
+  <br />
+  <label for="story">Story </label>
+  <%= text_area_tag( :story,"", :size =>"124x4") %>
+
+  <br />
+  <input id="submit" name="submit" type="submit" value="Submit It"/>
+
+<% end %>
 
 <p><%= link_to "Back to List", polls_path %></p>
