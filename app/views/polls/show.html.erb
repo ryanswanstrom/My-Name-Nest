@@ -2,22 +2,40 @@
 
 <p>
   <strong>Title:</strong>
-  <%=h @poll.title %>
+  <%=h @title %>
 </p>
 <h1>Boy Names</h1>
+<ul>
+  <% @boys.each do |bname| %>
+  <li> <%=h bname.name %> , <%= bname.num_votes%>   </li>
+  <% end %>
+</ul>
 
 <h1>Girl Names</h1>
+<ul>
+  <% @girls.each do |gname| %>
+  <li> <%=h gname.name %>, <%= gname.num_votes%> 
+    <% form_tag( {:action => 'vote_name'}, :multipart => true) do  %>
+      <%= hidden_field_tag(:poll_id, @poll_id) %>
+      <%= hidden_field_tag(:name_id, gname.id) %>
+      <%= submit_tag gname.name %>
+    <% end %>
+  </li>
+  <% end %>
+</ul>
 <p>
   <strong>Story:</strong>
-  <%=h @poll.story %>
+  <%=h @story %>
 </p>
 <p>
   <strong>Created Date:</strong>
-  <%=h @poll.created_at %>
+  <%=h @created_at %>
 </p>
 
 <p>
-  <%= link_to "Edit", edit_poll_path(@poll) %> |
-  <%= link_to "Destroy", @poll, :confirm => 'Are you sure?', :method => :delete %> |
+  
+  <!-- %= link_to "Edit", edit_poll_path(@poll) %> |
+  < %= link_to "Destroy", @poll, :confirm => 'Are you sure?', :method => :delete % --> |
   <%= link_to "View All", polls_path %>
+  
 </p>
