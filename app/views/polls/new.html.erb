@@ -1,26 +1,31 @@
 <% title "New Poll" %>
 
-<% form_tag( {:action => 'save_poll'}, :multipart => true) do  %>
+<% form_for :poll, :url => polls_path do |f| %>
   <label for="title">Title </label>
-  <%= text_field_tag :title %>
+  <%= f.text_field :title %>
 
+  <h1>Names</h1>
   <h1>Boy Names</h1>
-  <input id="boy_1" name="boy_1" type="text"/>
-  <input id="boy_2" name="boy_2" type="text"/>
-  <input id="boy_3" name="boy_3" type="text"/>
-  <input id="boy_4" name="boy_4" type="text"/>
-  <input id="boy_5" name="boy_5" type="text"/>
+  <% (1..5).each do |i| %>
+    <!--% fields_for "...-*[name_attr][]", i do |name_form| % -->
+    <p><%= text_field_tag "name_".concat(i.to_s) %>
+  </p>
+    <!-- % end % -->
+  <% end %>
+
 
   <h1>Girl Names</h1>
-  <input id="girl_1" name="girl_1" type="text"/>
-  <input id="girl_2" name="girl_2" type="text"/>
-  <input id="girl_3" name="girl_3" type="text"/>
-  <input id="girl_4" name="girl_4" type="text"/>
-  <input id="girl_5" name="girl_5" type="text"/>
+  <% (6..10).each do |i| %>
+    <!--% fields_for "...-*[name_attr][]", i do |name_form| % -->
+    <p> <%= text_field_tag "name_".concat(i.to_s) %>
+  </p>
+    <!-- % end % -->
+  <% end %>
+
 
   <br />
   <label for="story">Story </label>
-  <%= text_area_tag( :story,"", :size =>"124x4") %>
+  <%= f.text_area( :story, :size =>"124x4") %>
 
   <br />
   <input id="submit" name="submit" type="submit" value="Submit It"/>

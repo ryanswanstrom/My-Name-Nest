@@ -1,13 +1,12 @@
 class Babyname 
 	include MongoMapper::Document
 	
-	key :name, String
-	key :is_girl, Boolean
+	key :name, String, :required => true
+	key :is_girl, Boolean, :required => true
 	key :num_votes, Integer
-  key :poll_id, String
-  key :uid, Integer
-  #timestamps!
 
-#	belongs_to :poll
-	#many :votes
+  def self.vote(nameid)
+    Babyname.increment(nameid, :num_votes => 1)
+  end
+
 end
