@@ -1,34 +1,33 @@
 <% title "New Poll" %>
 
 <% form_for :poll, :url => polls_path do |f| %>
-  <label for="title">Title </label>
-  <%= f.text_field :title %>
+  <div class="span-16 last">
+    <label for="title">Title </label>
+    <%= f.text_field :title %>
+  </div>
 
-  <h1>Names</h1>
-  <h1>Boy Names</h1>
-  <% (1..5).each do |i| %>
-    <!--% fields_for "...-*[name_attr][]", i do |name_form| % -->
-    <p><%= text_field_tag "name_".concat(i.to_s) %>
-  </p>
-    <!-- % end % -->
-  <% end %>
+  <div class="span-8">
+    <h1>Boy Names</h1>
+    <% (1..5).each do |i| %>
+      <%= text_field_tag "name_".concat(i.to_s) %>      
+    <% end %>
+  </div>
 
-
-  <h1>Girl Names</h1>
-  <% (6..10).each do |i| %>
-    <!--% fields_for "...-*[name_attr][]", i do |name_form| % -->
-    <p> <%= text_field_tag "name_".concat(i.to_s) %>
-  </p>
-    <!-- % end % -->
-  <% end %>
+  <div class="span-8 last">
+    <h1>Girl Names</h1>
+    <% (6..10).each do |i| %>
+       <%= text_field_tag "name_".concat(i.to_s) %>      
+    <% end %>
+  </div>
 
 
-  <br />
-  <label for="story">Story </label>
-  <%= f.text_area( :story, :size =>"124x4") %>
-
-  <br />
-  <input id="submit" name="submit" type="submit" value="Submit It"/>
+  <div class="span-16 last">
+    <h2>Story </h2>
+    <%= f.text_area( :story, :size =>'60x5') %>
+  </div>
+  <div class="span-16 last">
+    <input id="submit" name="submit" type="submit" value="Submit It"/>
+  </div>
 
 <% end %>
 

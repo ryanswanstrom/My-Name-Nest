@@ -5589,3 +5589,225 @@ Processing PollsController#index (for 127.0.0.1 at 2010-07-25 03:59:03) [GET]
 Rendering template within layouts/application
 Rendering polls/index
 Completed in 163ms (View: 81 | 200 OK [http://localhost/]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-25 04:02:28) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 70ms (View: 43 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-25 21:10:10) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 59ms (View: 46 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-25 21:15:02) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 79ms (View: 56 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-25 21:17:37) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 64ms (View: 44 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-25 21:18:47) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 68ms (View: 54 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-25 21:19:33) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 488ms (View: 470 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-25 21:19:57) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 177ms (View: 127 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-25 21:22:24) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 59ms (View: 44 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-25 21:24:57) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 56ms (View: 42 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-07-25 21:25:21) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 151ms (View: 89 | 200 OK [http://localhost/polls]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-25 21:28:01) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 40ms (View: 27 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-25 21:29:13) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 71ms (View: 54 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-26 04:36:46) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 60ms (View: 46 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-26 04:36:49) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 49ms (View: 19 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-26 04:37:12) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 40ms (View: 33 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-26 04:37:47) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 69ms (View: 50 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-26 04:38:10) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 68ms (View: 53 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-26 04:39:19) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 84ms (View: 60 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-26 04:42:40) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 76ms (View: 56 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-26 04:42:59) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 125ms (View: 96 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-26 04:45:07) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 155ms (View: 110 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-26 04:46:41) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 59ms (View: 46 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-26 04:47:51) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 62ms (View: 48 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-26 04:48:31) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 63ms (View: 43 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-26 04:49:26) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 57ms (View: 43 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-26 04:50:53) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 60ms (View: 46 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-26 04:50:57) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 83ms (View: 34 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-26 04:50:58) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 39ms (View: 25 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-26 04:51:33) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 61ms (View: 40 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-26 04:53:13) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 43ms (View: 33 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-26 04:54:09) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 56ms (View: 43 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-26 04:55:32) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 60ms (View: 46 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-26 04:56:07) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 52ms (View: 38 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-26 04:56:25) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 57ms (View: 43 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-26 04:58:35) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 61ms (View: 48 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-07-26 04:59:26) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 158ms (View: 100 | 200 OK [http://localhost/polls]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-26 04:59:31) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 40ms (View: 26 | 200 OK [http://localhost/polls/new]
