@@ -9,14 +9,18 @@
   <div class="span-8">
     <h1>Boy Names</h1>
     <% (1..5).each do |i| %>
-      <%= text_field_tag "name_".concat(i.to_s) %>      
+    <div>
+      <%= text_field_tag "name_".concat(i.to_s) %>
+    </div>
     <% end %>
   </div>
 
   <div class="span-8 last">
     <h1>Girl Names</h1>
     <% (6..10).each do |i| %>
-       <%= text_field_tag "name_".concat(i.to_s) %>      
+    <div>
+       <%= text_field_tag "name_".concat(i.to_s) %>
+    </div>
     <% end %>
   </div>
 
