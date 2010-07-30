@@ -7,7 +7,7 @@
   </div>
 
   <div class="span-8">
-    <h1>Boy Names</h1>
+    <h1 class="boy_title">Boy Names</h1>
     <% (1..5).each do |i| %>
     <div>
       <%= text_field_tag "name_".concat(i.to_s) %>
@@ -16,7 +16,7 @@
   </div>
 
   <div class="span-8 last">
-    <h1>Girl Names</h1>
+    <h1 class="girl_title">Girl Names</h1>
     <% (6..10).each do |i| %>
     <div>
        <%= text_field_tag "name_".concat(i.to_s) %>
@@ -26,11 +26,11 @@
 
 
   <div class="span-16 last">
-    <h2>Story </h2>
+    <h3 class="b_txt">Story </h3>
     <%= f.text_area( :story, :size =>'60x5') %>
   </div>
   <div class="span-16 last">
-    <input id="submit" name="submit" type="submit" value="Submit It"/>
+    <input id="submit" name="submit" type="submit" value="Publish" class="b_button"/>
   </div>
 
 <% end %>

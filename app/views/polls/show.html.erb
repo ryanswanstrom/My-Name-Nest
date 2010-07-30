@@ -1,50 +1,49 @@
 <% title "Poll" %>
 
-<p>
-  <strong>Title:</strong>
+  <div class="span-16 last">
   <%=h @poll.title %>
-</p>
+</div>
+
+  <div class="span-8">
 <% unless @boys.empty? %>
-<h1>Boy Names</h1>
-<ul>
+    <h1 class="boy_title">Boy Names</h1>
   <% @boys.each do |bname| %>
-  <li>
+  <div>
     <% form_tag( {:action => 'vote_name'}, :multipart => true) do  %>
       <%= hidden_field_tag(:poll_id, @poll.id) %>
       <%= hidden_field_tag(:name_id, bname.id) %>
       <%= submit_tag bname.name %>
     <% end %>  <%= bname.num_votes%>
-  </li>
+  </div>
   <% end %>
-</ul>
-<% end %>
+<% end %> &nbsp;
+  </div>
 
+  <div class="span-8 last">
 <% unless @girls.empty? %>
-<h1>Girl Names</h1>
-<ul>
+<h1 class="girl_title">Girl Names</h1>
   <% @girls.each do |gname| %>
-  <li> 
+  <div>
     <% form_tag( {:action => 'vote_name'}, :multipart => true) do  %>
       <%= hidden_field_tag(:poll_id, @poll.id) %>
       <%= hidden_field_tag(:name_id, gname.id) %>
       <%= submit_tag gname.name %>
     <% end %>  <%= gname.num_votes%>
-  </li>
+  </div>
   <% end %>
-</ul>
 <% end %>
+  </div>
 <% if @boys.empty? && @girls.empty? %>
+<div class="span-16 last">
 No names have been added
 <% end %>
-<p>
-  <strong>Story:</strong>
+</div>
+<div class="span-16 last">
   <%=h @poll.story %>
-</p>
+</div>
 
-<p>
   
-  <!-- %= link_to "Edit", edit_poll_path(@poll) %> |
-  < %= link_to "Destroy", @poll, :confirm => 'Are you sure?', :method => :delete % --> |
-  <%= link_to "View All", polls_path %>
+  <!-- %= link_to "Edit", edit_poll_path(@poll) % -->
+  <!-- %= link_to "Destroy", @poll, :confirm =  'Are you sure?', :method = :delete % -->
+  <!-- %= link_to "View All", polls_path % -->
   
-</p>

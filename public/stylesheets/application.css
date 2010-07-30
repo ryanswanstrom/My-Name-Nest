@@ -1,7 +1,97 @@
-body {
-  background-color: #4B7399;
-  font-family: Verdana, Helvetica, Arial;
+.thebod {
+  background: #E8F7FC url(/images/bg.jpg) repeat-x;
+  font-family: Palatino, Bookman, Helvetica, Arial;
   font-size: 14px;
+  color: #3A65A8;
+}
+
+.boy_title {
+    color: #3A65A8;
+    background: url(/images/h1bg.jpg) repeat-x bottom;
+    float: left;
+    text-transform: lowercase;
+}
+
+.girl_title {
+    color: #CB6F9C;
+    background: url(/images/h1bg.jpg) repeat-x bottom;
+    float: left;
+    text-transform: lowercase;
+}
+
+.title {
+    padding-top: 40px;
+}
+
+.title h1 a {
+    text-decoration: none;
+    color: #3A65A8;
+    font-style: italic;
+    font-weight: bold;
+    font-size: larger;
+}
+
+
+.menu {
+    background: url(/images/white_bubbles.jpg) no-repeat top right;
+    height: 120px;
+    padding-top: 70px;
+}
+
+.menu ul {
+    padding-left: 90px;
+}
+
+.menu li {
+    display: inline;
+    padding-left: 30px;
+}
+
+.menu li a {
+    color: #9D436F;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu li a:hover {
+    background-color: #edd3e0;
+}
+
+.footer { 
+    background: #FF99CB url(/images/bottom.jpg) repeat-x;
+    height: 198px;
+}
+
+.footer_txt {
+    padding-top: 100px;
+}
+
+.footer_txt a {
+    color: #60183B;
+    text-decoration: none;
+}
+
+.footer_img {
+    background: url(/images/pink_bubbles2.jpg) no-repeat bottom right;
+    padding-top: 79px;
+    height: 119px;
+}
+
+.b_txt {
+    color: #3A65A8;
+}
+
+.p_txt {
+    color: #9D436F;
+}
+
+.b_button {
+    background: url(/images/boy_button.png);
+    height: 26px;
+    width: 180px;
+    border: none;
+    color: white;
+    cursor: pointer;
 }
 
 a img {
@@ -9,7 +99,8 @@ a img {
 }
 
 a {
-  color: #0000FF;
+  color: #3A65A8;
+  text-decoration: none;
 }
 
 .clear {
