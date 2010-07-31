@@ -7261,3 +7261,10 @@ Processing PollsController#show (for 127.0.0.1 at 2010-07-30 14:44:54) [GET]
 Rendering template within layouts/application
 Rendering polls/show
 Completed in 236ms (View: 73 | 200 OK [http://localhost/polls/4c51bc5cbaba320a40000145]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 04:35:09) [GET]
+  Parameters: {"id"=>"4c51bc5cbaba320a40000145"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 290ms (View: 109 | 200 OK [http://localhost/polls/4c51bc5cbaba320a40000145]

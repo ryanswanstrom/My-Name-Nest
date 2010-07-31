@@ -8,14 +8,14 @@
 .boy_title {
     color: #3A65A8;
     background: url(/images/h1bg.jpg) repeat-x bottom;
-    float: left;
+    width: auto;
     text-transform: lowercase;
 }
 
 .girl_title {
     color: #CB6F9C;
     background: url(/images/h1bg.jpg) repeat-x bottom;
-    float: left;
+    width: auto;
     text-transform: lowercase;
 }
 
