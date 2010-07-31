@@ -1,51 +1,53 @@
 <% title "Poll" %>
 
-  <div class="span-16 last">
-  <%=h @poll.title %>
+<div class="span-1"> &nbsp;</div>
+<div class="span-15 last">
+  <h4 class="b_txt"><%=h @poll.title %></h4>
 </div>
 
-  <div class="span-8">
-<% unless @boys.empty? %>
-    <h1 class="boy_title">Boy Names</h1>
+<div class="span-8">
+  <% unless @boys.empty? %>
+    <h2 class="boy_title">Boy Names</h2>
     <div class="clear">&nbsp;</div>
-  <% @boys.each do |bname| %>
-  <div>
-    <% form_tag( {:action => 'vote_name'}, :multipart => true) do  %>
-      <%= hidden_field_tag(:poll_id, @poll.id) %>
-      <%= hidden_field_tag(:name_id, bname.id) %>
-      <%= submit_tag bname.name %>
-    <% end %>  <%= bname.num_votes%>
-  </div>
-  <% end %>
-<% end %> &nbsp;
-  </div>
+    <% @boys.each do |bname| %>
+      <div class="spaceit">
+        <% form_tag( {:action => 'vote_name'}, :multipart => true) do  %>
+          <%= hidden_field_tag(:poll_id, @poll.id) %>
+          <%= hidden_field_tag(:name_id, bname.id) %>
+          <%= submit_tag bname.name, :class => 'b_button' %>
+        <% end %>  <%= bname.num_votes%>
+      </div>
+    <% end %>
+  <% end %> &nbsp;
+</div>
 
-  <div class="span-8 last">
-<% unless @girls.empty? %>
-<h1 class="girl_title">Girl Names</h1>
+<div class="span-8 last">
+  <% unless @girls.empty? %>
+    <h2 class="girl_title">Girl Names</h2>
     <div class="clear">&nbsp;</div>
-  <% @girls.each do |gname| %>
-  <div>
-    <% form_tag( {:action => 'vote_name'}, :multipart => true) do  %>
-      <%= hidden_field_tag(:poll_id, @poll.id) %>
-      <%= hidden_field_tag(:name_id, gname.id) %>
-      <%= submit_tag gname.name %>
-    <% end %>  <%= gname.num_votes%>
-  </div>
-  <% end %>
-<% end %>
-  </div>
+    <% @girls.each do |gname| %>
+      <div class="spaceit">
+        <% form_tag( {:action => 'vote_name'}, :multipart => true) do  %>
+          <%= hidden_field_tag(:poll_id, @poll.id) %>
+          <%= hidden_field_tag(:name_id, gname.id) %>
+          <%= submit_tag gname.name, :class => 'g_button' %>
+        <% end %>  <%= gname.num_votes%>
+      </div>
+    <% end %>
+  <% end %> &nbsp;
+</div>
 <% if @boys.empty? && @girls.empty? %>
-<div class="span-16 last">
-No names have been added
+  <div class="span-16 last">
+    No names have been added
+  </div>
 <% end %>
-</div>
-<div class="span-16 last">
+
+<div class="span-1"> &nbsp; </div>
+<div class="span-15 last">
   <%=h @poll.story %>
 </div>
 
-  
-  <!-- %= link_to "Edit", edit_poll_path(@poll) % -->
-  <!-- %= link_to "Destroy", @poll, :confirm =  'Are you sure?', :method = :delete % -->
-  <!-- %= link_to "View All", polls_path % -->
-  
+
+<!-- %= link_to "Edit", edit_poll_path(@poll) % -->
+<!-- %= link_to "Destroy", @poll, :confirm =  'Are you sure?', :method = :delete % -->
+<!-- %= link_to "View All", polls_path % -->

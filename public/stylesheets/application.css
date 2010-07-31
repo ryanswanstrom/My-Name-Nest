@@ -28,10 +28,7 @@
     text-decoration: none;
     color: #3A65A8;
     font-style: italic;
-    font-weight: bold;
-    font-size: larger;
 }
-
 
 .menu {
     background: url(/images/white_bubbles.jpg) no-repeat top right;
@@ -93,6 +90,23 @@
     border: none;
     color: white;
     cursor: pointer;
+}
+
+.g_button {
+    background: url(/images/girl_button.png);
+    height: 26px;
+    width: 180px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+form {
+    display: inline;
+}
+
+.spaceit {
+    padding-bottom: 8px;
 }
 
 a img {

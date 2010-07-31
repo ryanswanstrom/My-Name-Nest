@@ -7,7 +7,6 @@ class Poll
 	timestamps!
 
   def babynames
-    puts @babyname_ids
     Babyname.find(self.babyname_ids)
   end
 

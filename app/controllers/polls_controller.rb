@@ -29,7 +29,7 @@ class PollsController < ApplicationController
       end
     end
     if @poll.save
-      flash[:notice] = "Successfully created poll."
+      flash[:notice] = "Successfully created poll." + request.host
       redirect_to @poll
     else
       render :action => 'new'

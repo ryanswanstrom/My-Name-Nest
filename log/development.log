@@ -7424,3 +7424,4490 @@ Processing PollsController#new (for 127.0.0.1 at 2010-07-31 05:15:09) [GET]
 Rendering template within layouts/application
 Rendering polls/new
 Completed in 60ms (View: 46 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-31 14:36:25) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 40ms (View: 33 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-31 14:39:16) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 73ms (View: 46 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-31 14:40:27) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 45ms (View: 31 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-31 14:40:30) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 54ms (View: 34 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-07-31 14:40:35) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 282ms (View: 212 | 200 OK [http://localhost/]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 14:40:38) [GET]
+  Parameters: {"id"=>"4c51bc5cbaba320a40000145"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 263ms (View: 86 | 200 OK [http://localhost/polls/4c51bc5cbaba320a40000145]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 14:42:23) [GET]
+  Parameters: {"id"=>"4c51bc5cbaba320a40000145"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 212ms (View: 114 | 200 OK [http://localhost/polls/4c51bc5cbaba320a40000145]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 14:42:51) [GET]
+  Parameters: {"id"=>"4c51bc5cbaba320a40000145"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 168ms (View: 63 | 200 OK [http://localhost/polls/4c51bc5cbaba320a40000145]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 14:43:10) [GET]
+  Parameters: {"id"=>"4c51bc5cbaba320a40000145"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 225ms (View: 72 | 200 OK [http://localhost/polls/4c51bc5cbaba320a40000145]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 14:43:28) [GET]
+  Parameters: {"id"=>"4c51bc5cbaba320a40000145"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 245ms (View: 94 | 200 OK [http://localhost/polls/4c51bc5cbaba320a40000145]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 14:43:45) [GET]
+  Parameters: {"id"=>"4c51bc5cbaba320a40000145"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 252ms (View: 93 | 200 OK [http://localhost/polls/4c51bc5cbaba320a40000145]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 14:44:43) [GET]
+  Parameters: {"id"=>"4c51bc5cbaba320a40000145"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 233ms (View: 70 | 200 OK [http://localhost/polls/4c51bc5cbaba320a40000145]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 14:44:59) [GET]
+  Parameters: {"id"=>"4c51bc5cbaba320a40000145"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 442ms (View: 180 | 200 OK [http://localhost/polls/4c51bc5cbaba320a40000145]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 14:47:00) [GET]
+  Parameters: {"id"=>"4c51bc5cbaba320a40000145"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 1105ms (View: 831 | 200 OK [http://localhost/polls/4c51bc5cbaba320a40000145]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 14:50:04) [GET]
+  Parameters: {"id"=>"4c51bc5cbaba320a40000145"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 658ms (View: 352 | 200 OK [http://localhost/polls/4c51bc5cbaba320a40000145]
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-07-31 14:53:41) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 492ms (View: 371 | 200 OK [http://localhost/]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 14:53:45) [GET]
+  Parameters: {"id"=>"4c4b96e8baba320a40000136"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 373ms (View: 174 | 200 OK [http://localhost/polls/4c4b96e8baba320a40000136]
+
+
+Processing PollsController#vote_name (for 127.0.0.1 at 2010-07-31 14:53:49) [POST]
+  Parameters: {"commit"=>"Brenda", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_id"=>"4c4b96e8baba320a40000140", "poll_id"=>"4c4b96e8baba320a40000136"}
+Redirected to http://localhost:3000/polls/4c4b96e8baba320a40000136
+Completed in 142ms | 302 Found [http://localhost/polls/vote_name]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 14:53:50) [GET]
+  Parameters: {"id"=>"4c4b96e8baba320a40000136"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 301ms (View: 158 | 200 OK [http://localhost/polls/4c4b96e8baba320a40000136]
+
+
+Processing PollsController#vote_name (for 127.0.0.1 at 2010-07-31 14:53:54) [POST]
+  Parameters: {"commit"=>"Mark", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_id"=>"4c4b96e8baba320a4000013a", "poll_id"=>"4c4b96e8baba320a40000136"}
+Redirected to http://localhost:3000/polls/4c4b96e8baba320a40000136
+Completed in 125ms | 302 Found [http://localhost/polls/vote_name]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 14:53:54) [GET]
+  Parameters: {"id"=>"4c4b96e8baba320a40000136"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 318ms (View: 155 | 200 OK [http://localhost/polls/4c4b96e8baba320a40000136]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 14:56:03) [GET]
+  Parameters: {"id"=>"4c4b96e8baba320a40000136"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 536ms (View: 282 | 200 OK [http://localhost/polls/4c4b96e8baba320a40000136]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 14:58:48) [GET]
+  Parameters: {"id"=>"4c4b96e8baba320a40000136"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 329ms (View: 152 | 200 OK [http://localhost/polls/4c4b96e8baba320a40000136]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 14:59:30) [GET]
+  Parameters: {"id"=>"4c4b96e8baba320a40000136"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 498ms (View: 321 | 200 OK [http://localhost/polls/4c4b96e8baba320a40000136]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 15:00:01) [GET]
+  Parameters: {"id"=>"4c4b96e8baba320a40000136"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 364ms (View: 144 | 200 OK [http://localhost/polls/4c4b96e8baba320a40000136]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 15:00:18) [GET]
+  Parameters: {"id"=>"4c4b96e8baba320a40000136"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 201ms (View: 92 | 200 OK [http://localhost/polls/4c4b96e8baba320a40000136]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 15:01:07) [GET]
+  Parameters: {"id"=>"4c4b96e8baba320a40000136"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 308ms (View: 139 | 200 OK [http://localhost/polls/4c4b96e8baba320a40000136]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 15:01:28) [GET]
+  Parameters: {"id"=>"4c4b96e8baba320a40000136"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 411ms (View: 192 | 200 OK [http://localhost/polls/4c4b96e8baba320a40000136]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 15:02:44) [GET]
+  Parameters: {"id"=>"4c4b96e8baba320a40000136"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 294ms (View: 142 | 200 OK [http://localhost/polls/4c4b96e8baba320a40000136]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 16:23:38) [GET]
+  Parameters: {"id"=>"4c4b96e8baba320a40000136"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 169ms (View: 105 | 200 OK [http://localhost/polls/4c4b96e8baba320a40000136]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 16:23:52) [GET]
+  Parameters: {"id"=>"4c4b96e8baba320a40000136"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 668ms (View: 375 | 200 OK [http://localhost/polls/4c4b96e8baba320a40000136]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 16:24:29) [GET]
+  Parameters: {"id"=>"4c4b96e8baba320a40000136"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 532ms (View: 219 | 200 OK [http://localhost/polls/4c4b96e8baba320a40000136]
+
+
+Processing PollsController#vote_name (for 127.0.0.1 at 2010-07-31 16:24:37) [POST]
+  Parameters: {"commit"=>"Porter", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_id"=>"4c4b96e8baba320a40000137", "poll_id"=>"4c4b96e8baba320a40000136"}
+Redirected to http://localhost:3000/polls/4c4b96e8baba320a40000136
+Completed in 108ms | 302 Found [http://localhost/polls/vote_name]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 16:24:37) [GET]
+  Parameters: {"id"=>"4c4b96e8baba320a40000136"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 318ms (View: 142 | 200 OK [http://localhost/polls/4c4b96e8baba320a40000136]
+
+
+Processing PollsController#vote_name (for 127.0.0.1 at 2010-07-31 16:24:39) [POST]
+  Parameters: {"commit"=>"Porter", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_id"=>"4c4b96e8baba320a40000137", "poll_id"=>"4c4b96e8baba320a40000136"}
+Redirected to http://localhost:3000/polls/4c4b96e8baba320a40000136
+Completed in 166ms | 302 Found [http://localhost/polls/vote_name]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 16:24:39) [GET]
+  Parameters: {"id"=>"4c4b96e8baba320a40000136"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 359ms (View: 160 | 200 OK [http://localhost/polls/4c4b96e8baba320a40000136]
+
+
+Processing PollsController#vote_name (for 127.0.0.1 at 2010-07-31 16:24:41) [POST]
+  Parameters: {"commit"=>"Porter", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_id"=>"4c4b96e8baba320a40000137", "poll_id"=>"4c4b96e8baba320a40000136"}
+Redirected to http://localhost:3000/polls/4c4b96e8baba320a40000136
+Completed in 111ms | 302 Found [http://localhost/polls/vote_name]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 16:24:41) [GET]
+  Parameters: {"id"=>"4c4b96e8baba320a40000136"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 316ms (View: 148 | 200 OK [http://localhost/polls/4c4b96e8baba320a40000136]
+
+
+Processing PollsController#vote_name (for 127.0.0.1 at 2010-07-31 16:24:44) [POST]
+  Parameters: {"commit"=>"Ryan", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_id"=>"4c4b96e8baba320a40000139", "poll_id"=>"4c4b96e8baba320a40000136"}
+Redirected to http://localhost:3000/polls/4c4b96e8baba320a40000136
+Completed in 645ms | 302 Found [http://localhost/polls/vote_name]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 16:24:45) [GET]
+  Parameters: {"id"=>"4c4b96e8baba320a40000136"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 301ms (View: 147 | 200 OK [http://localhost/polls/4c4b96e8baba320a40000136]
+
+
+Processing PollsController#vote_name (for 127.0.0.1 at 2010-07-31 16:24:48) [POST]
+  Parameters: {"commit"=>"Porter", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_id"=>"4c4b96e8baba320a40000137", "poll_id"=>"4c4b96e8baba320a40000136"}
+Redirected to http://localhost:3000/polls/4c4b96e8baba320a40000136
+Completed in 124ms | 302 Found [http://localhost/polls/vote_name]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 16:24:49) [GET]
+  Parameters: {"id"=>"4c4b96e8baba320a40000136"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 378ms (View: 167 | 200 OK [http://localhost/polls/4c4b96e8baba320a40000136]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-31 16:25:00) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 44ms (View: 28 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-07-31 16:25:38) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 493ms (View: 382 | 200 OK [http://localhost/]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 16:25:42) [GET]
+  Parameters: {"id"=>"4c4b96e8baba320a40000136"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 393ms (View: 225 | 200 OK [http://localhost/polls/4c4b96e8baba320a40000136]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 16:27:25) [GET]
+  Parameters: {"id"=>"4c4b96e8baba320a40000136"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 1204ms (View: 223 | 200 OK [http://localhost/polls/4c4b96e8baba320a40000136]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 16:28:24) [GET]
+  Parameters: {"id"=>"4c4b96e8baba320a40000136"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 796ms (View: 433 | 200 OK [http://localhost/polls/4c4b96e8baba320a40000136]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 16:30:14) [GET]
+  Parameters: {"id"=>"4c4b96e8baba320a40000136"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 581ms (View: 380 | 200 OK [http://localhost/polls/4c4b96e8baba320a40000136]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 16:31:01) [GET]
+  Parameters: {"id"=>"4c4b96e8baba320a40000136"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 591ms (View: 363 | 200 OK [http://localhost/polls/4c4b96e8baba320a40000136]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 16:31:39) [GET]
+  Parameters: {"id"=>"4c4b96e8baba320a40000136"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 704ms (View: 401 | 200 OK [http://localhost/polls/4c4b96e8baba320a40000136]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 16:32:15) [GET]
+  Parameters: {"id"=>"4c4b96e8baba320a40000136"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 521ms (View: 327 | 200 OK [http://localhost/polls/4c4b96e8baba320a40000136]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 16:33:04) [GET]
+  Parameters: {"id"=>"4c4b96e8baba320a40000136"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 767ms (View: 395 | 200 OK [http://localhost/polls/4c4b96e8baba320a40000136]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 16:33:22) [GET]
+  Parameters: {"id"=>"4c4b96e8baba320a40000136"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 900ms (View: 736 | 200 OK [http://localhost/polls/4c4b96e8baba320a40000136]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 16:33:41) [GET]
+  Parameters: {"id"=>"4c4b96e8baba320a40000136"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 325ms (View: 159 | 200 OK [http://localhost/polls/4c4b96e8baba320a40000136]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 16:39:21) [GET]
+  Parameters: {"id"=>"4c4b96e8baba320a40000136"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 328ms (View: 175 | 200 OK [http://localhost/polls/4c4b96e8baba320a40000136]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 18:51:21) [GET]
+  Parameters: {"id"=>"4c4b96e8baba320a40000136"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 172ms (View: 89 | 200 OK [http://localhost/polls/4c4b96e8baba320a40000136]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 18:52:10) [GET]
+  Parameters: {"id"=>"4c4b96e8baba320a40000136"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 899ms (View: 741 | 200 OK [http://localhost/polls/4c4b96e8baba320a40000136]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 18:53:34) [GET]
+  Parameters: {"id"=>"4c4b96e8baba320a40000136"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 575ms (View: 334 | 200 OK [http://localhost/polls/4c4b96e8baba320a40000136]
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-07-31 18:54:13) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 346ms (View: 228 | 200 OK [http://localhost/]
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-07-31 21:05:37) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 461ms (View: 301 | 200 OK [http://localhost/]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-31 21:07:05) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 77ms (View: 55 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-31 21:08:10) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 180ms (View: 132 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-31 21:08:38) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 92ms (View: 56 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-31 21:11:11) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 70ms (View: 52 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-31 21:13:56) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 186ms (View: 141 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-31 21:14:29) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 76ms (View: 54 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-31 21:16:48) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 76ms (View: 56 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-31 21:27:37) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 86ms (View: 68 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-31 21:28:07) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 74ms (View: 60 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-31 21:28:31) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+
+ActionView::TemplateError (wrong number of arguments (3 for 2)) on line #6 of app/views/polls/new.html.erb:
+3: <% form_for :poll, :url => polls_path do |f| %>
+4:   <div class="span-16 last">
+5:     <label for="title">Title </label>
+6:     <%= f.text_field :title, nil, :maxlength => 5 %>
+7:   </div>
+8: 
+9:   <div class="span-8">
+
+    app/views/polls/new.html.erb:6:in `text_field'
+    app/views/polls/new.html.erb:6
+    app/views/polls/new.html.erb:3
+
+Rendered rescues/_trace (341.8ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-31 21:28:44) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 60ms (View: 42 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-31 21:30:14) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 913ms (View: 67 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-31 21:32:57) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 84ms (View: 65 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-07-31 21:33:10) [POST]
+  Parameters: {"poll"=>{"title"=>"A very long title", "story"=>""}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"", "name_7"=>"", "name_8"=>"", "name_9"=>"", "name_1"=>"", "name_2"=>""}
+Redirected to http://localhost:3000/polls/4c547a76baba320a40000158
+Completed in 124ms | 302 Found [http://localhost/polls]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:33:11) [GET]
+  Parameters: {"id"=>"4c547a76baba320a40000158"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 95ms (View: 22 | 200 OK [http://localhost/polls/4c547a76baba320a40000158]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:33:38) [GET]
+  Parameters: {"id"=>"4c547a76baba320a40000158"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 237ms (View: 41 | 200 OK [http://localhost/polls/4c547a76baba320a40000158]
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-07-31 21:33:41) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 379ms (View: 293 | 200 OK [http://localhost/]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:33:45) [GET]
+  Parameters: {"id"=>"4c51bc5cbaba320a40000145"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 201ms (View: 115 | 200 OK [http://localhost/polls/4c51bc5cbaba320a40000145]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:33:47) [GET]
+  Parameters: {"id"=>"4c51bc5cbaba320a40000145"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 186ms (View: 97 | 200 OK [http://localhost/polls/4c51bc5cbaba320a40000145]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:33:48) [GET]
+  Parameters: {"id"=>"4c51bc5cbaba320a40000145"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 245ms (View: 77 | 200 OK [http://localhost/polls/4c51bc5cbaba320a40000145]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:33:51) [GET]
+  Parameters: {"id"=>"4c51bc5cbaba320a40000145"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 224ms (View: 107 | 200 OK [http://localhost/polls/4c51bc5cbaba320a40000145]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:33:51) [GET]
+
+ActionController::RoutingError (No route matches "/polls/%3C!DOCTYPE%20html%20PUBLIC%20%22-//W3C//DTD%20XHTML%201.0%20Strict//EN%22" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:33:51) [GET]
+
+ActionController::RoutingError (No route matches "/polls/%3C!DOCTYPE%20html%20PUBLIC%20%22-//W3C//DTD%20XHTML%201.0%20Strict//EN%22" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:33:52) [GET]
+
+ActionController::RoutingError (No route matches "/polls/%3C!DOCTYPE%20html%20PUBLIC%20%22-//W3C//DTD%20XHTML%201.0%20Strict//EN%22" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:33:52) [GET]
+  Parameters: {"id"=>"<head>"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (1056.8ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:33:53) [GET]
+  Parameters: {"id"=>"<head>"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (114.5ms)
+Rendered rescues/_request_and_response (2.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:33:54) [GET]
+  Parameters: {"id"=>"<head>"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (147.6ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#<title>Poll< (for 127.0.0.1 at 2010-07-31 21:33:54) [GET]
+  Parameters: {"id"=>"title>"}
+
+ActionController::UnknownAction (No action responded to <title>Poll<. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<title>Poll< (for 127.0.0.1 at 2010-07-31 21:33:54) [GET]
+  Parameters: {"id"=>"title>"}
+
+ActionController::UnknownAction (No action responded to <title>Poll<. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<title>Poll< (for 127.0.0.1 at 2010-07-31 21:33:54) [GET]
+  Parameters: {"id"=>"title>"}
+
+ActionController::UnknownAction (No action responded to <title>Poll<. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:33:55) [GET]
+  Parameters: {"1280586247\" media"=>"\"screen\" rel=\"stylesheet\" type=\"text/css\" />"}
+
+ActionController::RoutingError (No route matches "/polls/%3Clink%20href=%22/stylesheets/application.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:33:55) [GET]
+  Parameters: {"1280586247\" media"=>"\"screen\" rel=\"stylesheet\" type=\"text/css\" />"}
+
+ActionController::RoutingError (No route matches "/polls/%3Clink%20href=%22/stylesheets/application.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:33:55) [GET]
+  Parameters: {"1280586247\" media"=>"\"screen\" rel=\"stylesheet\" type=\"text/css\" />"}
+
+ActionController::RoutingError (No route matches "/polls/%3Clink%20href=%22/stylesheets/application.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:33:55) [GET]
+  Parameters: {"1279991742\" media"=>"\"screen, projection\" rel=\"stylesheet\" type=\"text/css\" />"}
+
+ActionController::RoutingError (No route matches "/polls/%3Clink%20href=%22/stylesheets/blueprint/screen.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:33:55) [GET]
+  Parameters: {"1279991742\" media"=>"\"screen, projection\" rel=\"stylesheet\" type=\"text/css\" />"}
+
+ActionController::RoutingError (No route matches "/polls/%3Clink%20href=%22/stylesheets/blueprint/screen.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:33:55) [GET]
+  Parameters: {"1279991742\" media"=>"\"screen, projection\" rel=\"stylesheet\" type=\"text/css\" />"}
+
+ActionController::RoutingError (No route matches "/polls/%3Clink%20href=%22/stylesheets/blueprint/screen.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:33:55) [GET]
+  Parameters: {"1279991742\" media"=>"\"print\" rel=\"stylesheet\" type=\"text/css\" />"}
+
+ActionController::RoutingError (No route matches "/polls/%3Clink%20href=%22/stylesheets/blueprint/print.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:33:55) [GET]
+  Parameters: {"1279991742\" media"=>"\"print\" rel=\"stylesheet\" type=\"text/css\" />"}
+
+ActionController::RoutingError (No route matches "/polls/%3Clink%20href=%22/stylesheets/blueprint/print.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:33:55) [GET]
+  Parameters: {"1279991742\" media"=>"\"print\" rel=\"stylesheet\" type=\"text/css\" />"}
+
+ActionController::RoutingError (No route matches "/polls/%3Clink%20href=%22/stylesheets/blueprint/print.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:33:56) [GET]
+
+ActionController::RoutingError (No route matches "/polls/%3C!--%5Bif%20lt%20IE%208%5D%3E%3Clink%20rel=%22stylesheet%22%20href=%22/stylesheets/blueprint/ie.css%22%20type=%22text/css%22%20media=%22screen,%20projection%22%3E%3C!%5Bendif%5D--%3E" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:33:56) [GET]
+
+ActionController::RoutingError (No route matches "/polls/%3C!--%5Bif%20lt%20IE%208%5D%3E%3Clink%20rel=%22stylesheet%22%20href=%22/stylesheets/blueprint/ie.css%22%20type=%22text/css%22%20media=%22screen,%20projection%22%3E%3C!%5Bendif%5D--%3E" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:33:56) [GET]
+
+ActionController::RoutingError (No route matches "/polls/%3C!--%5Bif%20lt%20IE%208%5D%3E%3Clink%20rel=%22stylesheet%22%20href=%22/stylesheets/blueprint/ie.css%22%20type=%22text/css%22%20media=%22screen,%20projection%22%3E%3C!%5Bendif%5D--%3E" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:33:56) [GET]
+  Parameters: {"id"=>"head>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:33:56) [GET]
+  Parameters: {"id"=>"head>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:33:56) [GET]
+  Parameters: {"id"=>"4c547a76baba320a40000158"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 57ms (View: 4 | 200 OK [http://localhost/polls/4c547a76baba320a40000158]
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:33:57) [GET]
+  Parameters: {"id"=>"head>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:33:57) [GET]
+  Parameters: {"id"=>"<body class=\"thebod\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (213.5ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:33:57) [GET]
+  Parameters: {"id"=>"<body class=\"thebod\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (359.2ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:33:58) [GET]
+  Parameters: {"id"=>"<body class=\"thebod\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (119.5ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:33:58) [GET]
+  Parameters: {"id"=>"<div class=\"container\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (648.5ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:33:59) [GET]
+  Parameters: {"id"=>"<div class=\"container\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (98.5ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:33:59) [GET]
+  Parameters: {"id"=>"<div class=\"container\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (418.3ms)
+Rendered rescues/_request_and_response (1.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:00) [GET]
+  Parameters: {" -% -->"=>nil, "id"=>"<!-- %- if show_title"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (100.1ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:00) [GET]
+  Parameters: {" -% -->"=>nil, "id"=>"<!-- %- if show_title"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (352.3ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:00) [GET]
+  Parameters: {" -% -->"=>nil, "id"=>"<!-- %- if show_title"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (104.4ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:00) [GET]
+  Parameters: {"id"=>"<!-- %=h yield(:title) % -->"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (104.6ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:01) [GET]
+  Parameters: {"id"=>"<!-- %=h yield(:title) % -->"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (107.8ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:01) [GET]
+  Parameters: {"id"=>"<!-- %=h yield(:title) % -->"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (170.7ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:01) [GET]
+  Parameters: {"id"=>"<!-- %- end -% -->"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (536.3ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:02) [GET]
+  Parameters: {"id"=>"<!-- %- end -% -->"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (92.9ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:02) [GET]
+  Parameters: {"id"=>"<!-- %- end -% -->"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (574.7ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:03) [GET]
+  Parameters: {"id"=>"<div class=\"span-9 title\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (92.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:03) [GET]
+  Parameters: {"id"=>"<div class=\"span-9 title\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (363.4ms)
+Rendered rescues/_request_and_response (2.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:04) [GET]
+  Parameters: {"id"=>"<div class=\"span-9 title\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (161.3ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:34:04) [GET]
+
+ActionController::RoutingError (No route matches "/polls/%3Ch1%3E%3Ca%20href=%22/%22%3EBaby%20Name%20Nest%3C/a%3E%3C/h1%3E" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:34:04) [GET]
+
+ActionController::RoutingError (No route matches "/polls/%3Ch1%3E%3Ca%20href=%22/%22%3EBaby%20Name%20Nest%3C/a%3E%3C/h1%3E" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:34:04) [GET]
+
+ActionController::RoutingError (No route matches "/polls/%3Ch1%3E%3Ca%20href=%22/%22%3EBaby%20Name%20Nest%3C/a%3E%3C/h1%3E" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:05) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:05) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:05) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:05) [GET]
+  Parameters: {"id"=>"<div class=\"span-15 last menu\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (91.5ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:05) [GET]
+  Parameters: {"id"=>"<div class=\"span-15 last menu\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (187.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:06) [GET]
+  Parameters: {"id"=>"<div class=\"span-15 last menu\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (99.9ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:06) [GET]
+  Parameters: {"id"=>"<ul>"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (109.4ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:07) [GET]
+  Parameters: {"id"=>"<ul>"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (619.9ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:07) [GET]
+  Parameters: {"id"=>"<ul>"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (198.0ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:34:08) [GET]
+
+ActionController::RoutingError (No route matches "/polls/%3Cli%3E%3Ca%20href=%22/%22%3EHome%3C/a%3E%20%3C/li%3E" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:34:08) [GET]
+
+ActionController::RoutingError (No route matches "/polls/%3Cli%3E%3Ca%20href=%22/%22%3EHome%3C/a%3E%20%3C/li%3E" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:34:08) [GET]
+
+ActionController::RoutingError (No route matches "/polls/%3Cli%3E%3Ca%20href=%22/%22%3EHome%3C/a%3E%20%3C/li%3E" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:34:08) [GET]
+
+ActionController::RoutingError (No route matches "/polls/%3Cli%3E%3Ca%20href=%22/polls/new%22%3ECreate%20Poll%3C/a%3E%20%3C/li%3E" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:34:09) [GET]
+
+ActionController::RoutingError (No route matches "/polls/%3Cli%3E%3Ca%20href=%22/polls/new%22%3ECreate%20Poll%3C/a%3E%20%3C/li%3E" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:34:09) [GET]
+
+ActionController::RoutingError (No route matches "/polls/%3Cli%3E%3Ca%20href=%22/polls/new%22%3ECreate%20Poll%3C/a%3E%20%3C/li%3E" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:09) [GET]
+  Parameters: {"id"=>"ul>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:09) [GET]
+  Parameters: {"id"=>"ul>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:10) [GET]
+  Parameters: {"id"=>"ul>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:10) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:10) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:10) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<div class="span-4">&nbsp;< (for 127.0.0.1 at 2010-07-31 21:34:10) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <div class="span-4">&nbsp;<. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<div class="span-4">&nbsp;< (for 127.0.0.1 at 2010-07-31 21:34:11) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <div class="span-4">&nbsp;<. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-07-31 21:34:11) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 952ms (View: 877 | 200 OK [http://localhost/]
+
+
+Processing PollsController#<div class="span-4">&nbsp;< (for 127.0.0.1 at 2010-07-31 21:34:12) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <div class="span-4">&nbsp;<. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:12) [GET]
+  Parameters: {"id"=>"<div class=\"span-16\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (586.3ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:13) [GET]
+  Parameters: {"id"=>"<div class=\"span-16\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (757.0ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:14) [GET]
+  Parameters: {"id"=>"<div class=\"span-16\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (93.9ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:14) [GET]
+  Parameters: {"id"=>"<div>"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (151.6ms)
+Rendered rescues/_request_and_response (2.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:15) [GET]
+  Parameters: {"id"=>"<div>"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (97.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:15) [GET]
+  Parameters: {"id"=>"<div>"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (120.7ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:15) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:15) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:16) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<div class="span-1"> &nbsp;< (for 127.0.0.1 at 2010-07-31 21:34:16) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <div class="span-1"> &nbsp;<. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<div class="span-1"> &nbsp;< (for 127.0.0.1 at 2010-07-31 21:34:16) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <div class="span-1"> &nbsp;<. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<div class="span-1"> &nbsp;< (for 127.0.0.1 at 2010-07-31 21:34:16) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <div class="span-1"> &nbsp;<. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:16) [GET]
+  Parameters: {"id"=>"<div class=\"span-15 last\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (202.1ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:17) [GET]
+  Parameters: {"id"=>"<div class=\"span-15 last\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (362.6ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:17) [GET]
+  Parameters: {"id"=>"<div class=\"span-15 last\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (107.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#<h4 class="b_txt">GooF's List< (for 127.0.0.1 at 2010-07-31 21:34:17) [GET]
+  Parameters: {"id"=>"h4>"}
+
+ActionController::UnknownAction (No action responded to <h4 class="b_txt">GooF's List<. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<h4 class="b_txt">GooF's List< (for 127.0.0.1 at 2010-07-31 21:34:18) [GET]
+  Parameters: {"id"=>"h4>"}
+
+ActionController::UnknownAction (No action responded to <h4 class="b_txt">GooF's List<. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<h4 class="b_txt">GooF's List< (for 127.0.0.1 at 2010-07-31 21:34:18) [GET]
+  Parameters: {"id"=>"h4>"}
+
+ActionController::UnknownAction (No action responded to <h4 class="b_txt">GooF's List<. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:18) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:18) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:18) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:18) [GET]
+  Parameters: {"id"=>"<div class=\"span-8\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (189.4ms)
+Rendered rescues/_request_and_response (2.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:19) [GET]
+  Parameters: {"id"=>"<div class=\"span-8\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (627.0ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:20) [GET]
+  Parameters: {"id"=>"<div class=\"span-8\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (185.2ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#<h2 class="boy_title">Boy Names< (for 127.0.0.1 at 2010-07-31 21:34:20) [GET]
+  Parameters: {"id"=>"h2>"}
+
+ActionController::UnknownAction (No action responded to <h2 class="boy_title">Boy Names<. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<h2 class="boy_title">Boy Names< (for 127.0.0.1 at 2010-07-31 21:34:20) [GET]
+  Parameters: {"id"=>"h2>"}
+
+ActionController::UnknownAction (No action responded to <h2 class="boy_title">Boy Names<. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<h2 class="boy_title">Boy Names< (for 127.0.0.1 at 2010-07-31 21:34:20) [GET]
+  Parameters: {"id"=>"h2>"}
+
+ActionController::UnknownAction (No action responded to <h2 class="boy_title">Boy Names<. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<div class="clear">&nbsp;< (for 127.0.0.1 at 2010-07-31 21:34:21) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <div class="clear">&nbsp;<. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<div class="clear">&nbsp;< (for 127.0.0.1 at 2010-07-31 21:34:21) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <div class="clear">&nbsp;<. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<div class="clear">&nbsp;< (for 127.0.0.1 at 2010-07-31 21:34:21) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <div class="clear">&nbsp;<. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:21) [GET]
+  Parameters: {"id"=>"<div class=\"spaceit\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (232.2ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:22) [GET]
+  Parameters: {"id"=>"<div class=\"spaceit\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (637.6ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:23) [GET]
+  Parameters: {"id"=>"<div class=\"spaceit\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (186.7ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:34:23) [GET]
+
+ActionController::RoutingError (No route matches "/polls/%3Cform%20action=%22/polls/vote_name%22%20enctype=%22multipart/form-data%22%20method=%22post%22%3E%3Cdiv%20style=%22margin:0;padding:0;display:inline%22%3E%3Cinput%20name=%22authenticity_token%22%20type=%22hidden%22%20value=%22LmKYvyDVVYsA3vvMDM1rHhTTUqdGv0L5w1PcRdC169E=%22%20/%3E%3C/div%3E" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:34:23) [GET]
+
+ActionController::RoutingError (No route matches "/polls/%3Cform%20action=%22/polls/vote_name%22%20enctype=%22multipart/form-data%22%20method=%22post%22%3E%3Cdiv%20style=%22margin:0;padding:0;display:inline%22%3E%3Cinput%20name=%22authenticity_token%22%20type=%22hidden%22%20value=%22LmKYvyDVVYsA3vvMDM1rHhTTUqdGv0L5w1PcRdC169E=%22%20/%3E%3C/div%3E" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:34:23) [GET]
+
+ActionController::RoutingError (No route matches "/polls/%3Cform%20action=%22/polls/vote_name%22%20enctype=%22multipart/form-data%22%20method=%22post%22%3E%3Cdiv%20style=%22margin:0;padding:0;display:inline%22%3E%3Cinput%20name=%22authenticity_token%22%20type=%22hidden%22%20value=%22LmKYvyDVVYsA3vvMDM1rHhTTUqdGv0L5w1PcRdC169E=%22%20/%3E%3C/div%3E" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input id="poll_id" name="poll_id" type="hidden" value="4c51bc5cbaba320a40000145"  (for 127.0.0.1 at 2010-07-31 21:34:24) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input id="poll_id" name="poll_id" type="hidden" value="4c51bc5cbaba320a40000145" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input id="poll_id" name="poll_id" type="hidden" value="4c51bc5cbaba320a40000145"  (for 127.0.0.1 at 2010-07-31 21:34:24) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input id="poll_id" name="poll_id" type="hidden" value="4c51bc5cbaba320a40000145" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input id="poll_id" name="poll_id" type="hidden" value="4c51bc5cbaba320a40000145"  (for 127.0.0.1 at 2010-07-31 21:34:24) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input id="poll_id" name="poll_id" type="hidden" value="4c51bc5cbaba320a40000145" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input id="name_id" name="name_id" type="hidden" value="4c51bc5cbaba320a40000146"  (for 127.0.0.1 at 2010-07-31 21:34:24) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input id="name_id" name="name_id" type="hidden" value="4c51bc5cbaba320a40000146" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input id="name_id" name="name_id" type="hidden" value="4c51bc5cbaba320a40000146"  (for 127.0.0.1 at 2010-07-31 21:34:24) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input id="name_id" name="name_id" type="hidden" value="4c51bc5cbaba320a40000146" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input id="name_id" name="name_id" type="hidden" value="4c51bc5cbaba320a40000146"  (for 127.0.0.1 at 2010-07-31 21:34:25) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input id="name_id" name="name_id" type="hidden" value="4c51bc5cbaba320a40000146" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input class="b_button" name="commit" type="submit" value="Mark"  (for 127.0.0.1 at 2010-07-31 21:34:25) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input class="b_button" name="commit" type="submit" value="Mark" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input class="b_button" name="commit" type="submit" value="Mark"  (for 127.0.0.1 at 2010-07-31 21:34:25) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input class="b_button" name="commit" type="submit" value="Mark" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input class="b_button" name="commit" type="submit" value="Mark"  (for 127.0.0.1 at 2010-07-31 21:34:25) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input class="b_button" name="commit" type="submit" value="Mark" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:25) [GET]
+  Parameters: {"id"=>"form>  1"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:25) [GET]
+  Parameters: {"id"=>"form>  1"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:25) [GET]
+  Parameters: {"id"=>"form>  1"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:25) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:26) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:26) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:26) [GET]
+  Parameters: {"id"=>"<div class=\"spaceit\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (88.7ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:26) [GET]
+  Parameters: {"id"=>"<div class=\"spaceit\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (349.6ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:26) [GET]
+  Parameters: {"id"=>"<div class=\"spaceit\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (109.6ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:34:27) [GET]
+
+ActionController::RoutingError (No route matches "/polls/%3Cform%20action=%22/polls/vote_name%22%20enctype=%22multipart/form-data%22%20method=%22post%22%3E%3Cdiv%20style=%22margin:0;padding:0;display:inline%22%3E%3Cinput%20name=%22authenticity_token%22%20type=%22hidden%22%20value=%22LmKYvyDVVYsA3vvMDM1rHhTTUqdGv0L5w1PcRdC169E=%22%20/%3E%3C/div%3E" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:34:27) [GET]
+
+ActionController::RoutingError (No route matches "/polls/%3Cform%20action=%22/polls/vote_name%22%20enctype=%22multipart/form-data%22%20method=%22post%22%3E%3Cdiv%20style=%22margin:0;padding:0;display:inline%22%3E%3Cinput%20name=%22authenticity_token%22%20type=%22hidden%22%20value=%22LmKYvyDVVYsA3vvMDM1rHhTTUqdGv0L5w1PcRdC169E=%22%20/%3E%3C/div%3E" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:34:27) [GET]
+
+ActionController::RoutingError (No route matches "/polls/%3Cform%20action=%22/polls/vote_name%22%20enctype=%22multipart/form-data%22%20method=%22post%22%3E%3Cdiv%20style=%22margin:0;padding:0;display:inline%22%3E%3Cinput%20name=%22authenticity_token%22%20type=%22hidden%22%20value=%22LmKYvyDVVYsA3vvMDM1rHhTTUqdGv0L5w1PcRdC169E=%22%20/%3E%3C/div%3E" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input id="poll_id" name="poll_id" type="hidden" value="4c51bc5cbaba320a40000145"  (for 127.0.0.1 at 2010-07-31 21:34:27) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input id="poll_id" name="poll_id" type="hidden" value="4c51bc5cbaba320a40000145" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input id="poll_id" name="poll_id" type="hidden" value="4c51bc5cbaba320a40000145"  (for 127.0.0.1 at 2010-07-31 21:34:27) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input id="poll_id" name="poll_id" type="hidden" value="4c51bc5cbaba320a40000145" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input id="poll_id" name="poll_id" type="hidden" value="4c51bc5cbaba320a40000145"  (for 127.0.0.1 at 2010-07-31 21:34:27) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input id="poll_id" name="poll_id" type="hidden" value="4c51bc5cbaba320a40000145" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input id="name_id" name="name_id" type="hidden" value="4c51bc5cbaba320a40000147"  (for 127.0.0.1 at 2010-07-31 21:34:27) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input id="name_id" name="name_id" type="hidden" value="4c51bc5cbaba320a40000147" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input id="name_id" name="name_id" type="hidden" value="4c51bc5cbaba320a40000147"  (for 127.0.0.1 at 2010-07-31 21:34:28) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input id="name_id" name="name_id" type="hidden" value="4c51bc5cbaba320a40000147" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input id="name_id" name="name_id" type="hidden" value="4c51bc5cbaba320a40000147"  (for 127.0.0.1 at 2010-07-31 21:34:28) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input id="name_id" name="name_id" type="hidden" value="4c51bc5cbaba320a40000147" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input class="b_button" name="commit" type="submit" value="Chris"  (for 127.0.0.1 at 2010-07-31 21:34:28) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input class="b_button" name="commit" type="submit" value="Chris" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input class="b_button" name="commit" type="submit" value="Chris"  (for 127.0.0.1 at 2010-07-31 21:34:28) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input class="b_button" name="commit" type="submit" value="Chris" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input class="b_button" name="commit" type="submit" value="Chris"  (for 127.0.0.1 at 2010-07-31 21:34:28) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input class="b_button" name="commit" type="submit" value="Chris" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:28) [GET]
+  Parameters: {"id"=>"form>  0"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:28) [GET]
+  Parameters: {"id"=>"form>  0"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:28) [GET]
+  Parameters: {"id"=>"form>  0"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:28) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:29) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:29) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:29) [GET]
+  Parameters: {"id"=>"<div class=\"spaceit\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (89.8ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:29) [GET]
+  Parameters: {"id"=>"<div class=\"spaceit\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (348.5ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:29) [GET]
+  Parameters: {"id"=>"<div class=\"spaceit\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (101.9ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:34:30) [GET]
+
+ActionController::RoutingError (No route matches "/polls/%3Cform%20action=%22/polls/vote_name%22%20enctype=%22multipart/form-data%22%20method=%22post%22%3E%3Cdiv%20style=%22margin:0;padding:0;display:inline%22%3E%3Cinput%20name=%22authenticity_token%22%20type=%22hidden%22%20value=%22LmKYvyDVVYsA3vvMDM1rHhTTUqdGv0L5w1PcRdC169E=%22%20/%3E%3C/div%3E" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:34:30) [GET]
+
+ActionController::RoutingError (No route matches "/polls/%3Cform%20action=%22/polls/vote_name%22%20enctype=%22multipart/form-data%22%20method=%22post%22%3E%3Cdiv%20style=%22margin:0;padding:0;display:inline%22%3E%3Cinput%20name=%22authenticity_token%22%20type=%22hidden%22%20value=%22LmKYvyDVVYsA3vvMDM1rHhTTUqdGv0L5w1PcRdC169E=%22%20/%3E%3C/div%3E" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:34:30) [GET]
+
+ActionController::RoutingError (No route matches "/polls/%3Cform%20action=%22/polls/vote_name%22%20enctype=%22multipart/form-data%22%20method=%22post%22%3E%3Cdiv%20style=%22margin:0;padding:0;display:inline%22%3E%3Cinput%20name=%22authenticity_token%22%20type=%22hidden%22%20value=%22LmKYvyDVVYsA3vvMDM1rHhTTUqdGv0L5w1PcRdC169E=%22%20/%3E%3C/div%3E" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input id="poll_id" name="poll_id" type="hidden" value="4c51bc5cbaba320a40000145"  (for 127.0.0.1 at 2010-07-31 21:34:30) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input id="poll_id" name="poll_id" type="hidden" value="4c51bc5cbaba320a40000145" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input id="poll_id" name="poll_id" type="hidden" value="4c51bc5cbaba320a40000145"  (for 127.0.0.1 at 2010-07-31 21:34:30) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input id="poll_id" name="poll_id" type="hidden" value="4c51bc5cbaba320a40000145" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input id="poll_id" name="poll_id" type="hidden" value="4c51bc5cbaba320a40000145"  (for 127.0.0.1 at 2010-07-31 21:34:30) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input id="poll_id" name="poll_id" type="hidden" value="4c51bc5cbaba320a40000145" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input id="name_id" name="name_id" type="hidden" value="4c51bc5cbaba320a40000148"  (for 127.0.0.1 at 2010-07-31 21:34:30) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input id="name_id" name="name_id" type="hidden" value="4c51bc5cbaba320a40000148" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input id="name_id" name="name_id" type="hidden" value="4c51bc5cbaba320a40000148"  (for 127.0.0.1 at 2010-07-31 21:34:30) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input id="name_id" name="name_id" type="hidden" value="4c51bc5cbaba320a40000148" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input id="name_id" name="name_id" type="hidden" value="4c51bc5cbaba320a40000148"  (for 127.0.0.1 at 2010-07-31 21:34:31) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input id="name_id" name="name_id" type="hidden" value="4c51bc5cbaba320a40000148" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input class="b_button" name="commit" type="submit" value="Jacob"  (for 127.0.0.1 at 2010-07-31 21:34:31) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input class="b_button" name="commit" type="submit" value="Jacob" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input class="b_button" name="commit" type="submit" value="Jacob"  (for 127.0.0.1 at 2010-07-31 21:34:31) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input class="b_button" name="commit" type="submit" value="Jacob" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input class="b_button" name="commit" type="submit" value="Jacob"  (for 127.0.0.1 at 2010-07-31 21:34:31) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input class="b_button" name="commit" type="submit" value="Jacob" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:31) [GET]
+  Parameters: {"id"=>"form>  1"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:31) [GET]
+  Parameters: {"id"=>"form>  1"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:31) [GET]
+  Parameters: {"id"=>"form>  1"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:31) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:32) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:32) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:32) [GET]
+  Parameters: {"id"=>"<div class=\"spaceit\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (96.9ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:32) [GET]
+  Parameters: {"id"=>"<div class=\"spaceit\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (345.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:32) [GET]
+  Parameters: {"id"=>"<div class=\"spaceit\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (100.7ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:34:33) [GET]
+
+ActionController::RoutingError (No route matches "/polls/%3Cform%20action=%22/polls/vote_name%22%20enctype=%22multipart/form-data%22%20method=%22post%22%3E%3Cdiv%20style=%22margin:0;padding:0;display:inline%22%3E%3Cinput%20name=%22authenticity_token%22%20type=%22hidden%22%20value=%22LmKYvyDVVYsA3vvMDM1rHhTTUqdGv0L5w1PcRdC169E=%22%20/%3E%3C/div%3E" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:34:33) [GET]
+
+ActionController::RoutingError (No route matches "/polls/%3Cform%20action=%22/polls/vote_name%22%20enctype=%22multipart/form-data%22%20method=%22post%22%3E%3Cdiv%20style=%22margin:0;padding:0;display:inline%22%3E%3Cinput%20name=%22authenticity_token%22%20type=%22hidden%22%20value=%22LmKYvyDVVYsA3vvMDM1rHhTTUqdGv0L5w1PcRdC169E=%22%20/%3E%3C/div%3E" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:34:33) [GET]
+
+ActionController::RoutingError (No route matches "/polls/%3Cform%20action=%22/polls/vote_name%22%20enctype=%22multipart/form-data%22%20method=%22post%22%3E%3Cdiv%20style=%22margin:0;padding:0;display:inline%22%3E%3Cinput%20name=%22authenticity_token%22%20type=%22hidden%22%20value=%22LmKYvyDVVYsA3vvMDM1rHhTTUqdGv0L5w1PcRdC169E=%22%20/%3E%3C/div%3E" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input id="poll_id" name="poll_id" type="hidden" value="4c51bc5cbaba320a40000145"  (for 127.0.0.1 at 2010-07-31 21:34:33) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input id="poll_id" name="poll_id" type="hidden" value="4c51bc5cbaba320a40000145" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input id="poll_id" name="poll_id" type="hidden" value="4c51bc5cbaba320a40000145"  (for 127.0.0.1 at 2010-07-31 21:34:33) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input id="poll_id" name="poll_id" type="hidden" value="4c51bc5cbaba320a40000145" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input id="poll_id" name="poll_id" type="hidden" value="4c51bc5cbaba320a40000145"  (for 127.0.0.1 at 2010-07-31 21:34:33) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input id="poll_id" name="poll_id" type="hidden" value="4c51bc5cbaba320a40000145" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input id="name_id" name="name_id" type="hidden" value="4c51bc5cbaba320a40000149"  (for 127.0.0.1 at 2010-07-31 21:34:33) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input id="name_id" name="name_id" type="hidden" value="4c51bc5cbaba320a40000149" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input id="name_id" name="name_id" type="hidden" value="4c51bc5cbaba320a40000149"  (for 127.0.0.1 at 2010-07-31 21:34:33) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input id="name_id" name="name_id" type="hidden" value="4c51bc5cbaba320a40000149" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input id="name_id" name="name_id" type="hidden" value="4c51bc5cbaba320a40000149"  (for 127.0.0.1 at 2010-07-31 21:34:34) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input id="name_id" name="name_id" type="hidden" value="4c51bc5cbaba320a40000149" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input class="b_button" name="commit" type="submit" value="Ryan"  (for 127.0.0.1 at 2010-07-31 21:34:34) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input class="b_button" name="commit" type="submit" value="Ryan" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input class="b_button" name="commit" type="submit" value="Ryan"  (for 127.0.0.1 at 2010-07-31 21:34:34) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input class="b_button" name="commit" type="submit" value="Ryan" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input class="b_button" name="commit" type="submit" value="Ryan"  (for 127.0.0.1 at 2010-07-31 21:34:34) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input class="b_button" name="commit" type="submit" value="Ryan" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:34) [GET]
+  Parameters: {"id"=>"form>  1"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:34) [GET]
+  Parameters: {"id"=>"form>  1"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:34) [GET]
+  Parameters: {"id"=>"form>  1"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:34) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:34) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:35) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:35) [GET]
+  Parameters: {"id"=>"<div class=\"spaceit\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (88.0ms)
+Rendered rescues/_request_and_response (1.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:35) [GET]
+  Parameters: {"id"=>"<div class=\"spaceit\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (94.7ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:35) [GET]
+  Parameters: {"id"=>"<div class=\"spaceit\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (100.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:34:36) [GET]
+
+ActionController::RoutingError (No route matches "/polls/%3Cform%20action=%22/polls/vote_name%22%20enctype=%22multipart/form-data%22%20method=%22post%22%3E%3Cdiv%20style=%22margin:0;padding:0;display:inline%22%3E%3Cinput%20name=%22authenticity_token%22%20type=%22hidden%22%20value=%22LmKYvyDVVYsA3vvMDM1rHhTTUqdGv0L5w1PcRdC169E=%22%20/%3E%3C/div%3E" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:34:36) [GET]
+
+ActionController::RoutingError (No route matches "/polls/%3Cform%20action=%22/polls/vote_name%22%20enctype=%22multipart/form-data%22%20method=%22post%22%3E%3Cdiv%20style=%22margin:0;padding:0;display:inline%22%3E%3Cinput%20name=%22authenticity_token%22%20type=%22hidden%22%20value=%22LmKYvyDVVYsA3vvMDM1rHhTTUqdGv0L5w1PcRdC169E=%22%20/%3E%3C/div%3E" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:34:36) [GET]
+
+ActionController::RoutingError (No route matches "/polls/%3Cform%20action=%22/polls/vote_name%22%20enctype=%22multipart/form-data%22%20method=%22post%22%3E%3Cdiv%20style=%22margin:0;padding:0;display:inline%22%3E%3Cinput%20name=%22authenticity_token%22%20type=%22hidden%22%20value=%22LmKYvyDVVYsA3vvMDM1rHhTTUqdGv0L5w1PcRdC169E=%22%20/%3E%3C/div%3E" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input id="poll_id" name="poll_id" type="hidden" value="4c51bc5cbaba320a40000145"  (for 127.0.0.1 at 2010-07-31 21:34:36) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input id="poll_id" name="poll_id" type="hidden" value="4c51bc5cbaba320a40000145" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input id="poll_id" name="poll_id" type="hidden" value="4c51bc5cbaba320a40000145"  (for 127.0.0.1 at 2010-07-31 21:34:36) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input id="poll_id" name="poll_id" type="hidden" value="4c51bc5cbaba320a40000145" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input id="poll_id" name="poll_id" type="hidden" value="4c51bc5cbaba320a40000145"  (for 127.0.0.1 at 2010-07-31 21:34:36) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input id="poll_id" name="poll_id" type="hidden" value="4c51bc5cbaba320a40000145" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input id="name_id" name="name_id" type="hidden" value="4c51bc5cbaba320a4000014a"  (for 127.0.0.1 at 2010-07-31 21:34:36) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input id="name_id" name="name_id" type="hidden" value="4c51bc5cbaba320a4000014a" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input id="name_id" name="name_id" type="hidden" value="4c51bc5cbaba320a4000014a"  (for 127.0.0.1 at 2010-07-31 21:34:38) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input id="name_id" name="name_id" type="hidden" value="4c51bc5cbaba320a4000014a" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-31 21:34:38) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 47ms (View: 30 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#<input id="name_id" name="name_id" type="hidden" value="4c51bc5cbaba320a4000014a"  (for 127.0.0.1 at 2010-07-31 21:34:38) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input id="name_id" name="name_id" type="hidden" value="4c51bc5cbaba320a4000014a" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input class="b_button" name="commit" type="submit" value="Brett"  (for 127.0.0.1 at 2010-07-31 21:34:39) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input class="b_button" name="commit" type="submit" value="Brett" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input class="b_button" name="commit" type="submit" value="Brett"  (for 127.0.0.1 at 2010-07-31 21:34:39) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input class="b_button" name="commit" type="submit" value="Brett" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<input class="b_button" name="commit" type="submit" value="Brett"  (for 127.0.0.1 at 2010-07-31 21:34:39) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <input class="b_button" name="commit" type="submit" value="Brett" . Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:39) [GET]
+  Parameters: {"id"=>"form>  0"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:39) [GET]
+  Parameters: {"id"=>"form>  0"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:39) [GET]
+  Parameters: {"id"=>"form>  0"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:40) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:40) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:40) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:41) [GET]
+  Parameters: {"id"=>"&nbsp;"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (97.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:41) [GET]
+  Parameters: {"id"=>"&nbsp;"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (350.2ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:41) [GET]
+  Parameters: {"id"=>"&nbsp;"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (97.2ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:41) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:41) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:42) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:42) [GET]
+  Parameters: {"id"=>"<div class=\"span-8 last\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (358.4ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:42) [GET]
+  Parameters: {"id"=>"<div class=\"span-8 last\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (113.9ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:42) [GET]
+  Parameters: {"id"=>"<div class=\"span-8 last\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (452.0ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:43) [GET]
+  Parameters: {"id"=>"&nbsp;"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (116.0ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:43) [GET]
+  Parameters: {"id"=>"&nbsp;"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (365.3ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:44) [GET]
+  Parameters: {"id"=>"&nbsp;"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (187.9ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:44) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:44) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:44) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<div class="span-1"> &nbsp; < (for 127.0.0.1 at 2010-07-31 21:34:44) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <div class="span-1"> &nbsp; <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<div class="span-1"> &nbsp; < (for 127.0.0.1 at 2010-07-31 21:34:45) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <div class="span-1"> &nbsp; <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<div class="span-1"> &nbsp; < (for 127.0.0.1 at 2010-07-31 21:34:45) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <div class="span-1"> &nbsp; <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:45) [GET]
+  Parameters: {"id"=>"<div class=\"span-15 last\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (167.1ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:45) [GET]
+  Parameters: {"id"=>"<div class=\"span-15 last\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (88.0ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:46) [GET]
+  Parameters: {"id"=>"<div class=\"span-15 last\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (92.5ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:34:46) [GET]
+
+ActionController::RoutingError (No route matches "/polls/A%20bunch%20of%20trouble." with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:34:46) [GET]
+
+ActionController::RoutingError (No route matches "/polls/A%20bunch%20of%20trouble." with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:34:46) [GET]
+
+ActionController::RoutingError (No route matches "/polls/A%20bunch%20of%20trouble." with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:46) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:47) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:47) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:47) [GET]
+  Parameters: {"id"=>"<!-- %= link_to \"Edit\", edit_poll_path(@poll) % -->"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (353.5ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:47) [GET]
+  Parameters: {"id"=>"<!-- %= link_to \"Edit\", edit_poll_path(@poll) % -->"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (100.0ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:47) [GET]
+  Parameters: {"id"=>"<!-- %= link_to \"Edit\", edit_poll_path(@poll) % -->"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (439.0ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:48) [GET]
+  Parameters: {"', :method "=>" :delete % -->", "id"=>"<!-- %= link_to \"Destroy\", @poll, :confirm =  'Are you sure"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (89.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:48) [GET]
+  Parameters: {"', :method "=>" :delete % -->", "id"=>"<!-- %= link_to \"Destroy\", @poll, :confirm =  'Are you sure"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (882.6ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:49) [GET]
+  Parameters: {"', :method "=>" :delete % -->", "id"=>"<!-- %= link_to \"Destroy\", @poll, :confirm =  'Are you sure"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (327.4ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:50) [GET]
+  Parameters: {"id"=>"<!-- %= link_to \"View All\", polls_path % -->"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (501.9ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:51) [GET]
+  Parameters: {"id"=>"<!-- %= link_to \"View All\", polls_path % -->"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (94.4ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:51) [GET]
+  Parameters: {"id"=>"<!-- %= link_to \"View All\", polls_path % -->"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (97.9ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:51) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:52) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:52) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<div class="span-4 last" > &nbsp; < (for 127.0.0.1 at 2010-07-31 21:34:52) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <div class="span-4 last" > &nbsp; <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<div class="span-4 last" > &nbsp; < (for 127.0.0.1 at 2010-07-31 21:34:52) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <div class="span-4 last" > &nbsp; <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<div class="span-4 last" > &nbsp; < (for 127.0.0.1 at 2010-07-31 21:34:52) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <div class="span-4 last" > &nbsp; <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:52) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:52) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:52) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:53) [GET]
+  Parameters: {"id"=>"<div class=\"footer\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (729.6ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:53) [GET]
+  Parameters: {"id"=>"<div class=\"footer\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (139.9ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:54) [GET]
+  Parameters: {"id"=>"<div class=\"footer\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (372.7ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:54) [GET]
+  Parameters: {"id"=>"<div class=\"container\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (121.9ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:54) [GET]
+  Parameters: {"id"=>"<div class=\"container\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (402.7ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:55) [GET]
+  Parameters: {"id"=>"<div class=\"container\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (92.6ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:55) [GET]
+  Parameters: {"id"=>"<div class=\"span-9 footer_txt p_txt\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (95.9ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:56) [GET]
+  Parameters: {"id"=>"<div class=\"span-9 footer_txt p_txt\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (96.7ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:34:56) [GET]
+  Parameters: {"id"=>"<div class=\"span-9 footer_txt p_txt\">"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (160.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:34:56) [GET]
+
+ActionController::RoutingError (No route matches "/polls/&copy;%202010%20website.com%20%3Cbr/%3E" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:34:56) [GET]
+
+ActionController::RoutingError (No route matches "/polls/&copy;%202010%20website.com%20%3Cbr/%3E" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:34:57) [GET]
+
+ActionController::RoutingError (No route matches "/polls/&copy;%202010%20website.com%20%3Cbr/%3E" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:34:57) [GET]
+
+ActionController::RoutingError (No route matches "/polls/Designed%20modified%20from%20Happy%20Template%20at%20%3Ca%20href=%22www.solucija.com%22%3ESolucija%3C/a%3E." with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:34:57) [GET]
+
+ActionController::RoutingError (No route matches "/polls/Designed%20modified%20from%20Happy%20Template%20at%20%3Ca%20href=%22www.solucija.com%22%3ESolucija%3C/a%3E." with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 21:34:57) [GET]
+
+ActionController::RoutingError (No route matches "/polls/Designed%20modified%20from%20Happy%20Template%20at%20%3Ca%20href=%22www.solucija.com%22%3ESolucija%3C/a%3E." with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:57) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:57) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:57) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<div class="span15 last footer_img" (for 127.0.0.1 at 2010-07-31 21:34:57) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <div class="span15 last footer_img". Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<div class="span15 last footer_img" (for 127.0.0.1 at 2010-07-31 21:34:58) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <div class="span15 last footer_img". Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#<div class="span15 last footer_img" (for 127.0.0.1 at 2010-07-31 21:34:58) [GET]
+  Parameters: {"id"=>">"}
+
+ActionController::UnknownAction (No action responded to <div class="span15 last footer_img". Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:58) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:58) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:59) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:59) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:59) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:59) [GET]
+  Parameters: {"id"=>"div>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:59) [GET]
+  Parameters: {"id"=>"body>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:34:59) [GET]
+  Parameters: {"id"=>"body>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:35:00) [GET]
+  Parameters: {"id"=>"body>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:35:00) [GET]
+  Parameters: {"id"=>"html>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:35:00) [GET]
+  Parameters: {"id"=>"html>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#< (for 127.0.0.1 at 2010-07-31 21:35:00) [GET]
+  Parameters: {"id"=>"html>"}
+
+ActionController::UnknownAction (No action responded to <. Actions: create, destroy, index, show, and vote_name):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-31 21:36:21) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 46ms (View: 32 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-07-31 21:36:42) [POST]
+  Parameters: {"poll"=>{"title"=>"Title longer than 4", "story"=>"None"}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"Laura", "name_7"=>"", "name_8"=>"", "name_9"=>"", "name_1"=>"", "name_2"=>""}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/models/poll.rb:22:in `add_babyname'
+  app/controllers/polls_controller.rb:28:in `create'
+  app/controllers/polls_controller.rb:21:in `each'
+  app/controllers/polls_controller.rb:21:in `create'
+
+Rendered rescues/_trace (122.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-07-31 21:39:14) [POST]
+  Parameters: {"poll"=>{"title"=>"Title longer than 4", "story"=>"None"}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"Laura", "name_7"=>"", "name_8"=>"", "name_9"=>"", "name_1"=>"", "name_2"=>""}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/models/poll.rb:22:in `add_babyname'
+  app/controllers/polls_controller.rb:28:in `create'
+  app/controllers/polls_controller.rb:21:in `each'
+  app/controllers/polls_controller.rb:21:in `create'
+
+Rendered rescues/_trace (196.9ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-07-31 21:40:18) [POST]
+  Parameters: {"poll"=>{"title"=>"Title longer than 4", "story"=>"None"}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"Laura", "name_7"=>"", "name_8"=>"", "name_9"=>"", "name_1"=>"Tom", "name_2"=>""}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/models/poll.rb:22:in `add_babyname'
+  app/controllers/polls_controller.rb:28:in `create'
+  app/controllers/polls_controller.rb:21:in `each'
+  app/controllers/polls_controller.rb:21:in `create'
+
+Rendered rescues/_trace (769.9ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-07-31 21:40:57) [POST]
+  Parameters: {"poll"=>{"title"=>"Title longer than 4", "story"=>"None"}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"Laura", "name_7"=>"", "name_8"=>"", "name_9"=>"", "name_1"=>"Tom", "name_2"=>""}
+Redirected to http://localhost:3000/polls/4c547c49baba320a4000015f
+Completed in 130ms | 302 Found [http://localhost/polls]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:40:57) [GET]
+  Parameters: {"id"=>"4c547c49baba320a4000015f"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 168ms (View: 60 | 200 OK [http://localhost/polls/4c547c49baba320a4000015f]
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-07-31 21:43:13) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 453ms (View: 323 | 200 OK [http://localhost/]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:43:18) [GET]
+  Parameters: {"id"=>"4c547c49baba320a4000015f"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 158ms (View: 25 | 200 OK [http://localhost/polls/4c547c49baba320a4000015f]
+
+
+Processing PollsController#vote_name (for 127.0.0.1 at 2010-07-31 21:43:21) [POST]
+  Parameters: {"commit"=>"Tom", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_id"=>"4c547c49baba320a40000160", "poll_id"=>"4c547c49baba320a4000015f"}
+Redirected to http://localhost:3000/polls/4c547c49baba320a4000015f
+Completed in 172ms | 302 Found [http://localhost/polls/vote_name]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:43:21) [GET]
+  Parameters: {"id"=>"4c547c49baba320a4000015f"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 853ms (View: 36 | 200 OK [http://localhost/polls/4c547c49baba320a4000015f]
+
+
+Processing PollsController#vote_name (for 127.0.0.1 at 2010-07-31 21:43:22) [POST]
+  Parameters: {"commit"=>"Tom", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_id"=>"4c547c49baba320a40000160", "poll_id"=>"4c547c49baba320a4000015f"}
+Redirected to http://localhost:3000/polls/4c547c49baba320a4000015f
+Completed in 84ms | 302 Found [http://localhost/polls/vote_name]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:43:22) [GET]
+  Parameters: {"id"=>"4c547c49baba320a4000015f"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 157ms (View: 52 | 200 OK [http://localhost/polls/4c547c49baba320a4000015f]
+
+
+Processing PollsController#vote_name (for 127.0.0.1 at 2010-07-31 21:43:24) [POST]
+  Parameters: {"commit"=>"Tom", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_id"=>"4c547c49baba320a40000160", "poll_id"=>"4c547c49baba320a4000015f"}
+Redirected to http://localhost:3000/polls/4c547c49baba320a4000015f
+Completed in 205ms | 302 Found [http://localhost/polls/vote_name]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:43:25) [GET]
+  Parameters: {"id"=>"4c547c49baba320a4000015f"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 239ms (View: 60 | 200 OK [http://localhost/polls/4c547c49baba320a4000015f]
+
+
+Processing PollsController#vote_name (for 127.0.0.1 at 2010-07-31 21:43:25) [POST]
+  Parameters: {"commit"=>"Tom", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_id"=>"4c547c49baba320a40000160", "poll_id"=>"4c547c49baba320a4000015f"}
+Redirected to http://localhost:3000/polls/4c547c49baba320a4000015f
+Completed in 133ms | 302 Found [http://localhost/polls/vote_name]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:43:26) [GET]
+  Parameters: {"id"=>"4c547c49baba320a4000015f"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 152ms (View: 37 | 200 OK [http://localhost/polls/4c547c49baba320a4000015f]
+
+
+Processing PollsController#vote_name (for 127.0.0.1 at 2010-07-31 21:43:26) [POST]
+  Parameters: {"commit"=>"Tom", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_id"=>"4c547c49baba320a40000160", "poll_id"=>"4c547c49baba320a4000015f"}
+Redirected to http://localhost:3000/polls/4c547c49baba320a4000015f
+Completed in 123ms | 302 Found [http://localhost/polls/vote_name]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:43:26) [GET]
+  Parameters: {"id"=>"4c547c49baba320a4000015f"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 667ms (View: 29 | 200 OK [http://localhost/polls/4c547c49baba320a4000015f]
+
+
+Processing PollsController#vote_name (for 127.0.0.1 at 2010-07-31 21:43:30) [POST]
+  Parameters: {"commit"=>"Tom", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_id"=>"4c547c49baba320a40000160", "poll_id"=>"4c547c49baba320a4000015f"}
+Redirected to http://localhost:3000/polls/4c547c49baba320a4000015f
+Completed in 115ms | 302 Found [http://localhost/polls/vote_name]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:43:30) [GET]
+  Parameters: {"id"=>"4c547c49baba320a4000015f"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 126ms (View: 35 | 200 OK [http://localhost/polls/4c547c49baba320a4000015f]
+
+
+Processing PollsController#vote_name (for 127.0.0.1 at 2010-07-31 21:43:32) [POST]
+  Parameters: {"commit"=>"Tom", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_id"=>"4c547c49baba320a40000160", "poll_id"=>"4c547c49baba320a4000015f"}
+Redirected to http://localhost:3000/polls/4c547c49baba320a4000015f
+Completed in 113ms | 302 Found [http://localhost/polls/vote_name]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:43:32) [GET]
+  Parameters: {"id"=>"4c547c49baba320a4000015f"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 125ms (View: 35 | 200 OK [http://localhost/polls/4c547c49baba320a4000015f]
+
+
+Processing PollsController#vote_name (for 127.0.0.1 at 2010-07-31 21:43:34) [POST]
+  Parameters: {"commit"=>"Tom", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_id"=>"4c547c49baba320a40000160", "poll_id"=>"4c547c49baba320a4000015f"}
+Redirected to http://localhost:3000/polls/4c547c49baba320a4000015f
+Completed in 90ms | 302 Found [http://localhost/polls/vote_name]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:43:34) [GET]
+  Parameters: {"id"=>"4c547c49baba320a4000015f"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 133ms (View: 38 | 200 OK [http://localhost/polls/4c547c49baba320a4000015f]
+
+
+Processing PollsController#vote_name (for 127.0.0.1 at 2010-07-31 21:43:35) [POST]
+  Parameters: {"commit"=>"Tom", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_id"=>"4c547c49baba320a40000160", "poll_id"=>"4c547c49baba320a4000015f"}
+Redirected to http://localhost:3000/polls/4c547c49baba320a4000015f
+Completed in 96ms | 302 Found [http://localhost/polls/vote_name]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:43:36) [GET]
+  Parameters: {"id"=>"4c547c49baba320a4000015f"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 1011ms (View: 917 | 200 OK [http://localhost/polls/4c547c49baba320a4000015f]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-31 21:49:35) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 46ms (View: 27 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-07-31 21:49:41) [POST]
+  Parameters: {"poll"=>{"title"=>"", "story"=>""}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"", "name_7"=>"", "name_8"=>"", "name_9"=>"", "name_1"=>"", "name_2"=>""}
+Redirected to http://localhost:3000/polls/4c547e55baba320a40000162
+Completed in 77ms | 302 Found [http://localhost/polls]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:49:41) [GET]
+  Parameters: {"id"=>"4c547e55baba320a40000162"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 102ms (View: 14 | 200 OK [http://localhost/polls/4c547e55baba320a40000162]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:50:55) [GET]
+  Parameters: {"id"=>"4c547e55baba320a40000162"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 104ms (View: 10 | 200 OK [http://localhost/polls/4c547e55baba320a40000162]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-31 21:50:58) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 52ms (View: 29 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-07-31 21:51:02) [POST]
+  Parameters: {"poll"=>{"title"=>"", "story"=>""}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"", "name_7"=>"", "name_8"=>"", "name_9"=>"", "name_1"=>"", "name_2"=>""}
+Redirected to http://localhost:3000/polls/4c547ea6baba320a40000163
+Completed in 67ms | 302 Found [http://localhost/polls]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:51:02) [GET]
+  Parameters: {"id"=>"4c547ea6baba320a40000163"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 119ms (View: 22 | 200 OK [http://localhost/polls/4c547ea6baba320a40000163]
