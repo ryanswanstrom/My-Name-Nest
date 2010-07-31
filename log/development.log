@@ -11911,3 +11911,114 @@ Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:51:02) [GET]
 Rendering template within layouts/application
 Rendering polls/show
 Completed in 119ms (View: 22 | 200 OK [http://localhost/polls/4c547ea6baba320a40000163]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-31 21:54:04) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 46ms (View: 33 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-07-31 21:54:14) [POST]
+  Parameters: {"poll"=>{"title"=>"More", "story"=>""}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"", "name_7"=>"", "name_8"=>"", "name_9"=>"", "name_1"=>"", "name_2"=>""}
+Redirected to http://localhost:3000/polls/4c547f66baba320a40000164
+Completed in 85ms | 302 Found [http://localhost/polls]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:54:15) [GET]
+  Parameters: {"id"=>"4c547f66baba320a40000164"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 148ms (View: 10 | 200 OK [http://localhost/polls/4c547f66baba320a40000164]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-31 21:56:27) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 42ms (View: 28 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-07-31 21:56:50) [POST]
+  Parameters: {"poll"=>{"title"=>"Mine a poll", "story"=>"A very long name"}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"Nancy", "name_7"=>"", "name_8"=>"", "name_9"=>"", "name_1"=>"Ted", "name_2"=>""}
+
+TypeError (can't convert BSON::ObjectID into String):
+  app/controllers/polls_controller.rb:35:in `+'
+  app/controllers/polls_controller.rb:35:in `create'
+
+Rendered rescues/_trace (187.5ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-07-31 21:57:36) [POST]
+  Parameters: {"poll"=>{"title"=>"Mine a poll", "story"=>"A very long name"}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"Nancy", "name_7"=>"", "name_8"=>"", "name_9"=>"", "name_1"=>"Ted", "name_2"=>""}
+Redirected to http://localhost:3000/polls/4c548030baba320a40000168
+Completed in 247ms | 302 Found [http://localhost/polls]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:57:37) [GET]
+  Parameters: {"id"=>"4c548030baba320a40000168"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 114ms (View: 27 | 200 OK [http://localhost/polls/4c548030baba320a40000168]
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-07-31 21:58:00) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 1879ms (View: 1785 | 200 OK [http://localhost/]
+
+
+Processing PollsController#destroy (for 127.0.0.1 at 2010-07-31 21:58:06) [DELETE]
+  Parameters: {"authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "id"=>"4c51bc5cbaba320a40000145"}
+Redirected to http://localhost:3000/polls
+Completed in 109ms | 302 Found [http://localhost/polls/4c51bc5cbaba320a40000145]
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-07-31 21:58:06) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 280ms (View: 225 | 200 OK [http://localhost/polls]
+
+
+Processing PollsController#destroy (for 127.0.0.1 at 2010-07-31 21:58:09) [DELETE]
+  Parameters: {"authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "id"=>"4c4b96e8baba320a40000136"}
+Redirected to http://localhost:3000/polls
+Completed in 154ms | 302 Found [http://localhost/polls/4c4b96e8baba320a40000136]
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-07-31 21:58:10) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 402ms (View: 320 | 200 OK [http://localhost/polls]
+
+
+Processing PollsController#destroy (for 127.0.0.1 at 2010-07-31 21:58:50) [DELETE]
+  Parameters: {"authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "id"=>"4c548030baba320a40000168"}
+Redirected to http://localhost:3000/polls
+Completed in 146ms | 302 Found [http://localhost/polls/4c548030baba320a40000168]
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-07-31 21:58:51) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 76ms (View: 6 | 200 OK [http://localhost/polls]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-07-31 21:58:53) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 45ms (View: 31 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-07-31 21:59:18) [POST]
+  Parameters: {"poll"=>{"title"=>"Test", "story"=>"A bunch of test."}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"Chris", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"Sally", "name_7"=>"Gina", "name_8"=>"", "name_9"=>"", "name_1"=>"MArk", "name_2"=>""}
+Redirected to http://localhost:3000/polls/4c548096baba320a4000016b
+Completed in 193ms | 302 Found [http://localhost/polls]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:59:19) [GET]
+  Parameters: {"id"=>"4c548096baba320a4000016b"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 320ms (View: 118 | 200 OK [http://localhost/polls/4c548096baba320a4000016b]

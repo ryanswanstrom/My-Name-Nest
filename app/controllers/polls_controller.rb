@@ -29,7 +29,10 @@ class PollsController < ApplicationController
       end
     end
     if @poll.save
-      flash[:notice] = "Successfully created poll." + request.host
+      flash[:notice] = "Successfully created poll.<br/>" +
+        "The following is the address to your unique list. " +
+        "Copy and Past this link to facebook, twitter, or email.<br/>" +
+        "http://" + request.host + "/polls/" + @poll.id.to_s
       redirect_to @poll
     else
       render :action => 'new'
@@ -44,7 +47,7 @@ class PollsController < ApplicationController
   end
 
   def destroy
-    Poll.destroy(params[:id])
+#    Poll.destroy(params[:id])
 #    Poll.delete_all
     redirect_to polls_path
   end
