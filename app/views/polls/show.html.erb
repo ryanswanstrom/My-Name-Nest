@@ -7,6 +7,7 @@
   <div class="span-8">
 <% unless @boys.empty? %>
     <h1 class="boy_title">Boy Names</h1>
+    <div class="clear">&nbsp;</div>
   <% @boys.each do |bname| %>
   <div>
     <% form_tag( {:action => 'vote_name'}, :multipart => true) do  %>
@@ -22,6 +23,7 @@
   <div class="span-8 last">
 <% unless @girls.empty? %>
 <h1 class="girl_title">Girl Names</h1>
+    <div class="clear">&nbsp;</div>
   <% @girls.each do |gname| %>
   <div>
     <% form_tag( {:action => 'vote_name'}, :multipart => true) do  %>
