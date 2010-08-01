@@ -51,5 +51,9 @@ class PollsController < ApplicationController
 #    Poll.delete_all
     redirect_to polls_path
   end
+
+  def edit
+    redirect_to polls_path
+  end
    
 end

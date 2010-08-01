@@ -17,12 +17,12 @@
       <!-- %- end -% -->
 
       <div class="span-9 title">
-        <h1><%= link_to "Baby Name Nest", "/" %></h1>
+        <h1><%= link_to "baby name nest", "/" %></h1>
       </div>
       <div class="span-15 last menu">
         <ul>
           <li><%= link_to "Home", "/" %> </li>
-          <li><%= link_to "Create Poll", :controller => 'polls', :action => 'new' %> </li>
+          <li><%= link_to "Create Poll", new_poll_path %> </li>
         </ul>
       </div>
 
@@ -43,7 +43,7 @@
     <div class="footer">
       <div class="container">
         <div class="span-9 footer_txt p_txt">
-          &copy; 2010 website.com <br/>
+          &copy; 2010 babynamenest.com <br/>
           Designed modified from Happy Template at <a href="www.solucija.com">Solucija</a>.
         </div>
         <div class="span15 last footer_img"/>

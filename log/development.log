@@ -12022,3 +12022,257 @@ Processing PollsController#show (for 127.0.0.1 at 2010-07-31 21:59:19) [GET]
 Rendering template within layouts/application
 Rendering polls/show
 Completed in 320ms (View: 118 | 200 OK [http://localhost/polls/4c548096baba320a4000016b]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 22:02:49) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 22:03:16) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-07-31 22:04:32) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 99ms (View: 40 | 200 OK [http://localhost/]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 22:04:37) [GET]
+  Parameters: {"id"=>"4c548096baba320a4000016b"}
+Rendering template within layouts/application
+Rendering polls/show
+
+ActionView::TemplateError (No route matches {:action=>"vote_name"}) on line #14 of app/views/polls/show.html.erb:
+11:     <div class="clear">&nbsp;</div>
+12:     <% @boys.each do |bname| %>
+13:       <div class="spaceit">
+14:         <% form_tag( {:action => 'vote_name'}, :multipart => true) do  %>
+15:           <%= hidden_field_tag(:poll_id, @poll.id) %>
+16:           <%= hidden_field_tag(:name_id, bname.id) %>
+17:           <%= submit_tag bname.name, :class => 'b_button' %>
+
+    mongo (1.0.3) lib/./lib/mongo/util/core_ext.rb:24:in `returning'
+    app/views/polls/show.html.erb:14
+    app/views/polls/show.html.erb:12:in `each'
+    app/views/polls/show.html.erb:12
+
+Rendered rescues/_trace (1289.9ms)
+Rendered rescues/_request_and_response (9.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-07-31 22:04:57) [GET]
+  Parameters: {"id"=>"4c548096baba320a4000016b"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 158ms (View: 61 | 200 OK [http://localhost/polls/4c548096baba320a4000016b]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-01 05:32:02) [GET]
+  Parameters: {"id"=>"4c548096baba320a4000016b"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 166ms (View: 68 | 200 OK [http://localhost/polls/4c548096baba320a4000016b]
+
+
+Processing PollsController#vote_name (for 127.0.0.1 at 2010-08-01 05:32:18) [POST]
+  Parameters: {"commit"=>"MArk", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_id"=>"4c548096baba320a4000016c", "poll_id"=>"4c548096baba320a4000016b"}
+Redirected to http://localhost:3000/polls/4c548096baba320a4000016b
+Completed in 104ms | 302 Found [http://localhost/polls/vote_name]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-01 05:32:18) [GET]
+  Parameters: {"id"=>"4c548096baba320a4000016b"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 102ms (View: 42 | 200 OK [http://localhost/polls/4c548096baba320a4000016b]
+
+
+Processing PollsController#vote_name (for 127.0.0.1 at 2010-08-01 05:32:20) [POST]
+  Parameters: {"commit"=>"MArk", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_id"=>"4c548096baba320a4000016c", "poll_id"=>"4c548096baba320a4000016b"}
+Redirected to http://localhost:3000/polls/4c548096baba320a4000016b
+Completed in 105ms | 302 Found [http://localhost/polls/vote_name]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-01 05:32:20) [GET]
+  Parameters: {"id"=>"4c548096baba320a4000016b"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 154ms (View: 64 | 200 OK [http://localhost/polls/4c548096baba320a4000016b]
+
+
+Processing PollsController#vote_name (for 127.0.0.1 at 2010-08-01 05:32:22) [POST]
+  Parameters: {"commit"=>"Chris", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_id"=>"4c548096baba320a4000016d", "poll_id"=>"4c548096baba320a4000016b"}
+Redirected to http://localhost:3000/polls/4c548096baba320a4000016b
+Completed in 88ms | 302 Found [http://localhost/polls/vote_name]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-01 05:32:22) [GET]
+  Parameters: {"id"=>"4c548096baba320a4000016b"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 156ms (View: 68 | 200 OK [http://localhost/polls/4c548096baba320a4000016b]
+
+
+Processing PollsController#vote_name (for 127.0.0.1 at 2010-08-01 05:32:23) [POST]
+  Parameters: {"commit"=>"Chris", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_id"=>"4c548096baba320a4000016d", "poll_id"=>"4c548096baba320a4000016b"}
+Redirected to http://localhost:3000/polls/4c548096baba320a4000016b
+Completed in 91ms | 302 Found [http://localhost/polls/vote_name]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-01 05:32:24) [GET]
+  Parameters: {"id"=>"4c548096baba320a4000016b"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 154ms (View: 56 | 200 OK [http://localhost/polls/4c548096baba320a4000016b]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-01 05:50:21) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 683ms (View: 668 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-01 05:51:12) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 79ms (View: 50 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-01 05:51:15) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 48ms (View: 28 | 200 OK [http://localhost/polls/new]
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-08-01 05:51:19) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 83ms (View: 36 | 200 OK [http://localhost/]
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-08-01 05:52:29) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 109ms (View: 53 | 200 OK [http://localhost/]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-01 05:52:32) [GET]
+  Parameters: {"id"=>"4c548096baba320a4000016b"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 183ms (View: 63 | 200 OK [http://localhost/polls/4c548096baba320a4000016b]
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-08-01 05:52:35) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 84ms (View: 38 | 200 OK [http://localhost/]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-01 05:52:48) [GET]
+  Parameters: {"id"=>"4c548096baba320a4000016b"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 186ms (View: 78 | 200 OK [http://localhost/polls/4c548096baba320a4000016b]
+
+
+Processing PollsController#edit (for 127.0.0.1 at 2010-08-01 05:52:53) [GET]
+  Parameters: {"id"=>"4c548096baba320a4000016b"}
+
+Errno::ENOENT (No such file or directory - /home/virtualrails/code/babynames/app/views/polls/edit.html.erb):
+  
+
+Rendered rescues/_trace (230.0ms)
+Rendered rescues/_request_and_response (5.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#edit (for 127.0.0.1 at 2010-08-01 05:53:46) [GET]
+  Parameters: {"id"=>"4c548096baba320a4000016b"}
+Redirected to http://localhost:3000/polls
+Completed in 29ms | 302 Found [http://localhost/polls/4c548096baba320a4000016b/edit]
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-08-01 05:53:46) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 94ms (View: 43 | 200 OK [http://localhost/polls]
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-08-01 05:54:02) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 103ms (View: 53 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-01 05:56:44) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-01 05:57:48) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-08-01 05:58:04) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 698ms (View: 58 | 200 OK [http://localhost/]
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-08-01 05:59:16) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 90ms (View: 31 | 200 OK [http://localhost/]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-01 05:59:19) [GET]
+  Parameters: {"id"=>"4c548096baba320a4000016b"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 176ms (View: 74 | 200 OK [http://localhost/nests/4c548096baba320a4000016b]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-01 05:59:41) [GET]
+
+ActionController::RoutingError (No route matches "/nests/4c548096baba320a4000016b" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-01 05:59:46) [GET]
+
+ActionController::RoutingError (No route matches "/nests/new" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-08-01 06:00:26) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 114ms (View: 38 | 200 OK [http://localhost/]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-01 06:00:28) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 48ms (View: 30 | 200 OK [http://localhost/nest/new]
