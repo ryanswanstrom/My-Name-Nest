@@ -8,6 +8,10 @@
     <%= stylesheet_link_tag 'blueprint/print.css', :media =>'print' %>
     <!--[if lt IE 8]><link rel="stylesheet" href="/stylesheets/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
     <%= yield(:head) %>
+    <meta name="description" content="A website to vote on baby names. Create
+          your own nest or vote on other's nests." />
+    <meta name="keywords" content="baby name, vote, boy, girl, boy name, girl name,
+          nest, poll"/>
   </head>
   <body class="thebod">
     <div class="container">
@@ -22,7 +26,7 @@
       <div class="span-15 last menu">
         <ul>
           <li><%= link_to "Home", "/" %> </li>
-          <li><%= link_to "Create Poll", new_poll_path %> </li>
+          <li><%= link_to "Create A Nest", new_poll_path %> </li>
         </ul>
       </div>
 
@@ -44,7 +48,7 @@
       <div class="container">
         <div class="span-9 footer_txt p_txt">
           &copy; 2010 babynamenest.com <br/>
-          Designed modified from Happy Template at <a href="www.solucija.com">Solucija</a>.
+          Designed modified from Happy Template at <a href="http://www.solucija.com">Solucija</a>.
         </div>
         <div class="span15 last footer_img"/>
       </div>

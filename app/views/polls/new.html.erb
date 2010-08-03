@@ -1,6 +1,8 @@
-<% title "New Poll" %>
+<% title ApplicationController::Website_name + " | "  %>
 
-<% form_for :poll, :url => polls_path do |f| %>
+<%= error_messages_for 'poll' %>
+
+<% form_for :poll, :url => {:action => "create"} do |f| %>
   <div class="span-16 last">
     <label for="title">Title </label>
     <%= f.text_field :title%>

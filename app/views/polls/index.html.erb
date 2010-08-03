@@ -9,7 +9,6 @@
     <tr>
       <td><%=h poll.title %></td>
       <td><%= link_to "Show", poll_path(poll) %></td>
-      <td><%= link_to "Edit", edit_poll_path(poll) %></td>
       <td><%= link_to "Destroy", poll, :confirm => 'Are you sure?', :method => :delete %></td>
     </tr>
   <% end %>

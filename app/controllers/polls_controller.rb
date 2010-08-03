@@ -4,6 +4,7 @@ class PollsController < ApplicationController
   end
   
   def show
+    @title = "nest"
     @poll = Poll.find(params[:id])
     @boys = Array.new
     @girls = Array.new
@@ -14,10 +15,14 @@ class PollsController < ApplicationController
         @boys << thename
       end
     end
+    unless @poll.title.empty?
+      @title = @poll.title
+    end
   end
   
   def create
-    @poll = Poll.create(params[:poll])
+    @poll = Poll.new(params[:poll])
+    @poll.babyname_ids = Array.new
     (1..10).each do |i|
       babyname = params["name_".concat(i.to_s)]
       unless babyname.empty?
@@ -28,13 +33,16 @@ class PollsController < ApplicationController
         @poll.add_babyname(babyname ,is_girl)
       end
     end
-    if @poll.save
+    if @poll.valid?
+      @poll.save
       flash[:notice] = "Successfully created poll.<br/>" +
         "The following is the address to your unique list. " +
         "Copy and Past this link to facebook, twitter, or email.<br/>" +
-        "http://" + request.host + "/polls/" + @poll.id.to_s
+        "http://" + request.host + "/nest/" + @poll.id.to_s
       redirect_to @poll
     else
+      puts "nest did not save correctly"
+      puts "there are errors" unless @poll
       render :action => 'new'
     end
   end
@@ -55,5 +63,8 @@ class PollsController < ApplicationController
   def edit
     redirect_to polls_path
   end
-   
+
+  def new
+    @title = "create a new nest"
+  end
 end

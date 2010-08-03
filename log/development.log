@@ -12276,3 +12276,1020 @@ Processing PollsController#new (for 127.0.0.1 at 2010-08-01 06:00:28) [GET]
 Rendering template within layouts/application
 Rendering polls/new
 Completed in 48ms (View: 30 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-08-01 06:14:30) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 668ms (View: 244 | 200 OK [http://localhost/]
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-08-01 06:14:35) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 97ms (View: 39 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-01 06:14:44) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 115ms (View: 91 | 200 OK [http://localhost/application/index]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-01 06:15:35) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-01 06:17:10) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-01 06:19:13) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-01 14:53:05) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 24ms (View: 12 | 200 OK [http://localhost/]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-01 14:53:09) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+
+ActionView::TemplateError (undefined local variable or method `polls_path' for #<ActionView::Base:0x96e2018>) on line #3 of app/views/polls/new.html.erb:
+1: <% title "New Poll" %>
+2: 
+3: <% form_for :poll, :url => polls_path do |f| %>
+4:   <div class="span-16 last">
+5:     <label for="title">Title </label>
+6:     <%= f.text_field :title%>
+
+    app/views/polls/new.html.erb:3
+
+Rendered rescues/_trace (224.1ms)
+Rendered rescues/_request_and_response (4.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-01 14:53:47) [GET]
+  Parameters: {"id"=>"new"}
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:127:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:61:in `find_one'
+  plucky (0.3.2) lib/plucky/query.rb:79:in `first'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:29:in `first'
+  plucky (0.3.2) lib/plucky/query.rb:68:in `find'
+  app/controllers/polls_controller.rb:7:in `show'
+
+Rendered rescues/_trace (435.3ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-01 14:54:38) [GET]
+Rendering template within layouts/application
+Rendering application/index
+
+ActionView::TemplateError (undefined local variable or method `new_poll_path' for #<ActionView::Base:0x96a27d8>) on line #25 of app/views/layouts/application.html.erb:
+22:       <div class="span-15 last menu">
+23:         <ul>
+24:           <li><%= link_to "Home", "/" %> </li>
+25:           <li><%= link_to "Create Poll", new_poll_path %> </li>
+26:         </ul>
+27:       </div>
+28: 
+
+    app/views/layouts/application.html.erb:25
+
+Rendered rescues/_trace (185.3ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-01 15:00:00) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 23ms (View: 11 | 200 OK [http://localhost/]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-01 15:00:03) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 46ms (View: 17 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-08-01 15:00:08) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+
+ActionView::TemplateError (undefined method `edit_poll_path' for #<ActionView::Base:0x945078c>) on line #12 of app/views/polls/index.html.erb:
+9:     <tr>
+10:       <td><%=h poll.title %></td>
+11:       <td><%= link_to "Show", poll_path(poll) %></td>
+12:       <td><%= link_to "Edit", edit_poll_path(poll) %></td>
+13:       <td><%= link_to "Destroy", poll, :confirm => 'Are you sure?', :method => :delete %></td>
+14:     </tr>
+15:   <% end %>
+
+    app/views/polls/index.html.erb:12
+    app/views/polls/index.html.erb:8:in `each'
+    app/views/polls/index.html.erb:8
+
+Rendered rescues/_trace (206.6ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-08-01 15:01:14) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 192ms (View: 104 | 200 OK [http://localhost/nest]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-01 15:01:17) [GET]
+  Parameters: {"id"=>"4c548096baba320a4000016b"}
+Rendering template within layouts/application
+Rendering polls/show
+
+ActionView::TemplateError (No route matches {:action=>"vote_name"}) on line #14 of app/views/polls/show.html.erb:
+11:     <div class="clear">&nbsp;</div>
+12:     <% @boys.each do |bname| %>
+13:       <div class="spaceit">
+14:         <% form_tag( {:action => 'vote_name'}, :multipart => true) do  %>
+15:           <%= hidden_field_tag(:poll_id, @poll.id) %>
+16:           <%= hidden_field_tag(:name_id, bname.id) %>
+17:           <%= submit_tag bname.name, :class => 'b_button' %>
+
+    mongo (1.0.3) lib/./lib/mongo/util/core_ext.rb:24:in `returning'
+    app/views/polls/show.html.erb:14
+    app/views/polls/show.html.erb:12:in `each'
+    app/views/polls/show.html.erb:12
+
+Rendered rescues/_trace (198.9ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-08-01 15:02:29) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 142ms (View: 53 | 200 OK [http://localhost/nest]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-01 15:02:32) [GET]
+  Parameters: {"id"=>"4c548096baba320a4000016b"}
+Rendering template within layouts/application
+Rendering polls/show
+
+ActionView::TemplateError (No route matches {:action=>"vote_name"}) on line #14 of app/views/polls/show.html.erb:
+11:     <div class="clear">&nbsp;</div>
+12:     <% @boys.each do |bname| %>
+13:       <div class="spaceit">
+14:         <% form_tag( {:action => 'vote_name'}, :multipart => true) do  %>
+15:           <%= hidden_field_tag(:poll_id, @poll.id) %>
+16:           <%= hidden_field_tag(:name_id, bname.id) %>
+17:           <%= submit_tag bname.name, :class => 'b_button' %>
+
+    mongo (1.0.3) lib/./lib/mongo/util/core_ext.rb:24:in `returning'
+    app/views/polls/show.html.erb:14
+    app/views/polls/show.html.erb:12:in `each'
+    app/views/polls/show.html.erb:12
+
+Rendered rescues/_trace (261.8ms)
+Rendered rescues/_request_and_response (1.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-01 15:03:29) [GET]
+
+ActionController::RoutingError (No route matches "/application/index" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-01 15:07:26) [GET]
+  Parameters: {"id"=>"4c548096baba320a4000016b"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 164ms (View: 67 | 200 OK [http://localhost/nest/4c548096baba320a4000016b]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-01 15:07:35) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 80ms (View: 45 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-01 15:07:37) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 52ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-01 15:07:42) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 56ms (View: 37 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-01 15:08:34) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 45ms (View: 25 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-08-01 15:08:40) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 71ms (View: 25 | 200 OK [http://localhost/nest]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-01 15:09:05) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 32ms (View: 20 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-01 21:32:47) [GET]
+Rendering template within layouts/application
+Rendering application/index
+
+ActionView::TemplateError (undefined local variable or method `application_controller' for #<ActionView::Base:0x96fb1bc>) on line #1 of app/views/application/index.html.erb:
+1: <%  title application_controller.app_name + " | " + @title %>
+
+    app/views/application/index.html.erb:1
+
+Rendered rescues/_trace (298.7ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-01 21:33:19) [GET]
+Rendering template within layouts/application
+Rendering application/index
+
+ActionView::TemplateError (undefined local variable or method `application_controller' for #<ActionView::Base:0x94f6c90>) on line #1 of app/views/application/index.html.erb:
+1: <%  title application_controller.app_name %>
+
+    app/views/application/index.html.erb:1
+
+Rendered rescues/_trace (699.6ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-01 21:33:39) [GET]
+Rendering template within layouts/application
+Rendering application/index
+
+ActionView::TemplateError (undefined local variable or method `application_controller' for #<ActionView::Base:0x96ad610>) on line #1 of app/views/application/index.html.erb:
+1: <%=  title application_controller.app_name %>
+
+    app/views/application/index.html.erb:1
+
+Rendered rescues/_trace (139.7ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-01 21:35:24) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 72ms (View: 37 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-01 21:36:10) [GET]
+Rendering template within layouts/application
+Rendering application/index
+
+ActionView::TemplateError (undefined method `app_name' for ApplicationController:Class) on line #1 of app/views/application/index.html.erb:
+1: <%  title ApplicationController.app_name + @title %>
+
+    app/views/application/index.html.erb:1
+
+Rendered rescues/_trace (482.7ms)
+Rendered rescues/_request_and_response (2.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-01 21:36:29) [GET]
+Rendering template within layouts/application
+Rendering application/index
+
+ActionView::TemplateError (undefined method `app_name' for ApplicationController:Class) on line #1 of app/views/application/index.html.erb:
+1: <%  title ApplicationController::app_name + @title %>
+
+    app/views/application/index.html.erb:1
+
+Rendered rescues/_trace (158.2ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-01 21:37:55) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 81ms (View: 46 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-01 21:40:09) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 265ms (View: 250 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-01 21:40:44) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 71ms (View: 50 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-01 21:41:20) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 81ms (View: 54 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-01 21:43:19) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 38ms (View: 14 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-01 21:44:48) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 87ms (View: 53 | 200 OK [http://localhost/]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-01 21:47:49) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+
+ActionView::TemplateError (can't convert nil into String) on line #1 of app/views/polls/new.html.erb:
+1: <% title ApplicationController::Website_name + " | " + @title %>
+2: 
+3: <% form_for :poll, :url => polls_path do |f| %>
+4:   <div class="span-16 last">
+
+    app/views/polls/new.html.erb:1:in `+'
+    app/views/polls/new.html.erb:1
+
+Rendered rescues/_trace (359.4ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-01 21:48:30) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 101ms (View: 74 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-01 21:50:05) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 112ms (View: 93 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-01 21:50:31) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 78ms (View: 53 | 200 OK [http://localhost/nest/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-01 21:50:46) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 53ms (View: 17 | 200 OK [http://localhost/]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-01 21:53:23) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 68ms (View: 43 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-08-01 21:53:26) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 90ms (View: 25 | 200 OK [http://localhost/nest]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-01 21:53:28) [GET]
+  Parameters: {"id"=>"4c548096baba320a4000016b"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 151ms (View: 42 | 200 OK [http://localhost/nest/4c548096baba320a4000016b]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-01 21:54:36) [GET]
+  Parameters: {"id"=>"4c548096baba320a4000016b"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 183ms (View: 95 | 200 OK [http://localhost/nest/4c548096baba320a4000016b]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-01 21:55:03) [GET]
+  Parameters: {"id"=>"4c548096baba320a4000016b"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 194ms (View: 64 | 200 OK [http://localhost/nest/4c548096baba320a4000016b]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-01 22:00:59) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 86ms (View: 46 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-01 22:02:49) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 97ms (View: 76 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-01 22:05:16) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 53ms (View: 27 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-01 22:08:57) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 102ms (View: 78 | 200 OK [http://localhost/]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-01 22:09:24) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 35ms (View: 17 | 200 OK [http://localhost/nest/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-01 22:10:23) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 43ms (View: 21 | 200 OK [http://localhost/]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-01 22:10:49) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 40ms (View: 30 | 200 OK [http://localhost/nest/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-01 22:10:56) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 56ms (View: 16 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-02 19:28:00) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 46ms (View: 27 | 200 OK [http://localhost/]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-02 19:28:11) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 37ms (View: 14 | 200 OK [http://localhost/nest/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-02 19:29:44) [POST]
+  Parameters: {"poll"=>{"title"=>"A very long title", "story"=>"Some great messag"}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"", "name_7"=>"Carol", "name_8"=>"", "name_9"=>"", "name_1"=>"Hal", "name_2"=>""}
+
+ActionController::MethodNotAllowed (Only get requests are allowed.):
+  
+
+Rendered rescues/_trace (164.8ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (method_not_allowed)
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-02 19:30:27) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 70ms (View: 43 | 200 OK [http://localhost/nest/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-02 19:30:32) [POST]
+  Parameters: {"poll"=>{"title"=>"A very long title", "story"=>"Some great messag"}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"", "name_7"=>"Carol", "name_8"=>"", "name_9"=>"", "name_1"=>"Hal", "name_2"=>""}
+
+ActionController::MethodNotAllowed (Only get requests are allowed.):
+  
+
+Rendered rescues/_trace (236.9ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (method_not_allowed)
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-02 19:35:35) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 89ms (View: 52 | 200 OK [http://localhost/nest/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-02 19:35:41) [POST]
+  Parameters: {"poll"=>{"title"=>"A very long title", "story"=>"Some great messag"}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"", "name_7"=>"Carol", "name_8"=>"", "name_9"=>"", "name_1"=>"Hal", "name_2"=>""}
+
+ActionController::MethodNotAllowed (Only get requests are allowed.):
+  
+
+Rendered rescues/_trace (179.3ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (method_not_allowed)
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-02 19:42:24) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 117ms (View: 91 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-02 19:42:29) [POST]
+  Parameters: {"poll"=>{"title"=>"A very long title", "story"=>"Some great messag"}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"", "name_7"=>"Carol", "name_8"=>"", "name_9"=>"", "name_1"=>"Hal", "name_2"=>""}
+Redirected to http://localhost:3000/nest/4c570385baba322297000001
+Completed in 191ms | 302 Found [http://localhost/polls/create]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-02 19:42:29) [GET]
+  Parameters: {"id"=>"4c570385baba322297000001"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 175ms (View: 26 | 200 OK [http://localhost/nest/4c570385baba322297000001]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-02 19:43:21) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 92ms (View: 58 | 200 OK [http://localhost/nest/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-02 19:43:54) [POST]
+  Parameters: {"poll"=>{"title"=>"Another test file", "story"=>"More name s to trry."}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"Beddly", "name_7"=>"", "name_8"=>"Shawna", "name_9"=>"", "name_1"=>"Neddly", "name_2"=>""}
+
+ActionController::MethodNotAllowed (Only get requests are allowed.):
+  
+
+Rendered rescues/_trace (169.6ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (method_not_allowed)
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-02 19:44:24) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 103ms (View: 67 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-02 19:44:28) [POST]
+  Parameters: {"poll"=>{"title"=>"Another test file", "story"=>"More name s to trry."}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"Beddly", "name_7"=>"", "name_8"=>"Shawna", "name_9"=>"", "name_1"=>"Neddly", "name_2"=>""}
+
+NoMethodError (undefined method `validate_length_of' for Poll:Class):
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/dynamic_querying.rb:37:in `method_missing'
+  app/models/poll.rb:8
+  app/controllers/polls_controller.rb:24:in `create'
+
+Rendered rescues/_trace (338.6ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-02 19:44:46) [POST]
+  Parameters: {"poll"=>{"title"=>"Another test file", "story"=>"More name s to trry."}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"Beddly", "name_7"=>"", "name_8"=>"Shawna", "name_9"=>"", "name_1"=>"Neddly", "name_2"=>""}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/models/poll.rb:20:in `add_babyname'
+  app/controllers/polls_controller.rb:32:in `create'
+  app/controllers/polls_controller.rb:25:in `each'
+  app/controllers/polls_controller.rb:25:in `create'
+
+Rendered rescues/_trace (236.1ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-02 19:48:24) [POST]
+  Parameters: {"poll"=>{"title"=>"Another test file", "story"=>"More name s to trry."}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"Beddly", "name_7"=>"", "name_8"=>"Shawna", "name_9"=>"", "name_1"=>"Neddly", "name_2"=>""}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/models/poll.rb:20:in `add_babyname'
+  app/controllers/polls_controller.rb:32:in `create'
+  app/controllers/polls_controller.rb:25:in `each'
+  app/controllers/polls_controller.rb:25:in `create'
+
+Rendered rescues/_trace (121.5ms)
+Rendered rescues/_request_and_response (6.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-02 19:49:06) [POST]
+  Parameters: {"poll"=>{"title"=>"Another test file", "story"=>"More name s to trry."}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"Beddly", "name_7"=>"", "name_8"=>"Shawna", "name_9"=>"", "name_1"=>"Neddly", "name_2"=>""}
+
+TypeError (can't convert nil into String):
+  app/models/poll.rb:20:in `+'
+  app/models/poll.rb:20:in `add_babyname'
+  app/controllers/polls_controller.rb:32:in `create'
+  app/controllers/polls_controller.rb:25:in `each'
+  app/controllers/polls_controller.rb:25:in `create'
+
+Rendered rescues/_trace (163.0ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-02 19:49:46) [POST]
+  Parameters: {"poll"=>{"title"=>"Another test file", "story"=>"More name s to trry."}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"Beddly", "name_7"=>"", "name_8"=>"Shawna", "name_9"=>"", "name_1"=>"Neddly", "name_2"=>""}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/models/poll.rb:21:in `add_babyname'
+  app/controllers/polls_controller.rb:32:in `create'
+  app/controllers/polls_controller.rb:25:in `each'
+  app/controllers/polls_controller.rb:25:in `create'
+
+Rendered rescues/_trace (239.3ms)
+Rendered rescues/_request_and_response (1.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-02 19:50:24) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 90ms (View: 67 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-02 19:50:33) [POST]
+  Parameters: {"poll"=>{"title"=>"Another test file", "story"=>"More name s to trry."}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"Beddly", "name_7"=>"", "name_8"=>"Shawna", "name_9"=>"", "name_1"=>"Neddly", "name_2"=>""}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/models/poll.rb:21:in `add_babyname'
+  app/controllers/polls_controller.rb:32:in `create'
+  app/controllers/polls_controller.rb:25:in `each'
+  app/controllers/polls_controller.rb:25:in `create'
+
+Rendered rescues/_trace (162.4ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-02 19:51:19) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 88ms (View: 47 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-02 19:51:22) [POST]
+  Parameters: {"poll"=>{"title"=>"Another test file", "story"=>"More name s to trry."}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"Beddly", "name_7"=>"", "name_8"=>"Shawna", "name_9"=>"", "name_1"=>"Neddly", "name_2"=>""}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/models/poll.rb:21:in `add_babyname'
+  app/controllers/polls_controller.rb:32:in `create'
+  app/controllers/polls_controller.rb:25:in `each'
+  app/controllers/polls_controller.rb:25:in `create'
+
+Rendered rescues/_trace (150.9ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-03 04:12:40) [POST]
+  Parameters: {"poll"=>{"title"=>"Another test file", "story"=>"More name s to trry."}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"Beddly", "name_7"=>"", "name_8"=>"Shawna", "name_9"=>"", "name_1"=>"Neddly", "name_2"=>""}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/models/poll.rb:21:in `add_babyname'
+  app/controllers/polls_controller.rb:32:in `create'
+  app/controllers/polls_controller.rb:25:in `each'
+  app/controllers/polls_controller.rb:25:in `create'
+
+Rendered rescues/_trace (343.7ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-03 04:13:08) [POST]
+  Parameters: {"poll"=>{"title"=>"Another test file", "story"=>"More name s to trry."}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"Beddly", "name_7"=>"", "name_8"=>"Shawna", "name_9"=>"", "name_1"=>"Neddly", "name_2"=>""}
+Redirected to http://localhost:3000/nest/4c577b34baba322297000012
+Completed in 180ms | 302 Found [http://localhost/polls/create]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-03 04:13:08) [GET]
+  Parameters: {"id"=>"4c577b34baba322297000012"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 130ms (View: 27 | 200 OK [http://localhost/nest/4c577b34baba322297000012]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-03 04:16:36) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 55ms (View: 46 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-03 04:16:52) [POST]
+  Parameters: {"poll"=>{"title"=>"Super long", "story"=>"Tada"}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"Wendy", "name_7"=>"", "name_8"=>"", "name_9"=>"", "name_1"=>"Paul", "name_2"=>""}
+Redirected to http://localhost:3000/nest/4c577c15baba322297000016
+Completed in 233ms | 302 Found [http://localhost/polls/create]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-03 04:16:53) [GET]
+  Parameters: {"id"=>"4c577c15baba322297000016"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 128ms (View: 35 | 200 OK [http://localhost/nest/4c577c15baba322297000016]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-03 04:17:24) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 62ms (View: 37 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-03 04:17:43) [POST]
+  Parameters: {"poll"=>{"title"=>"More to see", "story"=>"none to see"}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"some", "name_7"=>"", "name_8"=>"", "name_9"=>"", "name_1"=>"Wow", "name_2"=>""}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/models/poll.rb:21:in `add_babyname'
+  app/controllers/polls_controller.rb:33:in `create'
+  app/controllers/polls_controller.rb:26:in `each'
+  app/controllers/polls_controller.rb:26:in `create'
+
+Rendered rescues/_trace (145.0ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-03 04:18:35) [POST]
+  Parameters: {"poll"=>{"title"=>"More", "story"=>"none to see"}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"some", "name_7"=>"", "name_8"=>"", "name_9"=>"", "name_1"=>"Wow", "name_2"=>""}
+Redirected to http://localhost:3000/nest/4c577c7bbaba32229700001b
+Completed in 229ms | 302 Found [http://localhost/polls/create]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-03 04:18:35) [GET]
+  Parameters: {"id"=>"4c577c7bbaba32229700001b"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 84ms (View: 20 | 200 OK [http://localhost/nest/4c577c7bbaba32229700001b]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-03 04:21:33) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 67ms (View: 38 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-03 04:21:54) [POST]
+  Parameters: {"poll"=>{"title"=>"Longer than 5", "story"=>""}, "name_3"=>"", "name_10"=>"", "name_4"=>"Sam", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"Maxine", "name_7"=>"Shirley", "name_8"=>"", "name_9"=>"", "name_1"=>"Carl", "name_2"=>""}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/models/poll.rb:21:in `add_babyname'
+  app/controllers/polls_controller.rb:33:in `create'
+  app/controllers/polls_controller.rb:26:in `each'
+  app/controllers/polls_controller.rb:26:in `create'
+
+Rendered rescues/_trace (419.0ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-03 04:26:25) [POST]
+  Parameters: {"poll"=>{"title"=>"Longer than 5", "story"=>""}, "name_3"=>"", "name_10"=>"", "name_4"=>"Sam", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"Maxine", "name_7"=>"Shirley", "name_8"=>"", "name_9"=>"", "name_1"=>"Carl", "name_2"=>""}
+
+NoMethodError (undefined method `error?' for #<Poll:0x9617cdc>):
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/dirty.rb:26:in `method_missing'
+  app/controllers/polls_controller.rb:25:in `create'
+
+Rendered rescues/_trace (162.3ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-03 04:27:01) [POST]
+  Parameters: {"poll"=>{"title"=>"Longer than 5", "story"=>""}, "name_3"=>"", "name_10"=>"", "name_4"=>"Sam", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"Maxine", "name_7"=>"Shirley", "name_8"=>"", "name_9"=>"", "name_1"=>"Carl", "name_2"=>""}
+
+NoMethodError (undefined method `error?' for Poll:Class):
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/dynamic_querying.rb:37:in `method_missing'
+  app/controllers/polls_controller.rb:25:in `create'
+
+Rendered rescues/_trace (156.8ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-03 04:31:06) [POST]
+  Parameters: {"poll"=>{"title"=>"Longer than 5", "story"=>""}, "name_3"=>"", "name_10"=>"", "name_4"=>"Sam", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"Maxine", "name_7"=>"Shirley", "name_8"=>"", "name_9"=>"", "name_1"=>"Carl", "name_2"=>""}
+Rendering template within layouts/application
+Rendering polls/new
+
+ActionView::TemplateError (can't convert nil into String) on line #1 of app/views/polls/new.html.erb:
+1: <% title ApplicationController::Website_name + " | " + @title %>
+2: 
+3: <% form_for :poll, :url => {:action => "create"} do |f| %>
+4:   <div class="span-16 last">
+
+    app/views/polls/new.html.erb:1:in `+'
+    app/views/polls/new.html.erb:1
+    app/controllers/polls_controller.rb:43:in `create'
+
+Rendered rescues/_trace (152.2ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-03 04:33:20) [POST]
+  Parameters: {"poll"=>{"title"=>"Longer than 5", "story"=>""}, "name_3"=>"", "name_10"=>"", "name_4"=>"Sam", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"Maxine", "name_7"=>"Shirley", "name_8"=>"", "name_9"=>"", "name_1"=>"Carl", "name_2"=>""}
+Rendering template within layouts/application
+Rendering polls/new
+
+ActionView::TemplateError (can't convert nil into String) on line #1 of app/views/polls/new.html.erb:
+1: <% title ApplicationController::Website_name + " | " + @title %>
+2: 
+3: <% form_for :poll, :url => {:action => "create"} do |f| %>
+4:   <div class="span-16 last">
+
+    app/views/polls/new.html.erb:1:in `+'
+    app/views/polls/new.html.erb:1
+    app/controllers/polls_controller.rb:44:in `create'
+
+Rendered rescues/_trace (256.7ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-03 04:37:09) [POST]
+  Parameters: {"poll"=>{"title"=>"Longer than 5", "story"=>""}, "name_3"=>"", "name_10"=>"", "name_4"=>"Sam", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"Maxine", "name_7"=>"Shirley", "name_8"=>"", "name_9"=>"", "name_1"=>"Carl", "name_2"=>""}
+Redirected to http://localhost:3000/nest
+Completed in 202ms | 302 Found [http://localhost/polls/create]
+
+
+Processing PollsController#index (for 127.0.0.1 at 2010-08-03 04:37:09) [GET]
+Rendering template within layouts/application
+Rendering polls/index
+Completed in 208ms (View: 131 | 200 OK [http://localhost/nest]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 04:38:01) [DELETE]
+  Parameters: {"authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+
+ActionController::MethodNotAllowed (Only get requests are allowed.):
+  
+
+Rendered rescues/_trace (186.0ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (method_not_allowed)
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-03 04:38:16) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 88ms (View: 57 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-03 04:38:37) [POST]
+  Parameters: {"poll"=>{"title"=>"Ryan Test", "story"=>""}, "name_3"=>"Bret", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"Sammy", "name_7"=>"AJ", "name_8"=>"", "name_9"=>"", "name_1"=>"Vince", "name_2"=>"Bert"}
+Redirected to http://localhost:3000/nest/new
+Completed in 330ms | 302 Found [http://localhost/polls/create]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-03 04:38:38) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 27ms (View: 16 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-03 04:41:46) [POST]
+  Parameters: {"poll"=>{"title"=>"Some long name", "story"=>"A great big story"}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"AJ", "name_7"=>"MAry", "name_8"=>"", "name_9"=>"", "name_1"=>"Ted", "name_2"=>"Max"}
+
+ActionView::MissingTemplate (Missing template polls/create.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-03 04:55:37) [POST]
+  Parameters: {"poll"=>{"title"=>"Some long name", "story"=>"A great big story"}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"AJ", "name_7"=>"MAry", "name_8"=>"", "name_9"=>"", "name_1"=>"Ted", "name_2"=>"Max"}
+
+NoMethodError (undefined method `render_action' for #<PollsController:0x95040e8>):
+  app/controllers/polls_controller.rb:46:in `create'
+
+Rendered rescues/_trace (181.6ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-03 04:57:18) [POST]
+  Parameters: {"poll"=>{"title"=>"Some long name", "story"=>"A great big story"}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"AJ", "name_7"=>"MAry", "name_8"=>"", "name_9"=>"", "name_1"=>"Ted", "name_2"=>"Max"}
+
+NameError (undefined local variable or method `action' for #<PollsController:0x8c4559c>):
+  app/controllers/polls_controller.rb:46:in `create'
+
+Rendered rescues/_trace (450.0ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-03 04:57:36) [POST]
+  Parameters: {"poll"=>{"title"=>"Some long name", "story"=>"A great big story"}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"AJ", "name_7"=>"MAry", "name_8"=>"", "name_9"=>"", "name_1"=>"Ted", "name_2"=>"Max"}
+Rendering template within layouts/application
+Rendering polls/new
+
+ActionView::TemplateError (can't convert nil into String) on line #1 of app/views/polls/new.html.erb:
+1: <% title ApplicationController::Website_name + " | " + @title %>
+2: 
+3: <% form_for :poll, :url => {:action => "create"} do |f| %>
+4:   <div class="span-16 last">
+
+    app/views/polls/new.html.erb:1:in `+'
+    app/views/polls/new.html.erb:1
+    app/controllers/polls_controller.rb:46:in `create'
+
+Rendered rescues/_trace (158.2ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-03 04:58:19) [POST]
+  Parameters: {"poll"=>{"title"=>"Some long name", "story"=>"A great big story"}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"AJ", "name_7"=>"MAry", "name_8"=>"", "name_9"=>"", "name_1"=>"Ted", "name_2"=>"Max"}
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 371ms (View: 97 | 200 OK [http://localhost/polls/create]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-03 04:58:36) [POST]
+  Parameters: {"poll"=>{"title"=>"Some long name", "story"=>"A great big story"}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"", "name_7"=>"", "name_8"=>"", "name_9"=>"", "name_1"=>"Cat", "name_2"=>""}
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 102ms (View: 46 | 200 OK [http://localhost/polls/create]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-03 05:00:01) [POST]
+  Parameters: {"poll"=>{"title"=>"Some long name", "story"=>"A great big story"}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"", "name_7"=>"", "name_8"=>"", "name_9"=>"", "name_1"=>"", "name_2"=>""}
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 160ms (View: 85 | 200 OK [http://localhost/polls/create]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-03 05:01:57) [POST]
+  Parameters: {"poll"=>{"title"=>"Some long name", "story"=>"A great big story"}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"", "name_7"=>"", "name_8"=>"", "name_9"=>"", "name_1"=>"", "name_2"=>""}
+
+ArgumentError (key Poll/Validatable::ValidatesLengthOf/title must be unique, provide the :key option to specify a unique key):
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/jnunemaker-validatable-1.8.4/lib/validatable/validations/validation_base.rb:61:in `raise_error_if_key_is_dup'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/jnunemaker-validatable-1.8.4/lib/validatable/validations/validation_base.rb:56:in `initialize'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/jnunemaker-validatable-1.8.4/lib/validatable/validatable_class_methods.rb:66:in `new'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/jnunemaker-validatable-1.8.4/lib/validatable/validatable_class_methods.rb:66:in `add_validations'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/jnunemaker-validatable-1.8.4/lib/validatable/validatable_class_methods.rb:65:in `each'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/jnunemaker-validatable-1.8.4/lib/validatable/validatable_class_methods.rb:65:in `add_validations'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/jnunemaker-validatable-1.8.4/lib/validatable/macros.rb:75:in `validates_length_of'
+  app/models/poll.rb:10
+  app/controllers/polls_controller.rb:24:in `create'
+
+Rendered rescues/_trace (618.0ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-03 05:02:20) [POST]
+  Parameters: {"poll"=>{"title"=>"Some long name", "story"=>"A great big story"}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"", "name_7"=>"", "name_8"=>"", "name_9"=>"", "name_1"=>"", "name_2"=>""}
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 190ms (View: 74 | 200 OK [http://localhost/polls/create]
