@@ -13293,3 +13293,9 @@ Processing PollsController#create (for 127.0.0.1 at 2010-08-03 05:02:20) [POST]
 Rendering template within layouts/application
 Rendering polls/new
 Completed in 190ms (View: 74 | 200 OK [http://localhost/polls/create]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 13:57:35) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 45ms (View: 17 | 200 OK [http://localhost/]
