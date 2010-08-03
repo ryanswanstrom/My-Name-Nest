@@ -8,7 +8,7 @@ class ApplicationController < ActionController::Base
   # Scrub sensitive parameters from your log
   # filter_parameter_logging :password
 
-  Website_name = 'babynamenest.com'
+  Website_name = 'baby name nest'
   def index
     @title = "Vote on baby names"
   end
