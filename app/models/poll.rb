@@ -3,24 +3,16 @@ class Poll
 	
 	key :title, String
 	key :story, String
-  key :babyname_ids, Array
 	timestamps!
+  has_many :babynames
   
-  validates_length_of :title, :maximum => 5
-  validates_length_of :story, :maximum => 5
-
-  def babynames
-    Babyname.find(self.babyname_ids)
-  end
-
-  def add_babyname(name, is_girl)
-    babyname = Babyname.new()
-    babyname.name = name
-    babyname.is_girl = is_girl
-    babyname.num_votes = 0
-    puts "some error" unless babyname.save
-    puts "babyname_ids are nil" unless @babyname_ids
-    @babyname_ids << babyname.id
+  validates_length_of :title, :maximum => 5, :message => "allows only 50 characters"
+  validates_length_of :story, :maximum => 5000, :message => "allows only 5000 characters"
+  
+  def babynames_attributes=(babynames_attributes)
+    babynames_attributes.each do |attributes|
+      babynames.build(attributes)
+    end
   end
 
 end

@@ -8,11 +8,13 @@ class PollsController < ApplicationController
     @poll = Poll.find(params[:id])
     @boys = Array.new
     @girls = Array.new
-    @poll.babynames.each do |thename|
-      if thename.is_girl
-        @girls << thename
-      else
-        @boys << thename
+    if @poll.babynames
+      @poll.babynames.each do |thename|
+        if thename.is_girl
+          @girls << thename
+        else
+          @boys << thename
+        end
       end
     end
     unless @poll.title.empty?
@@ -21,28 +23,16 @@ class PollsController < ApplicationController
   end
   
   def create
+    @title = "try creating a nest again"
     @poll = Poll.new(params[:poll])
-    @poll.babyname_ids = Array.new
-    (1..10).each do |i|
-      babyname = params["name_".concat(i.to_s)]
-      unless babyname.empty?
-        is_girl = true
-        if i < 6
-          is_girl = false
-        end
-        @poll.add_babyname(babyname ,is_girl)
-      end
-    end
     if @poll.valid?
       @poll.save
       flash[:notice] = "Successfully created poll.<br/>" +
-        "The following is the address to your unique list. " +
-        "Copy and Past this link to facebook, twitter, or email.<br/>" +
-        "http://" + request.host + "/nest/" + @poll.id.to_s
+        "The following is the address to your unique list. <br/>" +
+        "Copy and Paste this link to facebook, twitter, or email.<br/>" +
+        "http://" + request.host + "/nest/" + @poll.id.to_s 
       redirect_to @poll
     else
-      puts "nest did not save correctly"
-      puts "there are errors" unless @poll
       render :action => 'new'
     end
   end
@@ -55,8 +45,8 @@ class PollsController < ApplicationController
   end
 
   def destroy
-#    Poll.destroy(params[:id])
-#    Poll.delete_all
+    #    Poll.destroy(params[:id])
+    #    Poll.delete_all
     redirect_to polls_path
   end
 
@@ -66,5 +56,9 @@ class PollsController < ApplicationController
 
   def new
     @title = "create a new nest"
+    @poll = Poll.new
+    10.times{@poll.babynames.build}
   end
+
+  
 end

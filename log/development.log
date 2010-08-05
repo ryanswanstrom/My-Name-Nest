@@ -13299,3 +13299,1805 @@ Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 13:57:35) [G
 Rendering template within layouts/application
 Rendering application/index
 Completed in 45ms (View: 17 | 200 OK [http://localhost/]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-03 19:53:30) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 251ms (View: 51 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-03 19:54:15) [POST]
+  Parameters: {"poll"=>{"title"=>"Trying with associations", "story"=>"A very long story."}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"Sally", "name_7"=>"", "name_8"=>"", "name_9"=>"", "name_1"=>"Bart", "name_2"=>""}
+
+NameError (uninitialized constant Babyname::Object_Id):
+  app/models/babyname.rb:8
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/associations/base.rb:32:in `klass'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/associations/base.rb:60:in `embeddable?'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/associations.rb:73:in `embedded_associations'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/associations.rb:72:in `select'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/associations.rb:72:in `embedded_associations'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/callbacks.rb:84:in `run_callbacks'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/callbacks.rb:54:in `valid?'
+  app/controllers/polls_controller.rb:36:in `create'
+
+Rendered rescues/_trace (171.1ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-03 19:55:39) [POST]
+  Parameters: {"poll"=>{"title"=>"Trying with associations", "story"=>"A very long story."}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"Sally", "name_7"=>"", "name_8"=>"", "name_9"=>"", "name_1"=>"Bart", "name_2"=>""}
+Redirected to http://localhost:3000/nest/4c58581bbaba322297000055
+Completed in 140ms | 302 Found [http://localhost/polls/create]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-03 19:55:40) [GET]
+  Parameters: {"id"=>"4c58581bbaba322297000055"}
+
+NoMethodError (undefined method `babyname_ids' for #<Poll:0xa5c22e0>):
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/dirty.rb:26:in `method_missing'
+  app/models/poll.rb:15:in `babynames'
+  app/controllers/polls_controller.rb:11:in `show'
+
+Rendered rescues/_trace (178.4ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-03 19:56:15) [GET]
+  Parameters: {"id"=>"4c58581bbaba322297000055"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+  app/controllers/polls_controller.rb:11:in `show'
+
+Rendered rescues/_trace (116.5ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-03 19:57:20) [GET]
+  Parameters: {"id"=>"4c58581bbaba322297000055"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 94ms (View: 4 | 200 OK [http://localhost/nest/4c58581bbaba322297000055]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-04 04:21:52) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 64ms (View: 34 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-04 04:22:44) [POST]
+  Parameters: {"poll"=>{"title"=>"Another try", "story"=>"What a great baby."}, "name_3"=>"Timmy", "name_10"=>"Nicki", "name_4"=>"Ted", "submit"=>"Publish", "name_5"=>"Yame", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"Gina", "name_7"=>"Girly", "name_8"=>"Ginnie", "name_9"=>"Oren", "name_1"=>"MArk", "name_2"=>"Hank"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.new):
+  app/controllers/polls_controller.rb:36:in `create'
+  app/controllers/polls_controller.rb:28:in `each'
+  app/controllers/polls_controller.rb:28:in `create'
+
+Rendered rescues/_trace (353.8ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-04 04:33:26) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.build):
+  app/controllers/polls_controller.rb:73:in `new'
+  app/controllers/polls_controller.rb:73:in `times'
+  app/controllers/polls_controller.rb:73:in `new'
+
+Rendered rescues/_trace (173.6ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-04 04:34:59) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.build):
+  app/controllers/polls_controller.rb:73:in `new'
+  app/controllers/polls_controller.rb:73:in `times'
+  app/controllers/polls_controller.rb:73:in `new'
+
+Rendered rescues/_trace (170.4ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-04 04:41:25) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 248ms (View: 23 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-04 04:42:08) [POST]
+  Parameters: {"poll"=>{"title"=>"A new One", "story"=>"Can you guess?"}, "name_3"=>"Jacob", "name_10"=>"Saryn", "name_4"=>"John", "submit"=>"Publish", "name_5"=>"Heff", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"Sally", "name_7"=>"Susan", "name_8"=>"Sara", "name_9"=>"Sarah", "name_1"=>"MArk", "name_2"=>"Chris"}
+
+NoMethodError (undefined method `new' for []:Array):
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/associations/proxy.rb:95:in `send'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/associations/proxy.rb:95:in `method_missing'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/dynamic_querying.rb:37:in `method_missing'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/associations/many_documents_proxy.rb:76:in `method_missing'
+  app/controllers/polls_controller.rb:36:in `create'
+  app/controllers/polls_controller.rb:28:in `each'
+  app/controllers/polls_controller.rb:28:in `create'
+
+Rendered rescues/_trace (134.1ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-04 04:44:50) [POST]
+  Parameters: {"poll"=>{"title"=>"A new One", "story"=>"Can you guess?"}, "name_3"=>"Jacob", "name_10"=>"Saryn", "name_4"=>"John", "submit"=>"Publish", "name_5"=>"Heff", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"Sally", "name_7"=>"Susan", "name_8"=>"Sara", "name_9"=>"Sarah", "name_1"=>"MArk", "name_2"=>"Chris"}
+Redirected to http://localhost:3000/nest/4c58d422baba322297000066
+Completed in 232ms | 302 Found [http://localhost/polls/create]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-04 04:44:51) [GET]
+  Parameters: {"id"=>"4c58d422baba322297000066"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 169ms (View: 91 | 200 OK [http://localhost/nest/4c58d422baba322297000066]
+
+
+Processing PollsController#vote_name (for 127.0.0.1 at 2010-08-04 04:45:02) [POST]
+  Parameters: {"commit"=>"MArk", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_id"=>"4c58d422baba322297000067", "poll_id"=>"4c58d422baba322297000066"}
+Redirected to http://localhost:3000/nest/4c58d422baba322297000066
+Completed in 113ms | 302 Found [http://localhost/polls/vote_name]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-04 04:45:03) [GET]
+  Parameters: {"id"=>"4c58d422baba322297000066"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 169ms (View: 89 | 200 OK [http://localhost/nest/4c58d422baba322297000066]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-04 04:48:55) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 146ms (View: 22 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-04 04:49:44) [POST]
+  Parameters: {"poll"=>{"title"=>"Next try", "story"=>"what a deal"}, "name_3"=>"Ted", "name_10"=>"Maxime", "name_4"=>"Tess", "submit"=>"Publish", "name_5"=>"Jon", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"Tessa", "name_7"=>"Charolyn", "name_8"=>"Saryn", "name_9"=>"Sara", "name_1"=>"Tim", "name_2"=>"Tom"}
+Redirected to http://localhost:3000/nest/4c58d548baba32229700007c
+Completed in 188ms | 302 Found [http://localhost/polls/create]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-04 04:49:44) [GET]
+  Parameters: {"id"=>"4c58d548baba32229700007c"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 182ms (View: 103 | 200 OK [http://localhost/nest/4c58d548baba32229700007c]
+
+
+Processing PollsController#vote_name (for 127.0.0.1 at 2010-08-04 04:49:50) [POST]
+  Parameters: {"commit"=>"Tom", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_id"=>"4c58d548baba32229700007e", "poll_id"=>"4c58d548baba32229700007c"}
+Redirected to http://localhost:3000/nest/4c58d548baba32229700007c
+Completed in 121ms | 302 Found [http://localhost/polls/vote_name]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-04 04:49:50) [GET]
+  Parameters: {"id"=>"4c58d548baba32229700007c"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 253ms (View: 135 | 200 OK [http://localhost/nest/4c58d548baba32229700007c]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-04 04:51:17) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 243ms (View: 20 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-04 04:51:36) [POST]
+  Parameters: {"poll"=>{"title"=>"Super long", "story"=>""}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"Keri", "name_7"=>"", "name_8"=>"", "name_9"=>"", "name_1"=>"Mark", "name_2"=>"Ted"}
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 263ms (View: 74 | 200 OK [http://localhost/polls/create]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-04 04:53:33) [POST]
+  Parameters: {"poll"=>{"title"=>"Super long", "story"=>"What great choices"}, "name_3"=>"", "name_10"=>"", "name_4"=>"", "submit"=>"Publish", "name_5"=>"", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"", "name_7"=>"Betsy", "name_8"=>"", "name_9"=>"", "name_1"=>"Karl", "name_2"=>""}
+Redirected to http://localhost:3000/nest/4c58d62dbaba322297000096
+Completed in 214ms | 302 Found [http://localhost/polls/create]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-04 04:53:33) [GET]
+  Parameters: {"id"=>"4c58d62dbaba322297000096"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 97ms (View: 26 | 200 OK [http://localhost/nest/4c58d62dbaba322297000096]
+
+
+Processing PollsController#vote_name (for 127.0.0.1 at 2010-08-04 04:53:36) [POST]
+  Parameters: {"commit"=>"Karl", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_id"=>"4c58d62dbaba322297000097", "poll_id"=>"4c58d62dbaba322297000096"}
+Redirected to http://localhost:3000/nest/4c58d62dbaba322297000096
+Completed in 165ms | 302 Found [http://localhost/polls/vote_name]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-04 04:53:36) [GET]
+  Parameters: {"id"=>"4c58d62dbaba322297000096"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 163ms (View: 25 | 200 OK [http://localhost/nest/4c58d62dbaba322297000096]
+
+
+Processing PollsController#vote_name (for 127.0.0.1 at 2010-08-04 04:53:38) [POST]
+  Parameters: {"commit"=>"Karl", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_id"=>"4c58d62dbaba322297000097", "poll_id"=>"4c58d62dbaba322297000096"}
+Redirected to http://localhost:3000/nest/4c58d62dbaba322297000096
+Completed in 174ms | 302 Found [http://localhost/polls/vote_name]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-04 04:53:39) [GET]
+  Parameters: {"id"=>"4c58d62dbaba322297000096"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 115ms (View: 29 | 200 OK [http://localhost/nest/4c58d62dbaba322297000096]
+
+
+Processing PollsController#vote_name (for 127.0.0.1 at 2010-08-04 04:53:40) [POST]
+  Parameters: {"commit"=>"Karl", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_id"=>"4c58d62dbaba322297000097", "poll_id"=>"4c58d62dbaba322297000096"}
+Redirected to http://localhost:3000/nest/4c58d62dbaba322297000096
+Completed in 67ms | 302 Found [http://localhost/polls/vote_name]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-04 04:53:40) [GET]
+  Parameters: {"id"=>"4c58d62dbaba322297000096"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 93ms (View: 25 | 200 OK [http://localhost/nest/4c58d62dbaba322297000096]
+
+
+Processing PollsController#vote_name (for 127.0.0.1 at 2010-08-04 04:53:42) [POST]
+  Parameters: {"commit"=>"Betsy", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_id"=>"4c58d62dbaba322297000098", "poll_id"=>"4c58d62dbaba322297000096"}
+Redirected to http://localhost:3000/nest/4c58d62dbaba322297000096
+Completed in 152ms | 302 Found [http://localhost/polls/vote_name]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-04 04:53:42) [GET]
+  Parameters: {"id"=>"4c58d62dbaba322297000096"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 154ms (View: 46 | 200 OK [http://localhost/nest/4c58d62dbaba322297000096]
+
+
+Processing PollsController#vote_name (for 127.0.0.1 at 2010-08-04 04:53:44) [POST]
+  Parameters: {"commit"=>"Betsy", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_id"=>"4c58d62dbaba322297000098", "poll_id"=>"4c58d62dbaba322297000096"}
+Redirected to http://localhost:3000/nest/4c58d62dbaba322297000096
+Completed in 83ms | 302 Found [http://localhost/polls/vote_name]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-04 04:53:44) [GET]
+  Parameters: {"id"=>"4c58d62dbaba322297000096"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 99ms (View: 25 | 200 OK [http://localhost/nest/4c58d62dbaba322297000096]
+
+
+Processing PollsController#vote_name (for 127.0.0.1 at 2010-08-04 04:54:10) [POST]
+  Parameters: {"commit"=>"Betsy", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_id"=>"4c58d62dbaba322297000098", "poll_id"=>"4c58d62dbaba322297000096"}
+Redirected to http://localhost:3000/nest/4c58d62dbaba322297000096
+Completed in 156ms | 302 Found [http://localhost/polls/vote_name]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-04 04:54:10) [GET]
+  Parameters: {"id"=>"4c58d62dbaba322297000096"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 136ms (View: 35 | 200 OK [http://localhost/nest/4c58d62dbaba322297000096]
+
+
+Processing PollsController#vote_name (for 127.0.0.1 at 2010-08-04 04:54:13) [POST]
+  Parameters: {"commit"=>"Betsy", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_id"=>"4c58d62dbaba322297000098", "poll_id"=>"4c58d62dbaba322297000096"}
+Redirected to http://localhost:3000/nest/4c58d62dbaba322297000096
+Completed in 156ms | 302 Found [http://localhost/polls/vote_name]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-04 04:54:13) [GET]
+  Parameters: {"id"=>"4c58d62dbaba322297000096"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 136ms (View: 35 | 200 OK [http://localhost/nest/4c58d62dbaba322297000096]
+
+
+Processing PollsController#vote_name (for 127.0.0.1 at 2010-08-04 04:54:15) [POST]
+  Parameters: {"commit"=>"Betsy", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_id"=>"4c58d62dbaba322297000098", "poll_id"=>"4c58d62dbaba322297000096"}
+Redirected to http://localhost:3000/nest/4c58d62dbaba322297000096
+Completed in 181ms | 302 Found [http://localhost/polls/vote_name]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-04 04:54:15) [GET]
+  Parameters: {"id"=>"4c58d62dbaba322297000096"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 128ms (View: 36 | 200 OK [http://localhost/nest/4c58d62dbaba322297000096]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-04 05:09:01) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 227ms (View: 103 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-04 05:09:56) [POST]
+  Parameters: {"poll"=>{"title"=>"Wow a story", "story"=>"more stuff", "babyname_attributes"=>[{"name"=>"Ted"}, {"name"=>"Mak"}, {"name"=>"Jon"}, {"name"=>"James"}, {"name"=>"Johnny"}, {"name"=>"Wally"}, {"name"=>"Superman"}, {"name"=>""}, {"name"=>""}, {"name"=>""}]}, "name_10"=>"", "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"Sall", "name_7"=>"", "name_8"=>"", "name_9"=>""}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.empty?):
+  app/controllers/polls_controller.rb:30:in `create'
+  app/controllers/polls_controller.rb:28:in `each'
+  app/controllers/polls_controller.rb:28:in `create'
+
+Rendered rescues/_trace (257.5ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-04 05:15:59) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 174ms (View: 69 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-04 05:16:03) [POST]
+  Parameters: {"poll"=>{"title"=>"Wow a story", "story"=>"more stuff", "babyname_attributes"=>[{"name"=>"Ted"}, {"name"=>"Mak"}, {"name"=>"Jon"}, {"name"=>"James"}, {"name"=>"Johnny"}, {"name"=>"Wally"}, {"name"=>"Superman"}, {"name"=>""}, {"name"=>""}, {"name"=>""}]}, "name_10"=>"", "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"Sall", "name_7"=>"", "name_8"=>"", "name_9"=>""}
+Redirected to http://localhost:3000/nest/4c58db73baba3222970000b0
+Completed in 120ms | 302 Found [http://localhost/polls/create]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-04 05:16:04) [GET]
+  Parameters: {"id"=>"4c58db73baba3222970000b0"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 117ms (View: 5 | 200 OK [http://localhost/nest/4c58db73baba3222970000b0]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-04 05:18:11) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 166ms (View: 65 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-04 05:19:04) [POST]
+  Parameters: {"poll"=>{"title"=>"Super names", "story"=>"super team", "babyname_attributes"=>[{"name"=>"Cat"}, {"name"=>"Dog"}, {"name"=>"Table"}, {"name"=>"Another"}, {"name"=>"ben"}, {"name"=>"ali"}, {"name"=>"emily"}, {"name"=>"Susan"}, {"name"=>"kyle"}, {"name"=>"brother"}]}, "name_10"=>"", "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"", "name_7"=>"", "name_8"=>"", "name_9"=>""}
+Redirected to http://localhost:3000/nest/4c58dc28baba3222970000bc
+Completed in 128ms | 302 Found [http://localhost/polls/create]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-04 05:19:04) [GET]
+  Parameters: {"id"=>"4c58dc28baba3222970000bc"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 100ms (View: 9 | 200 OK [http://localhost/nest/4c58dc28baba3222970000bc]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-04 05:21:28) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 245ms (View: 98 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-04 05:22:12) [POST]
+  Parameters: {"poll"=>{"title"=>"What a day", "story"=>"a nother day", "babyname_attributes"=>[{"name"=>"mad"}, {"name"=>"max"}, {"name"=>"sara"}, {"name"=>"ted"}, {"name"=>"don"}, {"name"=>"seth"}, {"name"=>"bud"}, {"name"=>"tom"}, {"name"=>"suzzy"}, {"name"=>"sally"}]}, "name_10"=>"", "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"", "name_7"=>"", "name_8"=>"", "name_9"=>""}
+Redirected to http://localhost:3000/nest/4c58dce4baba3222970000c8
+Completed in 184ms | 302 Found [http://localhost/polls/create]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-04 05:22:12) [GET]
+  Parameters: {"id"=>"4c58dce4baba3222970000c8"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 79ms (View: 5 | 200 OK [http://localhost/nest/4c58dce4baba3222970000c8]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-04 05:23:16) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 185ms (View: 64 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-04 05:24:01) [POST]
+  Parameters: {"poll"=>{"title"=>"A very long title", "story"=>"more stuff", "babyname_attributes"=>[{"name"=>"aaa"}, {"name"=>"bbb"}, {"name"=>"ccc"}, {"name"=>"ddd"}, {"name"=>"eee"}, {"name"=>"fff"}, {"name"=>"ggg"}, {"name"=>"hhh"}, {"name"=>"iii"}, {"name"=>"jjjj"}]}, "name_10"=>"", "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"", "name_7"=>"", "name_8"=>"", "name_9"=>""}
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 292ms (View: 88 | 200 OK [http://localhost/polls/create]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-04 05:24:52) [POST]
+  Parameters: {"poll"=>{"title"=>"A very long title", "story"=>"more stuff", "babyname_attributes"=>[{"name"=>"aaabbbbacc"}, {"name"=>"bbb"}, {"name"=>"ccc"}, {"name"=>"ddd"}, {"name"=>"eee"}, {"name"=>"fff"}, {"name"=>"ggg"}, {"name"=>"hhh"}, {"name"=>"iii"}, {"name"=>"jjjj"}]}, "name_10"=>"", "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"", "name_7"=>"", "name_8"=>"", "name_9"=>""}
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 334ms (View: 130 | 200 OK [http://localhost/polls/create]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-04 05:32:34) [POST]
+  Parameters: {"poll"=>{"title"=>"A very long title", "story"=>"more stuff", "babyname_attributes"=>[{"name"=>"aaabbbbacc"}, {"name"=>"bbb"}, {"name"=>"ccc"}, {"name"=>"ddd"}, {"name"=>"eee"}, {"name"=>"fff"}, {"name"=>"ggg"}, {"name"=>"hhh"}, {"name"=>"iii"}, {"name"=>"jjjj"}]}, "name_10"=>"", "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"", "name_7"=>"", "name_8"=>"", "name_9"=>""}
+Redirected to http://localhost:3000/nest/4c58df52baba3222970000f4
+Completed in 132ms | 302 Found [http://localhost/polls/create]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-04 05:32:34) [GET]
+  Parameters: {"id"=>"4c58df52baba3222970000f4"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 109ms (View: 14 | 200 OK [http://localhost/nest/4c58df52baba3222970000f4]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-04 05:38:07) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 276ms (View: 109 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-04 05:41:08) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 309ms (View: 83 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-04 05:42:00) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 242ms (View: 137 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-04 05:44:02) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 129ms (View: 38 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-04 05:45:26) [POST]
+  Parameters: {"poll"=>{"title"=>"more names", "story"=>"", "babyname_attributes"=>[{"name"=>"aaaa"}, {"name"=>"lkajklf"}, {"name"=>"lfnn ffa"}, {"name"=>"nfnf nfd"}, {"name"=>"nfnanlfad"}]}, "name_10"=>"", "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"", "name_7"=>"", "name_8"=>"", "name_9"=>""}
+Redirected to http://localhost:3000/nest/4c58e256baba32229700011c
+Completed in 117ms | 302 Found [http://localhost/polls/create]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-04 05:45:27) [GET]
+  Parameters: {"id"=>"4c58e256baba32229700011c"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 81ms (View: 8 | 200 OK [http://localhost/nest/4c58e256baba32229700011c]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-04 05:46:44) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 161ms (View: 67 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-04 05:47:09) [POST]
+  Parameters: {"poll"=>{"title"=>"blah", "story"=>"go team", "babyname_attributes"=>[{"name"=>"more"}, {"name"=>"to do"}, {"name"=>"Superman"}, {"name"=>"sruff"}, {"name"=>"stuff"}]}, "name_10"=>"", "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"", "name_7"=>"", "name_8"=>"", "name_9"=>""}
+
+TypeError (can't convert HashWithIndifferentAccess into String):
+  app/models/poll.rb:32:in `+'
+  app/models/poll.rb:32:in `babyname_attributes='
+  app/models/poll.rb:31:in `each'
+  app/models/poll.rb:31:in `babyname_attributes='
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:179:in `send'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:179:in `attributes='
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:177:in `each_pair'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:177:in `attributes='
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:207:in `assign'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/accessible.rb:21:in `assign'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/protected.rb:30:in `assign'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:166:in `initialize'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/dirty.rb:43:in `initialize'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/sci.rb:26:in `initialize'
+  app/controllers/polls_controller.rb:26:in `new'
+  app/controllers/polls_controller.rb:26:in `create'
+
+Rendered rescues/_trace (309.5ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-04 05:47:47) [POST]
+  Parameters: {"poll"=>{"title"=>"blah", "story"=>"go team", "babyname_attributes"=>[{"name"=>"more"}, {"name"=>"to do"}, {"name"=>"Superman"}, {"name"=>"sruff"}, {"name"=>"stuff"}]}, "name_10"=>"", "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"", "name_7"=>"", "name_8"=>"", "name_9"=>""}
+
+NoMethodError (undefined method `name' for {"name"=>"more"}:HashWithIndifferentAccess):
+  app/models/poll.rb:32:in `babyname_attributes='
+  app/models/poll.rb:31:in `each'
+  app/models/poll.rb:31:in `babyname_attributes='
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:179:in `send'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:179:in `attributes='
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:177:in `each_pair'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:177:in `attributes='
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:207:in `assign'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/accessible.rb:21:in `assign'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/protected.rb:30:in `assign'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:166:in `initialize'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/dirty.rb:43:in `initialize'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/sci.rb:26:in `initialize'
+  app/controllers/polls_controller.rb:26:in `new'
+  app/controllers/polls_controller.rb:26:in `create'
+
+Rendered rescues/_trace (315.2ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-04 19:16:19) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+
+ActionView::TemplateError (undefined method `hidden' for #<ActionView::Helpers::FormBuilder:0xa401988>) on line #18 of app/views/polls/new.html.erb:
+15:     <div>
+16:       <% fields_for "poll[babyname_attributes][]", babyname do |babyname_form| %>
+17:         <%= babyname_form.text_field :name, :size => 25, :maxlength =>10  %>
+18:         <%= babyname_form.hidden :is_girl => false %>
+19:       <% end %>
+20:     </div>
+21:     <% end %>
+
+    app/views/polls/new.html.erb:18
+    app/views/polls/new.html.erb:16
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/associations/proxy.rb:93:in `call'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/associations/proxy.rb:93:in `method_missing'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/associations/proxy.rb:93:in `each'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/associations/proxy.rb:93:in `send'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/associations/proxy.rb:93:in `method_missing'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/dynamic_querying.rb:37:in `method_missing'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/associations/many_documents_proxy.rb:78:in `method_missing'
+    app/views/polls/new.html.erb:14
+    app/views/polls/new.html.erb:5
+
+Rendered rescues/_trace (158.9ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-04 19:16:45) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 172ms (View: 78 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-04 19:17:03) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+
+ActionView::TemplateError (undefined method `hidden' for #<ActionView::Helpers::FormBuilder:0xa40d7c4>) on line #18 of app/views/polls/new.html.erb:
+15:     <div>
+16:       <% fields_for "poll[babyname_attributes][]", babyname do |babyname_form| %>
+17:         <%= babyname_form.text_field :name, :size => 25, :maxlength =>10  %>
+18:         <%= babyname_form.hidden :is_girl, :value => false %>
+19:       <% end %>
+20:     </div>
+21:     <% end %>
+
+    app/views/polls/new.html.erb:18
+    app/views/polls/new.html.erb:16
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/associations/proxy.rb:93:in `call'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/associations/proxy.rb:93:in `method_missing'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/associations/proxy.rb:93:in `each'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/associations/proxy.rb:93:in `send'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/associations/proxy.rb:93:in `method_missing'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/dynamic_querying.rb:37:in `method_missing'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/associations/many_documents_proxy.rb:78:in `method_missing'
+    app/views/polls/new.html.erb:14
+    app/views/polls/new.html.erb:5
+
+Rendered rescues/_trace (169.2ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-04 19:18:00) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 328ms (View: 50 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-04 19:18:06) [POST]
+  Parameters: {"poll"=>{"title"=>"blah", "story"=>"", "babyname_attributes"=>[{"name"=>"more", "is_girl"=>""}, {"name"=>"Superman", "is_girl"=>""}, {"name"=>"stuff", "is_girl"=>""}, {"name"=>"", "is_girl"=>""}, {"name"=>"", "is_girl"=>""}]}, "name_10"=>"", "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"", "name_7"=>"", "name_8"=>"", "name_9"=>""}
+
+TypeError (can't convert HashWithIndifferentAccess into String):
+  app/models/poll.rb:32:in `+'
+  app/models/poll.rb:32:in `babyname_attributes='
+  app/models/poll.rb:31:in `each'
+  app/models/poll.rb:31:in `babyname_attributes='
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:179:in `send'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:179:in `attributes='
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:177:in `each_pair'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:177:in `attributes='
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:207:in `assign'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/accessible.rb:21:in `assign'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/protected.rb:30:in `assign'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:166:in `initialize'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/dirty.rb:43:in `initialize'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/sci.rb:26:in `initialize'
+  app/controllers/polls_controller.rb:26:in `new'
+  app/controllers/polls_controller.rb:26:in `create'
+
+Rendered rescues/_trace (256.3ms)
+Rendered rescues/_request_and_response (2.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-04 19:18:41) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 350ms (View: 255 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-04 19:18:43) [POST]
+  Parameters: {"poll"=>{"title"=>"blah", "story"=>"", "babyname_attributes"=>[{"name"=>"more", "is_girl"=>"false"}, {"name"=>"Superman", "is_girl"=>"false"}, {"name"=>"stuff", "is_girl"=>"false"}, {"name"=>"", "is_girl"=>"false"}, {"name"=>"", "is_girl"=>"false"}]}, "name_10"=>"", "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"", "name_7"=>"", "name_8"=>"", "name_9"=>""}
+
+TypeError (can't convert HashWithIndifferentAccess into String):
+  app/models/poll.rb:32:in `+'
+  app/models/poll.rb:32:in `babyname_attributes='
+  app/models/poll.rb:31:in `each'
+  app/models/poll.rb:31:in `babyname_attributes='
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:179:in `send'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:179:in `attributes='
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:177:in `each_pair'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:177:in `attributes='
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:207:in `assign'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/accessible.rb:21:in `assign'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/protected.rb:30:in `assign'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:166:in `initialize'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/dirty.rb:43:in `initialize'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/sci.rb:26:in `initialize'
+  app/controllers/polls_controller.rb:26:in `new'
+  app/controllers/polls_controller.rb:26:in `create'
+
+Rendered rescues/_trace (389.7ms)
+Rendered rescues/_request_and_response (2.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-04 19:19:43) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 380ms (View: 280 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-04 19:19:46) [POST]
+  Parameters: {"poll"=>{"title"=>"blah", "story"=>"", "babyname_attributes"=>[{"name"=>"more", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}]}, "name_10"=>"", "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"", "name_7"=>"", "name_8"=>"", "name_9"=>""}
+Redirected to http://localhost:3000/nest/4c59a132baba322297000150
+Completed in 226ms | 302 Found [http://localhost/polls/create]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-04 19:19:47) [GET]
+  Parameters: {"id"=>"4c59a132baba322297000150"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 129ms (View: 34 | 200 OK [http://localhost/nest/4c59a132baba322297000150]
+
+
+Processing PollsController#vote_name (for 127.0.0.1 at 2010-08-04 19:19:56) [POST]
+  Parameters: {"commit"=>"more", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_id"=>"4c59a132baba322297000151", "poll_id"=>"4c59a132baba322297000150"}
+Redirected to http://localhost:3000/nest/4c59a132baba322297000150
+Completed in 121ms | 302 Found [http://localhost/polls/vote_name]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-04 19:19:57) [GET]
+  Parameters: {"id"=>"4c59a132baba322297000150"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 127ms (View: 27 | 200 OK [http://localhost/nest/4c59a132baba322297000150]
+
+
+Processing PollsController#vote_name (for 127.0.0.1 at 2010-08-04 19:19:59) [POST]
+  Parameters: {"commit"=>"more", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_id"=>"4c59a132baba322297000151", "poll_id"=>"4c59a132baba322297000150"}
+Redirected to http://localhost:3000/nest/4c59a132baba322297000150
+Completed in 138ms | 302 Found [http://localhost/polls/vote_name]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-04 19:19:59) [GET]
+  Parameters: {"id"=>"4c59a132baba322297000150"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 202ms (View: 45 | 200 OK [http://localhost/nest/4c59a132baba322297000150]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-04 19:20:02) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 128ms (View: 56 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-04 19:20:37) [POST]
+  Parameters: {"poll"=>{"title"=>"A bunch of names", "story"=>"A bunch of blah blah", "babyname_attributes"=>[{"name"=>"boy1", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"boy2", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"boy3", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"boy4", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"boy5", "num_votes"=>"0", "is_girl"=>"false"}]}, "name_10"=>"", "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_6"=>"", "name_7"=>"", "name_8"=>"", "name_9"=>""}
+Redirected to http://localhost:3000/nest/4c59a165baba32229700015c
+Completed in 266ms | 302 Found [http://localhost/polls/create]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-04 19:20:37) [GET]
+  Parameters: {"id"=>"4c59a165baba32229700015c"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 176ms (View: 72 | 200 OK [http://localhost/nest/4c59a165baba32229700015c]
+
+
+Processing PollsController#vote_name (for 127.0.0.1 at 2010-08-04 19:21:21) [POST]
+  Parameters: {"commit"=>"boy5", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_id"=>"4c59a165baba322297000161", "poll_id"=>"4c59a165baba32229700015c"}
+Redirected to http://localhost:3000/nest/4c59a165baba32229700015c
+Completed in 131ms | 302 Found [http://localhost/polls/vote_name]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-04 19:21:22) [GET]
+  Parameters: {"id"=>"4c59a165baba32229700015c"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 316ms (View: 58 | 200 OK [http://localhost/nest/4c59a165baba32229700015c]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-04 19:27:34) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 249ms (View: 145 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-04 19:28:26) [POST]
+  Parameters: {"poll"=>{"title"=>"More than 5", "story"=>"This is a great story.", "babyname_attributes"=>[{"name"=>"Mark", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Chris", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Jake", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Ryan", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Tom", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Steph", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Emily", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Rachel", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Jen", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Tara", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 368ms (View: 225 | 200 OK [http://localhost/polls/create]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-04 19:28:40) [POST]
+  Parameters: {"poll"=>{"title"=>"More than 5", "story"=>"This is a great story.", "babyname_attributes"=>[{"name"=>"Mark", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Chris", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Jake", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Ryan", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Tom", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Steph", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Emily", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Rachel", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Jen", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Tara", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Mark", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Chris", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Jake", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Ryan", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Tom", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Steph", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Emily", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Rachel", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Jen", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Tara", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 632ms (View: 456 | 200 OK [http://localhost/polls/create]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-04 19:29:51) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 223ms (View: 134 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-04 19:30:25) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 309ms (View: 167 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-04 19:30:56) [POST]
+  Parameters: {"poll"=>{"title"=>"A title that is long", "story"=>"A great story to tell", "babyname_attributes"=>[{"name"=>"Mark", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Chris", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Jake", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Jacob", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Ryan", "num_votes"=>"0", "is_girl"=>"false"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 258ms (View: 106 | 200 OK [http://localhost/polls/create]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-04 19:41:13) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+ERROR: compiling _run_erb_app47views47polls47new46html46erb RAISED compile error
+/home/virtualrails/code/babynames/app/views/polls/new.html.erb:17: syntax error, unexpected ';'
+        i++ ; @output_buffer.concat "\n    <div>\n      "
+             ^
+Function body:           def _run_erb_app47views47polls47new46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ;  title ApplicationController::Website_name + " | "  ; @output_buffer.concat "\n\n"
+
+; @output_buffer.concat(( error_messages_for 'poll' ).to_s); @output_buffer.concat "\n\n"
+
+;  form_for :poll, :url => {:action => "create"} do |f| ; @output_buffer.concat "\n  <div class=\"span-16 last\">\n    <label for=\"title\">Title </label>\n    "
+
+
+; @output_buffer.concat(( f.text_field :title).to_s); @output_buffer.concat "\n  </div>\n\n  <div class=\"span-8\">\n    <h2 class=\"boy_title\">Boy Names</h2>\n    <div class=\"clear\">&nbsp;</div>\n    "
+
+
+
+
+
+;  for babyname in @poll.babynames ; @output_buffer.concat "\n    "
+;  i = 0
+        if i < 5
+        i++ ; @output_buffer.concat "\n    <div>\n      "
+
+;  fields_for "poll[babyname_attributes][]", babyname do |babyname_form| ; @output_buffer.concat "\n        "
+; @output_buffer.concat(( babyname_form.text_field :name, :size => 25, :maxlength =>25  ).to_s); @output_buffer.concat "\n        "
+; @output_buffer.concat(( babyname_form.hidden_field :is_girl, :value => "false" ).to_s); @output_buffer.concat "\n        "
+; @output_buffer.concat(( babyname_form.hidden_field :num_votes, :value => "0" ).to_s); @output_buffer.concat "\n      "
+;  end ; @output_buffer.concat "\n    </div>\n    "
+
+;  end ; @output_buffer.concat "\n    "
+;  end ; @output_buffer.concat "\n  </div>\n\n  <div class=\"span-8 last\">\n    <h2 class=\"girl_title\">Girl Names</h2>\n    <div class=\"clear\">&nbsp;</div>\n    "
+
+
+
+
+
+;  for babyname in @poll.babynames ; @output_buffer.concat "\n    <div>\n      "
+
+;  fields_for "poll[babyname_attributes][]", babyname do |babyname_form| ; @output_buffer.concat "\n        "
+; @output_buffer.concat(( babyname_form.text_field :name, :size => 25, :maxlength =>25  ).to_s); @output_buffer.concat "\n        "
+; @output_buffer.concat(( babyname_form.hidden_field :is_girl, :value => "true" ).to_s); @output_buffer.concat "\n        "
+; @output_buffer.concat(( babyname_form.hidden_field :num_votes, :value => "0" ).to_s); @output_buffer.concat "\n      "
+;  end ; @output_buffer.concat "\n    </div>\n    "
+
+;  end ; @output_buffer.concat "\n  </div>\n\n\n  <div class=\"span-16 last\">\n    <h3 class=\"b_txt\">Story </h3>\n    "
+
+
+
+
+
+; @output_buffer.concat(( f.text_area( :story, :class => 'span-14', :rows => 3) ).to_s); @output_buffer.concat "\n  </div>\n  <div class=\"span-16 last\">\n    <input id=\"submit\" name=\"submit\" type=\"submit\" value=\"Publish\" class=\"b_button\"/>\n  </div>\n\n"
+
+
+
+
+
+;  end ; @output_buffer.concat "\n\n<p>"
+
+; @output_buffer.concat(( link_to "Back to List", polls_path ).to_s); @output_buffer.concat "</p>\n"
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/virtualrails/code/babynames/app/views/polls/new.html.erb:58:in `compile!'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:61:in `compile'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:28:in `render'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:260:in `render'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:343:in `_render_with_layout'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:257:in `render'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1250:in `render_for_file'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/rubystack-2.0-0/ruby/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1326:in `default_render'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:617:in `call_filters'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/rubystack-2.0-0/ruby/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `process'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/opt/rubystack-2.0-0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/opt/rubystack-2.0-0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/virtualrails/code/babynames/app/views/polls/new.html.erb:17: syntax error, unexpected ';'
+        i++ ; @output_buffer.concat "\n    <div>\n      "
+             ^) on line #17 of app/views/polls/new.html.erb:
+14:     <% for babyname in @poll.babynames %>
+15:     <% i = 0
+16:         if i < 5
+17:         i++ %>
+18:     <div>
+19:       <% fields_for "poll[babyname_attributes][]", babyname do |babyname_form| %>
+20:         <%= babyname_form.text_field :name, :size => 25, :maxlength =>25  %>
+
+    app/views/polls/new.html.erb:58:in `compile!'
+
+Rendered rescues/_trace (233.9ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-04 19:41:49) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+ERROR: compiling _run_erb_app47views47polls47new46html46erb RAISED compile error
+/home/virtualrails/code/babynames/app/views/polls/new.html.erb:25: syntax error, unexpected ';'
+;  i++ ; @output_buffer.concat "\n    "
+        ^
+Function body:           def _run_erb_app47views47polls47new46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ;  title ApplicationController::Website_name + " | "  ; @output_buffer.concat "\n\n"
+
+; @output_buffer.concat(( error_messages_for 'poll' ).to_s); @output_buffer.concat "\n\n"
+
+;  form_for :poll, :url => {:action => "create"} do |f| ; @output_buffer.concat "\n  <div class=\"span-16 last\">\n    <label for=\"title\">Title </label>\n    "
+
+
+; @output_buffer.concat(( f.text_field :title).to_s); @output_buffer.concat "\n  </div>\n\n  <div class=\"span-8\">\n    <h2 class=\"boy_title\">Boy Names</h2>\n    <div class=\"clear\">&nbsp;</div>\n    "
+
+
+
+
+
+;  for babyname in @poll.babynames ; @output_buffer.concat "\n    "
+;  i = 0
+        if i < 5
+         ; @output_buffer.concat "\n    <div>\n      "
+
+;  fields_for "poll[babyname_attributes][]", babyname do |babyname_form| ; @output_buffer.concat "\n        "
+; @output_buffer.concat(( babyname_form.text_field :name, :size => 25, :maxlength =>25  ).to_s); @output_buffer.concat "\n        "
+; @output_buffer.concat(( babyname_form.hidden_field :is_girl, :value => "false" ).to_s); @output_buffer.concat "\n        "
+; @output_buffer.concat(( babyname_form.hidden_field :num_votes, :value => "0" ).to_s); @output_buffer.concat "\n      "
+;  end ; @output_buffer.concat "\n    </div>\n    "
+
+;  i++ ; @output_buffer.concat "\n    "
+;  end ; @output_buffer.concat "\n    "
+;  end ; @output_buffer.concat "\n  </div>\n\n  <div class=\"span-8 last\">\n    <h2 class=\"girl_title\">Girl Names</h2>\n    <div class=\"clear\">&nbsp;</div>\n    "
+
+
+
+
+
+;  for babyname in @poll.babynames ; @output_buffer.concat "\n    <div>\n      "
+
+;  fields_for "poll[babyname_attributes][]", babyname do |babyname_form| ; @output_buffer.concat "\n        "
+; @output_buffer.concat(( babyname_form.text_field :name, :size => 25, :maxlength =>25  ).to_s); @output_buffer.concat "\n        "
+; @output_buffer.concat(( babyname_form.hidden_field :is_girl, :value => "true" ).to_s); @output_buffer.concat "\n        "
+; @output_buffer.concat(( babyname_form.hidden_field :num_votes, :value => "0" ).to_s); @output_buffer.concat "\n      "
+;  end ; @output_buffer.concat "\n    </div>\n    "
+
+;  end ; @output_buffer.concat "\n  </div>\n\n\n  <div class=\"span-16 last\">\n    <h3 class=\"b_txt\">Story </h3>\n    "
+
+
+
+
+
+; @output_buffer.concat(( f.text_area( :story, :class => 'span-14', :rows => 3) ).to_s); @output_buffer.concat "\n  </div>\n  <div class=\"span-16 last\">\n    <input id=\"submit\" name=\"submit\" type=\"submit\" value=\"Publish\" class=\"b_button\"/>\n  </div>\n\n"
+
+
+
+
+
+;  end ; @output_buffer.concat "\n\n<p>"
+
+; @output_buffer.concat(( link_to "Back to List", polls_path ).to_s); @output_buffer.concat "</p>\n"
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/virtualrails/code/babynames/app/views/polls/new.html.erb:59:in `compile!'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:61:in `compile'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:28:in `render'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:260:in `render'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:343:in `_render_with_layout'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:257:in `render'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1250:in `render_for_file'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/rubystack-2.0-0/ruby/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1326:in `default_render'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:617:in `call_filters'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/rubystack-2.0-0/ruby/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `process'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/opt/rubystack-2.0-0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/opt/rubystack-2.0-0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/virtualrails/code/babynames/app/views/polls/new.html.erb:25: syntax error, unexpected ';'
+;  i++ ; @output_buffer.concat "\n    "
+        ^) on line #25 of app/views/polls/new.html.erb:
+22:         <%= babyname_form.hidden_field :num_votes, :value => "0" %>
+23:       <% end %>
+24:     </div>
+25:     <% i++ %>
+26:     <% end %>
+27:     <% end %>
+28:   </div>
+
+    app/views/polls/new.html.erb:59:in `compile!'
+
+Rendered rescues/_trace (148.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-04 19:43:04) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+ERROR: compiling _run_erb_app47views47polls47new46html46erb RAISED compile error
+/home/virtualrails/code/babynames/app/views/polls/new.html.erb:24: syntax error, unexpected ';'
+;  i++ ; @output_buffer.concat "\n      "
+        ^
+Function body:           def _run_erb_app47views47polls47new46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ;  title ApplicationController::Website_name + " | "  ; @output_buffer.concat "\n\n"
+
+; @output_buffer.concat(( error_messages_for 'poll' ).to_s); @output_buffer.concat "\n\n"
+
+;  form_for :poll, :url => {:action => "create"} do |f| ; @output_buffer.concat "\n  <div class=\"span-16 last\">\n    <label for=\"title\">Title </label>\n    "
+
+
+; @output_buffer.concat(( f.text_field :title).to_s); @output_buffer.concat "\n  </div>\n\n  <div class=\"span-8\">\n    <h2 class=\"boy_title\">Boy Names</h2>\n    <div class=\"clear\">&nbsp;</div>\n    "
+
+
+
+
+
+;  for babyname in @poll.babynames ; @output_buffer.concat "\n    "
+;  i = 0 ; @output_buffer.concat "\n      "
+;     if i < 5 ; @output_buffer.concat "\n        <div>\n          "
+
+;  fields_for "poll[babyname_attributes][]", babyname do |babyname_form| ; @output_buffer.concat "\n            "
+; @output_buffer.concat(( babyname_form.text_field :name, :size => 25, :maxlength =>25  ).to_s); @output_buffer.concat "\n            "
+; @output_buffer.concat(( babyname_form.hidden_field :is_girl, :value => "false" ).to_s); @output_buffer.concat "\n            "
+; @output_buffer.concat(( babyname_form.hidden_field :num_votes, :value => "0" ).to_s); @output_buffer.concat "\n          "
+;  end ; @output_buffer.concat "\n        </div>\n        "
+
+;  i++ ; @output_buffer.concat "\n      "
+;  end ; @output_buffer.concat "\n    "
+;  end ; @output_buffer.concat "\n  </div>\n\n  <div class=\"span-8 last\">\n    <h2 class=\"girl_title\">Girl Names</h2>\n    <div class=\"clear\">&nbsp;</div>\n    "
+
+
+
+
+
+;  for babyname in @poll.babynames ; @output_buffer.concat "\n    <div>\n      "
+
+;  fields_for "poll[babyname_attributes][]", babyname do |babyname_form| ; @output_buffer.concat "\n        "
+; @output_buffer.concat(( babyname_form.text_field :name, :size => 25, :maxlength =>25  ).to_s); @output_buffer.concat "\n        "
+; @output_buffer.concat(( babyname_form.hidden_field :is_girl, :value => "true" ).to_s); @output_buffer.concat "\n        "
+; @output_buffer.concat(( babyname_form.hidden_field :num_votes, :value => "0" ).to_s); @output_buffer.concat "\n      "
+;  end ; @output_buffer.concat "\n    </div>\n    "
+
+;  end ; @output_buffer.concat "\n  </div>\n\n\n  <div class=\"span-16 last\">\n    <h3 class=\"b_txt\">Story </h3>\n    "
+
+
+
+
+
+; @output_buffer.concat(( f.text_area( :story, :class => 'span-14', :rows => 3) ).to_s); @output_buffer.concat "\n  </div>\n  <div class=\"span-16 last\">\n    <input id=\"submit\" name=\"submit\" type=\"submit\" value=\"Publish\" class=\"b_button\"/>\n  </div>\n\n"
+
+
+
+
+
+;  end ; @output_buffer.concat "\n\n<p>"
+
+; @output_buffer.concat(( link_to "Back to List", polls_path ).to_s); @output_buffer.concat "</p>\n"
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/virtualrails/code/babynames/app/views/polls/new.html.erb:58:in `compile!'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:61:in `compile'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:28:in `render'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:260:in `render'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:343:in `_render_with_layout'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:257:in `render'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1250:in `render_for_file'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/rubystack-2.0-0/ruby/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1326:in `default_render'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:617:in `call_filters'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/rubystack-2.0-0/ruby/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `process'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/opt/rubystack-2.0-0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/opt/rubystack-2.0-0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/virtualrails/code/babynames/app/views/polls/new.html.erb:24: syntax error, unexpected ';'
+;  i++ ; @output_buffer.concat "\n      "
+        ^) on line #24 of app/views/polls/new.html.erb:
+21:             <%= babyname_form.hidden_field :num_votes, :value => "0" %>
+22:           <% end %>
+23:         </div>
+24:         <% i++ %>
+25:       <% end %>
+26:     <% end %>
+27:   </div>
+
+    app/views/polls/new.html.erb:58:in `compile!'
+
+Rendered rescues/_trace (473.8ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-04 19:43:36) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 247ms (View: 177 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-04 19:45:13) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+) on line #24 of app/views/polls/new.html.erb:
+21:             <%= babyname_form.hidden_field :num_votes, :value => "0" %>
+22:           <% end %>
+23:         </div>
+24:         <% x += 1 %>
+25:       <% end %>
+26:     <% end %>
+27:   </div>
+
+    app/views/polls/new.html.erb:24
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/associations/proxy.rb:93:in `call'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/associations/proxy.rb:93:in `method_missing'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/associations/proxy.rb:93:in `each'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/associations/proxy.rb:93:in `send'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/associations/proxy.rb:93:in `method_missing'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/dynamic_querying.rb:37:in `method_missing'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/associations/many_documents_proxy.rb:78:in `method_missing'
+    app/views/polls/new.html.erb:14
+    app/views/polls/new.html.erb:5
+
+Rendered rescues/_trace (309.3ms)
+Rendered rescues/_request_and_response (2.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-04 19:48:43) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 370ms (View: 294 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-04 19:49:14) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 559ms (View: 452 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-04 19:50:34) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 511ms (View: 404 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-04 19:51:25) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 372ms (View: 306 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-04 19:51:44) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 319ms (View: 206 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-04 19:52:45) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 139ms (View: 90 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-04 19:53:19) [POST]
+  Parameters: {"poll"=>{"title"=>"A book", "story"=>"some text", "babyname_attributes"=>[{"name"=>"Matt", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"MArk", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Luke", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Hom", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Jon", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Ruth", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Jen", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Jal", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Juby", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Ruby", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 417ms (View: 174 | 200 OK [http://localhost/polls/create]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-04 19:54:13) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 546ms (View: 145 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-04 19:54:52) [POST]
+  Parameters: {"poll"=>{"title"=>"blah is too long", "story"=>"a story", "babyname_attributes"=>[{"name"=>"matt", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"mark", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"luke", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"jon", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"acts", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"ruth", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"sara", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"naham", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"jesebel", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"jessie", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 279ms (View: 126 | 200 OK [http://localhost/polls/create]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-04 19:56:35) [POST]
+  Parameters: {"poll"=>{"title"=>"blah is too long", "story"=>"a story", "babyname_attributes"=>[{"name"=>"ruth", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"sara", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"naham", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"jesebel", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"jessie", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"matt", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"mark", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"luke", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"jon", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"acts", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 277ms (View: 126 | 200 OK [http://localhost/polls/create]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-05 05:33:15) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+
+ActionView::TemplateError (undefined method `babynames' for #<Poll:0xa06395c>) on line #29 of app/views/polls/new.html.erb:
+26:     <h2 class="girl_title">Girl Names</h2>
+27:     <div class="clear">&nbsp;</div>
+28:     <% i = 0 %>
+29:     <% for babyname in @poll.babynames %>
+30:       <%    if (i += 1) <= 5 %>
+31:     <div>
+32:       <% fields_for "poll[babyname_attributes][]", babyname do |babyname_form| %>
+
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/dirty.rb:26:in `method_missing'
+    app/views/polls/new.html.erb:29
+    app/views/polls/new.html.erb:5
+
+Rendered rescues/_trace (815.1ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-05 05:34:04) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 362ms (View: 239 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-05 05:36:02) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 199ms (View: 104 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-05 05:36:43) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 229ms (View: 125 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-05 05:37:37) [POST]
+  Parameters: {"poll"=>{"title"=>"A long title", "story"=>"what a story", "babyname_attributes"=>[{"name"=>"Max", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Mark", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Chris", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Charles", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Tom", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Sherri", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Susan", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Shelryln", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Tammy", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Tamara", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+
+NameError (undefined local variable or method `babynames' for #<Poll:0x9fdadc8>):
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/dirty.rb:26:in `method_missing'
+  app/models/poll.rb:34:in `babyname_attributes='
+  app/models/poll.rb:32:in `each'
+  app/models/poll.rb:32:in `babyname_attributes='
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:179:in `send'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:179:in `attributes='
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:177:in `each_pair'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:177:in `attributes='
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:207:in `assign'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/accessible.rb:21:in `assign'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/protected.rb:30:in `assign'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:166:in `initialize'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/dirty.rb:43:in `initialize'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/sci.rb:26:in `initialize'
+  app/controllers/polls_controller.rb:26:in `new'
+  app/controllers/polls_controller.rb:26:in `create'
+
+Rendered rescues/_trace (333.5ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-05 05:48:59) [POST]
+  Parameters: {"poll"=>{"title"=>"A long title", "story"=>"what a story", "babyname_attributes"=>[{"name"=>"Max", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Mark", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Chris", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Charles", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Tom", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Sherri", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Susan", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Shelryln", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Tammy", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Tamara", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 219ms (View: 140 | 200 OK [http://localhost/polls/create]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-05 05:51:37) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 429ms (View: 312 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-05 05:52:02) [POST]
+  Parameters: {"poll"=>{"title"=>"A long title", "story"=>"what a story", "boys_attributes"=>[{"name"=>"Mark", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Tom", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Sam", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Ted", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Cal", "num_votes"=>"0", "is_girl"=>"false"}], "girls_attributes"=>[{"name"=>"Amber", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"ashley", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 573ms (View: 352 | 200 OK [http://localhost/polls/create]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-05 05:53:23) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 461ms (View: 257 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-05 05:54:37) [POST]
+  Parameters: {"poll"=>{"title"=>"Some long name", "story"=>"This is a great story.", "boys_attributes"=>[{"name"=>"Max", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Mark", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Manny", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Handy", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Diego", "num_votes"=>"0", "is_girl"=>"false"}], "girls_attributes"=>[{"name"=>"Dora", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Suzzy", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Sally", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Sarah", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Tara", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 282ms (View: 109 | 200 OK [http://localhost/polls/create]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-05 06:03:40) [POST]
+  Parameters: {"poll"=>{"title"=>"Some", "story"=>"This is a great story.", "boys_attributes"=>[{"name"=>"Max", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Mark", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Manny", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Handy", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Diego", "num_votes"=>"0", "is_girl"=>"false"}], "girls_attributes"=>[{"name"=>"Dora", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Suzzy", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Sally", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Sarah", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Tara", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+Redirected to http://localhost:3000/nest/4c5a381cbaba32229700028a
+Completed in 153ms | 302 Found [http://localhost/polls/create]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-05 06:03:40) [GET]
+  Parameters: {"id"=>"4c5a381cbaba32229700028a"}
+Rendering template within layouts/application
+Rendering polls/show
+
+ActionView::TemplateError (undefined local variable or method `boys' for #<ActionView::Base:0xa03762c>) on line #9 of app/views/polls/show.html.erb:
+6: </div>
+7: 
+8: <div class="span-8">
+9:   <% unless @poll.`boys.empty? %>
+10:     <h2 class="boy_title">Boy Names</h2>
+11:     <div class="clear">&nbsp;</div>
+12:     <% @poll.boys.each do |bname| %>
+
+    app/views/polls/show.html.erb:9
+
+Rendered rescues/_trace (325.9ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-05 06:04:10) [GET]
+  Parameters: {"id"=>"4c5a381cbaba32229700028a"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 640ms (View: 584 | 200 OK [http://localhost/nest/4c5a381cbaba32229700028a]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-05 06:05:18) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 310ms (View: 189 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-05 06:06:11) [POST]
+  Parameters: {"poll"=>{"title"=>"A dog", "story"=>"what a day", "boys_attributes"=>[{"name"=>"aaa", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"bbb", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"cccc", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"ddd", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"eee", "num_votes"=>"0", "is_girl"=>"false"}], "girls_attributes"=>[{"name"=>"girly", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"gal", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"galla", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"gaga", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"gallery", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+Redirected to http://localhost:3000/nest/4c5a38b3baba3222970002a0
+Completed in 220ms | 302 Found [http://localhost/polls/create]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-05 06:06:12) [GET]
+  Parameters: {"id"=>"4c5a38b3baba3222970002a0"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 627ms (View: 576 | 200 OK [http://localhost/nest/4c5a38b3baba3222970002a0]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-05 13:43:39) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 277ms (View: 177 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-05 13:44:25) [POST]
+  Parameters: {"poll"=>{"title"=>"Bery long", "story"=>"can you believe it?", "boys_attributes"=>[{"name"=>"Ted", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Tom", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Tall", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Tenny", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Tez", "num_votes"=>"0", "is_girl"=>"false"}], "girls_attributes"=>[{"name"=>"Shari", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Cari", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Mari", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Tari", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Bari", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 195ms (View: 103 | 200 OK [http://localhost/polls/create]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-05 13:44:38) [POST]
+  Parameters: {"poll"=>{"title"=>"Bery long", "story"=>"can you believe it?", "boys_attributes"=>[{"name"=>"Ted", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Tom", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Tall", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Tenny", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Tez", "num_votes"=>"0", "is_girl"=>"false"}], "girls_attributes"=>[{"name"=>"Shari", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Cari", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Mari", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Tari", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Bari", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 200ms (View: 100 | 200 OK [http://localhost/polls/create]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-05 13:46:07) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 558ms (View: 486 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-05 13:46:51) [POST]
+  Parameters: {"poll"=>{"title"=>"What a great title", "story"=>"la laj  fal alkfj fjka f a f.", "boys_attributes"=>[{"name"=>"Bud", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Bob", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Bali", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Barry", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Ben", "num_votes"=>"0", "is_girl"=>"false"}], "girls_attributes"=>[{"name"=>"Jen", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Jessie", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Jessabel", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Jenny", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Jennifer", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+Rendering template within layouts/application
+Rendering polls/new
+
+ActionView::TemplateError (`@poll[girls_attributes]' is not allowed as an instance variable name) on line #32 of app/views/polls/new.html.erb:
+29:     <% 5.times do |i| %>
+30:       <% girl = @poll.boys[i+5] %>
+31:     <div>
+32:       <% fields_for "poll[girls_attributes][]", girl do |girl_form| %>
+33:         <%= girl_form.text_field :name, :size => 25, :maxlength =>25  %>
+34:         <%= girl_form.hidden_field :is_girl, :value => "true" %>
+35:         <%= girl_form.hidden_field :num_votes, :value => "0" %>
+
+    app/views/polls/new.html.erb:32
+    app/views/polls/new.html.erb:29:in `times'
+    app/views/polls/new.html.erb:29
+    app/views/polls/new.html.erb:5
+    app/controllers/polls_controller.rb:24:in `create'
+
+Rendered rescues/_trace (168.0ms)
+Rendered rescues/_request_and_response (5.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-05 13:47:57) [POST]
+  Parameters: {"poll"=>{"title"=>"What a great title", "story"=>"la laj  fal alkfj fjka f a f.", "boys_attributes"=>[{"name"=>"Bud", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Bob", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Bali", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Barry", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Ben", "num_votes"=>"0", "is_girl"=>"false"}], "girls_attributes"=>[{"name"=>"Jen", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Jessie", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Jessabel", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Jenny", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Jennifer", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+Rendering template within layouts/application
+Rendering polls/new
+
+ActionView::TemplateError (`@poll[boys_attributes]' is not allowed as an instance variable name) on line #32 of app/views/polls/new.html.erb:
+29:     <% 5.times do |i| %>
+30:       <% girl = @poll.boys[i+5] %>
+31:     <div>
+32:       <% fields_for "poll[boys_attributes][]", girl do |girl_form| %>
+33:         <%= girl_form.text_field :name, :size => 25, :maxlength =>25  %>
+34:         <%= girl_form.hidden_field :is_girl, :value => "true" %>
+35:         <%= girl_form.hidden_field :num_votes, :value => "0" %>
+
+    app/views/polls/new.html.erb:32
+    app/views/polls/new.html.erb:29:in `times'
+    app/views/polls/new.html.erb:29
+    app/views/polls/new.html.erb:5
+    app/controllers/polls_controller.rb:24:in `create'
+
+Rendered rescues/_trace (575.7ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-05 13:48:39) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 431ms (View: 325 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-05 13:49:02) [POST]
+  Parameters: {"poll"=>{"title"=>"What a great title", "story"=>"la laj  fal alkfj fjka f a f.", "boys_attributes"=>[{"name"=>"Bud", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Bob", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Bali", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Barry", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Ben", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Jen", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Jess", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Jessie", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Jenny", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Jelly", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 243ms (View: 126 | 200 OK [http://localhost/polls/create]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-05 13:49:21) [POST]
+  Parameters: {"poll"=>{"title"=>"What", "story"=>"la laj  fal alkfj fjka f a f.", "boys_attributes"=>[{"name"=>"Bud", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Bob", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Bali", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Barry", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Ben", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Jen", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Jess", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Jessie", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Jenny", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Jelly", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+Redirected to http://localhost:3000/nest/4c5aa541baba322297000303
+Completed in 243ms | 302 Found [http://localhost/polls/create]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-05 13:49:22) [GET]
+  Parameters: {"id"=>"4c5aa541baba322297000303"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 404ms (View: 353 | 200 OK [http://localhost/nest/4c5aa541baba322297000303]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-05 13:52:35) [GET]
+  Parameters: {"id"=>"4c5aa541baba322297000303"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 203ms (View: 119 | 200 OK [http://localhost/nest/4c5aa541baba322297000303]
+
+
+Processing PollsController#vote_name (for 127.0.0.1 at 2010-08-05 13:52:43) [POST]
+  Parameters: {"commit"=>"Bob", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_id"=>"4c5aa541baba322297000305", "poll_id"=>"4c5aa541baba322297000303"}
+Redirected to http://localhost:3000/nest/4c5aa541baba322297000303
+Completed in 113ms | 302 Found [http://localhost/polls/vote_name]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-05 13:52:43) [GET]
+  Parameters: {"id"=>"4c5aa541baba322297000303"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 174ms (View: 95 | 200 OK [http://localhost/nest/4c5aa541baba322297000303]
+
+
+Processing PollsController#vote_name (for 127.0.0.1 at 2010-08-05 13:52:45) [POST]
+  Parameters: {"commit"=>"Bud", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_id"=>"4c5aa541baba322297000304", "poll_id"=>"4c5aa541baba322297000303"}
+Redirected to http://localhost:3000/nest/4c5aa541baba322297000303
+Completed in 137ms | 302 Found [http://localhost/polls/vote_name]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-05 13:52:46) [GET]
+  Parameters: {"id"=>"4c5aa541baba322297000303"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 528ms (View: 145 | 200 OK [http://localhost/nest/4c5aa541baba322297000303]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-05 13:55:00) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 277ms (View: 164 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-05 13:55:33) [POST]
+  Parameters: {"poll"=>{"title"=>"Try some names", "story"=>"what a dayu", "babynames_attributes"=>[{"name"=>"aaa", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"bbb", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"ccc", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"ddd", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"eee", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"fff", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"ggg", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"hhh", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"iii", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"jjj", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+
+NameError (undefined local variable or method `boys' for #<Poll:0xb9a63ec>):
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/dirty.rb:26:in `method_missing'
+  app/models/poll.rb:14:in `babynames_attributes='
+  app/models/poll.rb:13:in `each'
+  app/models/poll.rb:13:in `babynames_attributes='
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:179:in `send'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:179:in `attributes='
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:177:in `each_pair'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:177:in `attributes='
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:207:in `assign'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/accessible.rb:21:in `assign'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/protected.rb:30:in `assign'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/keys.rb:166:in `initialize'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/dirty.rb:43:in `initialize'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/sci.rb:26:in `initialize'
+  app/controllers/polls_controller.rb:26:in `new'
+  app/controllers/polls_controller.rb:26:in `create'
+
+Rendered rescues/_trace (248.8ms)
+Rendered rescues/_request_and_response (6.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-05 13:56:37) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 465ms (View: 278 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-05 13:56:44) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 341ms (View: 211 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-05 13:56:49) [POST]
+  Parameters: {"poll"=>{"title"=>"Try some names", "story"=>"what a dayu", "babynames_attributes"=>[{"name"=>"aaa", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"bbb", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"ccc", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"ddd", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"eee", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"fff", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"ggg", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"hhh", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"iii", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"jjj", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 325ms (View: 172 | 200 OK [http://localhost/polls/create]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-05 13:57:01) [POST]
+  Parameters: {"poll"=>{"title"=>"Try some names", "story"=>"what a dayu", "babynames_attributes"=>[{"name"=>"aaa", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"bbb", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"ccc", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"ddd", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"eee", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"fff", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"ggg", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"hhh", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"iii", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"jjj", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 337ms (View: 185 | 200 OK [http://localhost/polls/create]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-05 13:57:13) [POST]
+  Parameters: {"poll"=>{"title"=>"Try", "story"=>"what a dayu", "babynames_attributes"=>[{"name"=>"aaa", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"bbb", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"ccc", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"ddd", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"eee", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"fff", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"ggg", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"hhh", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"iii", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"jjj", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+Redirected to http://localhost:3000/nest/4c5aa719baba322297000346
+Completed in 161ms | 302 Found [http://localhost/polls/create]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-05 13:57:13) [GET]
+  Parameters: {"id"=>"4c5aa719baba322297000346"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 183ms (View: 92 | 200 OK [http://localhost/nest/4c5aa719baba322297000346]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-05 13:59:58) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 365ms (View: 85 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-05 14:00:32) [POST]
+  Parameters: {"poll"=>{"title"=>"a test", "story"=>"hello", "babynames_attributes"=>[{"name"=>"aaa", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"bbb", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"cal", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"cat", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"jen", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"jelly girl", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 390ms (View: 192 | 200 OK [http://localhost/polls/create]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-05 14:00:42) [POST]
+  Parameters: {"poll"=>{"title"=>"a tes", "story"=>"hello", "babynames_attributes"=>[{"name"=>"aaa", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"bbb", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"cal", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"cat", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"jen", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"jelly girl", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+
+ActionController::RoutingError (poll_url failed to generate from {:action=>"show", :controller=>"polls"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: ["nest", :id] - are they all satisfied?):
+  (eval):16:in `poll_path'
+  app/controllers/polls_controller.rb:32:in `create'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-05 14:01:24) [POST]
+  Parameters: {"poll"=>{"title"=>"a tes", "story"=>"hello", "babynames_attributes"=>[{"name"=>"aaa", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"bbb", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"cal", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"cat", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"jen", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"jelly girl", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+
+ActionController::RoutingError (poll_url failed to generate from {:action=>"show", :controller=>"polls"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: ["nest", :id] - are they all satisfied?):
+  (eval):16:in `poll_path'
+  app/controllers/polls_controller.rb:32:in `create'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-05 14:05:59) [POST]
+  Parameters: {"poll"=>{"title"=>"a tes", "story"=>"hello", "babynames_attributes"=>[{"name"=>"aaa", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"bbb", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"cal", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"cat", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"jen", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"jelly girl", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+
+ActionController::RoutingError (poll_url failed to generate from {:action=>"show", :controller=>"polls", 96532660=>BSON::ObjectID('4c5aa927baba32229700037d')}, expected: {:action=>"show", :controller=>"polls"}, diff: {96532660=>BSON::ObjectID('4c5aa927baba32229700037d')}):
+  (eval):16:in `poll_path'
+  app/controllers/polls_controller.rb:32:in `create'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-05 14:06:47) [POST]
+  Parameters: {"poll"=>{"title"=>"a tes", "story"=>"hello", "babynames_attributes"=>[{"name"=>"aaa", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"bbb", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"cal", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"cat", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"jen", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"jelly girl", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+
+ActionController::RoutingError (poll_url failed to generate from {:action=>"show", :controller=>"polls", 96213130=>BSON::ObjectID('4c5aa957baba322297000388')}, expected: {:action=>"show", :controller=>"polls"}, diff: {96213130=>BSON::ObjectID('4c5aa957baba322297000388')}):
+  (eval):16:in `poll_path'
+  app/controllers/polls_controller.rb:32:in `create'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-05 14:12:40) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 184ms (View: 108 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-05 14:13:08) [POST]
+  Parameters: {"poll"=>{"title"=>"super long", "story"=>"", "babynames_attributes"=>[{"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 422ms (View: 230 | 200 OK [http://localhost/polls/create]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-05 14:14:20) [POST]
+  Parameters: {"poll"=>{"title"=>"super long", "story"=>"", "babynames_attributes"=>[{"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 259ms (View: 102 | 200 OK [http://localhost/polls/create]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-05 14:22:23) [POST]
+  Parameters: {"poll"=>{"title"=>"super long", "story"=>"", "babynames_attributes"=>[{"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+
+ArgumentError (invalid options: too_long):
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/jnunemaker-validatable-1.8.4/lib/validatable/understandable.rb:27:in `must_understand'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/jnunemaker-validatable-1.8.4/lib/validatable/validations/validation_base.rb:47:in `initialize'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/jnunemaker-validatable-1.8.4/lib/validatable/validatable_class_methods.rb:66:in `new'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/jnunemaker-validatable-1.8.4/lib/validatable/validatable_class_methods.rb:66:in `add_validations'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/jnunemaker-validatable-1.8.4/lib/validatable/validatable_class_methods.rb:65:in `each'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/jnunemaker-validatable-1.8.4/lib/validatable/validatable_class_methods.rb:65:in `add_validations'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/jnunemaker-validatable-1.8.4/lib/validatable/macros.rb:75:in `validates_length_of'
+  app/models/poll.rb:9
+  app/controllers/polls_controller.rb:27:in `create'
+
+Rendered rescues/_trace (612.6ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-05 14:28:00) [POST]
+  Parameters: {"poll"=>{"title"=>"super long", "story"=>"", "babynames_attributes"=>[{"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 298ms (View: 163 | 200 OK [http://localhost/polls/create]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-05 14:28:25) [POST]
+  Parameters: {"poll"=>{"title"=>"super long", "story"=>"", "babynames_attributes"=>[{"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 288ms (View: 146 | 200 OK [http://localhost/polls/create]

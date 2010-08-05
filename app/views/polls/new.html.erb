@@ -1,4 +1,4 @@
-<% title ApplicationController::Website_name + " | "  %>
+<% title [ApplicationController::Website_name, @title]*' | '  %>
 
 <%= error_messages_for 'poll' %>
 
@@ -11,23 +11,32 @@
   <div class="span-8">
     <h2 class="boy_title">Boy Names</h2>
     <div class="clear">&nbsp;</div>
-    <% (1..5).each do |i| %>
-    <div>
-      <%= text_field_tag "name_".concat(i.to_s) , nil, :maxlength => 25 %>
-    </div>
+    <% 5.times do |i| %>
+      <% babyname = @poll.babynames[i] %>
+        <div>
+          <% fields_for "poll[babynames_attributes][]", babyname do |boy_form| %>
+            <%= boy_form.text_field :name, :size => 25, :maxlength =>25  %>
+            <%= boy_form.hidden_field :is_girl, :value => "false" %>
+            <%= boy_form.hidden_field :num_votes, :value => "0" %>
+          <% end %>
+        </div>
     <% end %>
   </div>
 
   <div class="span-8 last">
     <h2 class="girl_title">Girl Names</h2>
     <div class="clear">&nbsp;</div>
-    <% (6..10).each do |i| %>
+    <% 5.times do |i| %>
+      <% babyname = @poll.babynames[i+5] %>
     <div>
-       <%= text_field_tag "name_".concat(i.to_s), nil, :maxlength => 25 %>
+      <% fields_for "poll[babynames_attributes][]", babyname do |girl_form| %>
+        <%= girl_form.text_field :name, :size => 25, :maxlength =>25  %>
+        <%= girl_form.hidden_field :is_girl, :value => "true" %>
+        <%= girl_form.hidden_field :num_votes, :value => "0" %>
+      <% end %>
     </div>
     <% end %>
   </div>
-
 
   <div class="span-16 last">
     <h3 class="b_txt">Story </h3>
