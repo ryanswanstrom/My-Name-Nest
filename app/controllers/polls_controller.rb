@@ -1,7 +1,7 @@
 class PollsController < ApplicationController
-  def index
-    @polls = Poll.all
-  end
+#  def index
+#    @polls = Poll.all
+#  end
   
   def show
     @title = "nest"
@@ -27,8 +27,8 @@ class PollsController < ApplicationController
     @poll = Poll.new(params[:poll])
     if @poll.valid?
       @poll.save
-      flash[:notice] = "Successfully created poll.<br/>" +
-        "The following is the address to your unique list. <br/>" +
+      flash[:notice] = 
+        "The following is the address to your unique nest. <br/>" +
         "Copy and Paste this link to facebook, twitter, or email.<br/>" +
         "http://" + request.host + "/nest/" + @poll.id.to_s 
       redirect_to @poll
@@ -44,15 +44,15 @@ class PollsController < ApplicationController
     redirect_to @poll
   end
 
-  def destroy
-    #    Poll.destroy(params[:id])
-    #    Poll.delete_all
-    redirect_to polls_path
-  end
+#  def destroy
+#    #    Poll.destroy(params[:id])
+#    #    Poll.delete_all
+#    redirect_to polls_path
+#  end
 
-  def edit
-    redirect_to polls_path
-  end
+#  def edit
+#    redirect_to polls_path
+#  end
 
   def new
     @title = "create a new nest"

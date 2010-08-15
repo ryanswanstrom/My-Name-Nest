@@ -4,6 +4,7 @@ class Babyname
 	key :name, String, :required => true
 	key :is_girl, Boolean, :required => true
 	key :num_votes, Integer
+	timestamps!
 
   key :poll_id, ObjectId
   belongs_to :poll

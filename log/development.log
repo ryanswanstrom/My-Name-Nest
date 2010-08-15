@@ -15101,3 +15101,1229 @@ Processing PollsController#create (for 127.0.0.1 at 2010-08-05 14:28:25) [POST]
 Rendering template within layouts/application
 Rendering polls/new
 Completed in 288ms (View: 146 | 200 OK [http://localhost/polls/create]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-05 22:12:03) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 69ms (View: 29 | 200 OK [http://localhost/]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-05 22:12:06) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 186ms (View: 104 | 200 OK [http://localhost/nest/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-05 22:13:29) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 28ms (View: 15 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-05 22:17:11) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 44ms (View: 32 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 05:24:32) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 32ms (View: 12 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-08 03:38:20) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 32ms (View: 25 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-08 03:38:39) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 55ms (View: 35 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-08 03:38:56) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 52ms (View: 36 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-08 03:44:43) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 53ms (View: 38 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-08 03:45:13) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 79ms (View: 65 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-08 04:01:23) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 63ms (View: 43 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-08 04:01:48) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 547ms (View: 534 | 200 OK [http://localhost/]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-08 04:02:14) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 249ms (View: 134 | 200 OK [http://localhost/nest/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-08 04:02:23) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 21ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-08 04:05:49) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 41ms (View: 28 | 200 OK [http://localhost/]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-08 04:06:24) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 254ms (View: 121 | 200 OK [http://localhost/nest/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-08 04:06:26) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 47ms (View: 34 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-08 04:07:16) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 53ms (View: 39 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-08 04:08:03) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 607ms (View: 594 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-08 04:08:32) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 39ms (View: 22 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-08 04:09:20) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 20ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-08 04:12:18) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 23ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-08 04:12:52) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 47ms (View: 30 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-08 04:20:51) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 43ms (View: 29 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-08 04:21:26) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 22ms (View: 17 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-08 04:23:02) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 34ms (View: 10 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-08 04:26:03) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 540ms (View: 513 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-08 04:32:25) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 63ms (View: 48 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-08 04:33:30) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 56ms (View: 42 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-08 04:34:10) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 54ms (View: 40 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-08 04:40:24) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 45ms (View: 33 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-08 04:46:50) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 44ms (View: 30 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-08 04:56:05) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 60ms (View: 42 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-08 04:56:40) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 364ms (View: 331 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-09 05:33:01) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 1432ms (View: 1385 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-09 05:33:07) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 351ms (View: 340 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-09 05:34:04) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 43ms (View: 19 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-09 05:55:48) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 124ms (View: 106 | 200 OK [http://localhost/]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-10 04:59:10) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 4254ms (View: 2230 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-10 05:17:15) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 325ms (View: 192 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-10 05:36:35) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 249ms (View: 119 | 200 OK [http://localhost/nest/new]
+/!\ FAILSAFE /!\  Tue Aug 10 05:37:13 +0200 2010
+  Status: 500 Internal Server Error
+  /home/virtualrails/code/babynames/app/controllers/application_controller.rb:11: unterminated string meets end of file
+/home/virtualrails/code/babynames/app/controllers/application_controller.rb:11: syntax error, unexpected $end, expecting kEND
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_file'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:379:in `load_file'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:425:in `load_missing_constant'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:80:in `const_missing'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:92:in `const_missing'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:89:in `dispatch'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+    /opt/rubystack-2.0-0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /opt/rubystack-2.0-0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-10 05:37:39) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 233ms (View: 108 | 200 OK [http://localhost/nest/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-10 05:37:54) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 26ms (View: 15 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-10 05:48:18) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 76ms (View: 43 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-10 13:56:12) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 56ms (View: 45 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-10 13:57:51) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 74ms (View: 44 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-10 13:59:27) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 82ms (View: 51 | 200 OK [http://localhost/]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-10 13:59:54) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 234ms (View: 104 | 200 OK [http://localhost/nest/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-10 13:59:57) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 29ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-10 14:01:11) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 49ms (View: 24 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-10 14:07:44) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 71ms (View: 60 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-10 14:13:11) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 53ms (View: 20 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-10 14:13:13) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 27ms (View: 18 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-10 14:16:07) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 49ms (View: 29 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-10 14:17:45) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 38ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-10 14:18:24) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 42ms (View: 21 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-11 14:22:19) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 64ms (View: 53 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-11 19:33:22) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 82ms (View: 62 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-11 19:33:43) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 72ms (View: 45 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-11 19:35:00) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 187ms (View: 154 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-11 19:35:31) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 86ms (View: 39 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-11 19:36:23) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 80ms (View: 54 | 200 OK [http://localhost/]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-11 19:38:05) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 223ms (View: 100 | 200 OK [http://localhost/nest/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-11 19:38:16) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 45ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-11 19:43:55) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 71ms (View: 60 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#rand_poll (for 127.0.0.1 at 2010-08-11 19:43:58) [GET]
+
+ActionController::UnknownAction (No action responded to rand_poll. Actions: index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-11 19:44:26) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 131ms (View: 104 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-11 19:44:30) [GET]
+
+ActionController::RoutingError (No route matches "/poll/rand_poll" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-11 19:45:09) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 54ms (View: 32 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-11 19:45:12) [GET]
+
+ActionController::RoutingError (No route matches "/poll/rand_poll" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-11 19:45:29) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 43ms (View: 22 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-11 19:46:12) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 56ms (View: 20 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-11 19:46:16) [GET]
+
+ActionController::RoutingError (No route matches "/poll/rand_poll" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-11 19:46:34) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 84ms (View: 58 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#rand_poll (for 127.0.0.1 at 2010-08-11 19:46:37) [GET]
+
+ActionController::RoutingError (poll_url failed to generate from {:action=>"show", :controller=>"polls", :id=>nil}, expected: {:action=>"show", :controller=>"polls"}, diff: {:id=>nil}):
+  (eval):16:in `poll_path'
+  app/controllers/application_controller.rb:21:in `rand_poll'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-11 19:50:52) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 47ms (View: 19 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#rand_poll (for 127.0.0.1 at 2010-08-11 19:50:55) [GET]
+
+ActionController::RoutingError (poll_url failed to generate from {:action=>"show", :controller=>"polls", :id=>nil}, expected: {:action=>"show", :controller=>"polls"}, diff: {:id=>nil}):
+  (eval):16:in `poll_path'
+  app/controllers/application_controller.rb:21:in `rand_poll'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#rand_poll (for 127.0.0.1 at 2010-08-12 05:42:35) [GET]
+
+TypeError (can't convert Fixnum into String):
+  app/controllers/application_controller.rb:19:in `+'
+  app/controllers/application_controller.rb:19:in `rand_poll'
+
+Rendered rescues/_trace (153.3ms)
+Rendered rescues/_request_and_response (4.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 05:43:10) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 89ms (View: 46 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#rand_poll (for 127.0.0.1 at 2010-08-12 05:43:12) [GET]
+
+NoMethodError (undefined method `put' for #<ApplicationController:0x9ff8f1c>):
+  app/controllers/application_controller.rb:19:in `rand_poll'
+
+Rendered rescues/_trace (152.4ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 05:43:50) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 94ms (View: 63 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#rand_poll (for 127.0.0.1 at 2010-08-12 05:43:54) [GET]
+
+ActionController::RoutingError (poll_url failed to generate from {:action=>"show", :controller=>"polls", :id=>nil}, expected: {:action=>"show", :controller=>"polls"}, diff: {:id=>nil}):
+  (eval):16:in `poll_path'
+  app/controllers/application_controller.rb:23:in `rand_poll'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 05:54:18) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 41ms (View: 10 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#rand_poll (for 127.0.0.1 at 2010-08-12 05:54:21) [GET]
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:122:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:122:in `map!'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:122:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:56:in `find_each'
+  plucky (0.3.2) lib/plucky/query.rb:75:in `all'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:25:in `all'
+  plucky (0.3.2) lib/plucky/query.rb:70:in `find'
+  app/controllers/application_controller.rb:24:in `rand_poll'
+
+Rendered rescues/_trace (185.1ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#rand_poll (for 127.0.0.1 at 2010-08-12 05:55:24) [GET]
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:122:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:122:in `map!'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:122:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:56:in `find_each'
+  plucky (0.3.2) lib/plucky/query.rb:75:in `all'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:25:in `all'
+  plucky (0.3.2) lib/plucky/query.rb:70:in `find'
+  app/controllers/application_controller.rb:25:in `rand_poll'
+
+Rendered rescues/_trace (268.0ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-12 05:55:59) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 252ms (View: 112 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-12 05:56:29) [POST]
+  Parameters: {"poll"=>{"title"=>"A test list", "story"=>"wAht a day", "babynames_attributes"=>[{"name"=>"Bob", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Carl", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Sandy", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Jen", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Tash", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 366ms (View: 165 | 200 OK [http://localhost/polls/create]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-12 05:58:02) [POST]
+  Parameters: {"poll"=>{"title"=>"", "story"=>"wAht a day", "babynames_attributes"=>[{"name"=>"Bob", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Carl", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Sandy", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Jen", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Tash", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 305ms (View: 127 | 200 OK [http://localhost/polls/create]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-12 05:58:13) [POST]
+  Parameters: {"poll"=>{"title"=>"My test title", "story"=>"wAht a day", "babynames_attributes"=>[{"name"=>"Bob", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Carl", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Sandy", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Jen", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Tash", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+Redirected to http://localhost:3000/nest/4c637155baba3209f7000064
+Completed in 413ms | 302 Found [http://localhost/polls/create]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-12 05:58:14) [GET]
+  Parameters: {"id"=>"4c637155baba3209f7000064"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 306ms (View: 212 | 200 OK [http://localhost/nest/4c637155baba3209f7000064]
+
+
+Processing ApplicationController#rand_poll (for 127.0.0.1 at 2010-08-12 05:58:20) [GET]
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:122:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:122:in `map!'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:122:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:56:in `find_each'
+  plucky (0.3.2) lib/plucky/query.rb:75:in `all'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:25:in `all'
+  plucky (0.3.2) lib/plucky/query.rb:70:in `find'
+  app/controllers/application_controller.rb:25:in `rand_poll'
+
+Rendered rescues/_trace (171.1ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#rand_poll (for 127.0.0.1 at 2010-08-12 05:59:37) [GET]
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:122:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:122:in `map!'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:122:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:56:in `find_each'
+  plucky (0.3.2) lib/plucky/query.rb:75:in `all'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:25:in `all'
+  plucky (0.3.2) lib/plucky/query.rb:70:in `find'
+  app/controllers/application_controller.rb:25:in `rand_poll'
+
+Rendered rescues/_trace (190.8ms)
+Rendered rescues/_request_and_response (4.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-12 06:00:27) [POST]
+  Parameters: {"poll"=>{"title"=>"My test title", "story"=>"wAht a day", "babynames_attributes"=>[{"name"=>"Bob", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Carl", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Sandy", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Jen", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Tash", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+Redirected to http://localhost:3000/nest/4c6371dbbaba3209f700006f
+Completed in 249ms | 302 Found [http://localhost/polls/create]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-12 06:00:27) [GET]
+  Parameters: {"id"=>"4c6371dbbaba3209f700006f"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 152ms (View: 65 | 200 OK [http://localhost/nest/4c6371dbbaba3209f700006f]
+
+
+Processing ApplicationController#rand_poll (for 127.0.0.1 at 2010-08-12 06:00:36) [GET]
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:122:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:122:in `map!'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:122:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:56:in `find_each'
+  plucky (0.3.2) lib/plucky/query.rb:75:in `all'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:25:in `all'
+  plucky (0.3.2) lib/plucky/query.rb:70:in `find'
+  app/controllers/application_controller.rb:24:in `rand_poll'
+
+Rendered rescues/_trace (176.0ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#rand_poll (for 127.0.0.1 at 2010-08-12 06:01:48) [GET]
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:122:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:122:in `map!'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:122:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:56:in `find_each'
+  plucky (0.3.2) lib/plucky/query.rb:75:in `all'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:25:in `all'
+  plucky (0.3.2) lib/plucky/query.rb:70:in `find'
+  app/controllers/application_controller.rb:24:in `rand_poll'
+
+Rendered rescues/_trace (628.5ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-12 06:02:34) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 298ms (View: 116 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-12 06:03:04) [POST]
+  Parameters: {"poll"=>{"title"=>"Super List", "story"=>"", "babynames_attributes"=>[{"name"=>"Hal", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Hank", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Henry", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Bill", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Jessie", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Tasha", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Tanya", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+Redirected to http://localhost:3000/nest/4c637278baba3209f7000085
+Completed in 254ms | 302 Found [http://localhost/polls/create]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-12 06:03:04) [GET]
+  Parameters: {"id"=>"4c637278baba3209f7000085"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 295ms (View: 162 | 200 OK [http://localhost/nest/4c637278baba3209f7000085]
+
+
+Processing ApplicationController#rand_poll (for 127.0.0.1 at 2010-08-12 06:03:07) [GET]
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:122:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:122:in `map!'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:122:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:56:in `find_each'
+  plucky (0.3.2) lib/plucky/query.rb:75:in `all'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:25:in `all'
+  plucky (0.3.2) lib/plucky/query.rb:70:in `find'
+  app/controllers/application_controller.rb:24:in `rand_poll'
+
+Rendered rescues/_trace (290.4ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#rand_poll (for 127.0.0.1 at 2010-08-12 06:03:22) [GET]
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:122:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:122:in `map!'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:122:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:56:in `find_each'
+  plucky (0.3.2) lib/plucky/query.rb:75:in `all'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:25:in `all'
+  plucky (0.3.2) lib/plucky/query.rb:70:in `find'
+  app/controllers/application_controller.rb:24:in `rand_poll'
+
+Rendered rescues/_trace (325.9ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-12 06:08:39) [GET]
+  Parameters: {"id"=>"4c637278baba3209f7000085"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 257ms (View: 123 | 200 OK [http://localhost/nest/4c637278baba3209f7000085]
+
+
+Processing ApplicationController#rand_poll (for 127.0.0.1 at 2010-08-12 06:08:42) [GET]
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:122:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:122:in `map!'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:122:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:56:in `find_each'
+  plucky (0.3.2) lib/plucky/query.rb:75:in `all'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:25:in `all'
+  plucky (0.3.2) lib/plucky/query.rb:70:in `find'
+  app/controllers/application_controller.rb:24:in `rand_poll'
+
+Rendered rescues/_trace (298.9ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-12 06:11:13) [GET]
+  Parameters: {"id"=>"4c637278baba3209f7000085"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 228ms (View: 90 | 200 OK [http://localhost/nest/4c637278baba3209f7000085]
+
+
+Processing ApplicationController#rand_poll (for 127.0.0.1 at 2010-08-12 06:11:17) [GET]
+
+NameError (undefined local variable or method `conditions' for #<ApplicationController:0x9f2c7a0>):
+  app/controllers/application_controller.rb:25:in `rand_poll'
+
+Rendered rescues/_trace (150.5ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-12 06:11:40) [GET]
+  Parameters: {"id"=>"4c637278baba3209f7000085"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 365ms (View: 209 | 200 OK [http://localhost/nest/4c637278baba3209f7000085]
+
+
+Processing ApplicationController#rand_poll (for 127.0.0.1 at 2010-08-12 06:11:44) [GET]
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:122:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:122:in `map!'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:122:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:56:in `find_each'
+  plucky (0.3.2) lib/plucky/query.rb:75:in `all'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:25:in `all'
+  plucky (0.3.2) lib/plucky/query.rb:70:in `find'
+  app/controllers/application_controller.rb:26:in `rand_poll'
+
+Rendered rescues/_trace (177.4ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#rand_poll (for 127.0.0.1 at 2010-08-12 06:15:42) [GET]
+
+RuntimeError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id):
+  app/controllers/application_controller.rb:27:in `rand_poll'
+
+Rendered rescues/_trace (158.1ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#rand_poll (for 127.0.0.1 at 2010-08-12 06:16:47) [GET]
+
+ActionController::ActionControllerError (Cannot redirect to nil!):
+  app/controllers/application_controller.rb:28:in `rand_poll'
+
+Rendered rescues/_trace (151.6ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#rand_poll (for 127.0.0.1 at 2010-08-12 06:17:16) [GET]
+
+ActionController::ActionControllerError (Cannot redirect to nil!):
+  app/controllers/application_controller.rb:28:in `rand_poll'
+
+Rendered rescues/_trace (154.7ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#rand_poll (for 127.0.0.1 at 2010-08-12 06:17:38) [GET]
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:122:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:122:in `map!'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:122:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:56:in `find_each'
+  plucky (0.3.2) lib/plucky/query.rb:75:in `all'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:25:in `all'
+  plucky (0.3.2) lib/plucky/query.rb:70:in `find'
+  app/controllers/application_controller.rb:26:in `rand_poll'
+
+Rendered rescues/_trace (319.6ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 18:47:14) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 25ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#rand_poll (for 127.0.0.1 at 2010-08-12 18:47:53) [GET]
+
+BSON::InvalidObjectID (illegal ObjectID format):
+  bson (1.0.3) lib/./lib/bson/types/objectid.rb:116:in `from_string'
+  plucky (0.3.2) lib/plucky.rb:23:in `to_object_id'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:122:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:122:in `map!'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:122:in `normalized_value'
+  plucky (0.3.2) lib/plucky/criteria_hash.rb:31:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:163:in `[]='
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `each'
+  plucky (0.3.2) lib/plucky/query.rb:100:in `update'
+  plucky (0.3.2) lib/plucky/query.rb:56:in `find_each'
+  plucky (0.3.2) lib/plucky/query.rb:75:in `all'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/querying/decorator.rb:25:in `all'
+  plucky (0.3.2) lib/plucky/query.rb:70:in `find'
+  app/controllers/application_controller.rb:26:in `rand_poll'
+
+Rendered rescues/_trace (181.4ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-14 16:42:20) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 319ms (View: 300 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-14 16:43:11) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 42ms (View: 42 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-14 16:45:12) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 26ms (View: 21 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-14 16:54:36) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 52ms (View: 21 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-14 17:28:29) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 108ms (View: 75 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-14 17:28:56) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 155ms (View: 99 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-14 17:33:41) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 155ms (View: 118 | 200 OK [http://localhost/]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-14 17:34:14) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 1610ms (View: 1195 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-14 17:34:22) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 266ms (View: 130 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-14 17:35:40) [GET]
+
+ArgumentError (key Poll/Validatable::ValidatesLengthOf/title must be unique, provide the :key option to specify a unique key):
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/jnunemaker-validatable-1.8.4/lib/validatable/validations/validation_base.rb:61:in `raise_error_if_key_is_dup'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/jnunemaker-validatable-1.8.4/lib/validatable/validations/validation_base.rb:56:in `initialize'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/jnunemaker-validatable-1.8.4/lib/validatable/validatable_class_methods.rb:66:in `new'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/jnunemaker-validatable-1.8.4/lib/validatable/validatable_class_methods.rb:66:in `add_validations'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/jnunemaker-validatable-1.8.4/lib/validatable/validatable_class_methods.rb:65:in `each'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/jnunemaker-validatable-1.8.4/lib/validatable/validatable_class_methods.rb:65:in `add_validations'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/jnunemaker-validatable-1.8.4/lib/validatable/macros.rb:75:in `validates_length_of'
+  app/models/poll.rb:10
+  app/controllers/polls_controller.rb:59:in `new'
+
+Rendered rescues/_trace (361.3ms)
+Rendered rescues/_request_and_response (4.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-14 17:36:05) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 279ms (View: 129 | 200 OK [http://localhost/nest/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-15 00:56:22) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 79ms (View: 58 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-15 00:57:27) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 81ms (View: 55 | 200 OK [http://localhost/]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-15 00:57:44) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 720ms (View: 275 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-15 00:59:12) [GET]
+
+ArgumentError (key Poll/Validatable::ValidatesLengthOf/title must be unique, provide the :key option to specify a unique key):
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/jnunemaker-validatable-1.8.4/lib/validatable/validations/validation_base.rb:61:in `raise_error_if_key_is_dup'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/jnunemaker-validatable-1.8.4/lib/validatable/validations/validation_base.rb:56:in `initialize'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/jnunemaker-validatable-1.8.4/lib/validatable/validatable_class_methods.rb:66:in `new'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/jnunemaker-validatable-1.8.4/lib/validatable/validatable_class_methods.rb:66:in `add_validations'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/jnunemaker-validatable-1.8.4/lib/validatable/validatable_class_methods.rb:65:in `each'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/jnunemaker-validatable-1.8.4/lib/validatable/validatable_class_methods.rb:65:in `add_validations'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/jnunemaker-validatable-1.8.4/lib/validatable/macros.rb:75:in `validates_length_of'
+  app/models/poll.rb:10
+  app/controllers/polls_controller.rb:59:in `new'
+
+Rendered rescues/_trace (327.9ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-15 00:59:41) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 267ms (View: 124 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-15 00:59:45) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 308ms (View: 135 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-15 03:20:24) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 241ms (View: 110 | 200 OK [http://localhost/nest/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-15 03:20:27) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 44ms (View: 25 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-15 03:24:15) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 136ms (View: 105 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#terms (for 127.0.0.1 at 2010-08-15 03:24:17) [GET]
+Rendering template within layouts/application
+Rendering application/terms
+Completed in 78ms (View: 51 | 200 OK [http://localhost/application/terms]
+
+
+Processing ApplicationController#terms (for 127.0.0.1 at 2010-08-15 03:27:18) [GET]
+Rendering template within layouts/application
+Rendering application/terms
+Completed in 113ms (View: 91 | 200 OK [http://localhost/application/terms]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-15 03:27:24) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 45ms (View: 10 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-15 03:27:47) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 81ms (View: 58 | 200 OK [http://localhost/]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-15 03:27:48) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 502ms (View: 297 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-15 03:28:31) [POST]
+  Parameters: {"poll"=>{"title"=>"A test", "story"=>"THis is a very long story.", "babynames_attributes"=>[{"name"=>"Charlie", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"BAtch", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Fitch", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Flint", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Harry", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Susan", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Sarah", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Mallory", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+Redirected to http://localhost:3000/nest/4c6742bfbaba32080d000059
+Completed in 484ms | 302 Found [http://localhost/polls/create]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-15 03:28:32) [GET]
+  Parameters: {"id"=>"4c6742bfbaba32080d000059"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 226ms (View: 126 | 200 OK [http://localhost/nest/4c6742bfbaba32080d000059]
+
+
+Processing PollsController#vote_name (for 127.0.0.1 at 2010-08-15 03:29:24) [POST]
+  Parameters: {"commit"=>"BAtch", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_id"=>"4c6742bfbaba32080d00005b", "poll_id"=>"4c6742bfbaba32080d000059"}
+Redirected to http://localhost:3000/nest/4c6742bfbaba32080d000059
+Completed in 131ms | 302 Found [http://localhost/polls/vote_name]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-15 03:29:24) [GET]
+  Parameters: {"id"=>"4c6742bfbaba32080d000059"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 203ms (View: 100 | 200 OK [http://localhost/nest/4c6742bfbaba32080d000059]
+
+
+Processing PollsController#vote_name (for 127.0.0.1 at 2010-08-15 03:29:26) [POST]
+  Parameters: {"commit"=>"Charlie", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_id"=>"4c6742bfbaba32080d00005a", "poll_id"=>"4c6742bfbaba32080d000059"}
+Redirected to http://localhost:3000/nest/4c6742bfbaba32080d000059
+Completed in 158ms | 302 Found [http://localhost/polls/vote_name]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-15 03:29:27) [GET]
+  Parameters: {"id"=>"4c6742bfbaba32080d000059"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 397ms (View: 227 | 200 OK [http://localhost/nest/4c6742bfbaba32080d000059]
+
+
+Processing PollsController#vote_name (for 127.0.0.1 at 2010-08-15 03:29:30) [POST]
+  Parameters: {"commit"=>"Fitch", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc=", "name_id"=>"4c6742bfbaba32080d00005c", "poll_id"=>"4c6742bfbaba32080d000059"}
+Redirected to http://localhost:3000/nest/4c6742bfbaba32080d000059
+Completed in 141ms | 302 Found [http://localhost/polls/vote_name]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-15 03:29:30) [GET]
+  Parameters: {"id"=>"4c6742bfbaba32080d000059"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 291ms (View: 90 | 200 OK [http://localhost/nest/4c6742bfbaba32080d000059]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-15 03:29:34) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 44ms (View: 22 | 200 OK [http://localhost/]
