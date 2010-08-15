@@ -30,7 +30,7 @@ class PollsController < ApplicationController
       flash[:notice] = 
         "The following is the address to your unique nest. <br/>" +
         "Copy and Paste this link to facebook, twitter, or email.<br/>" +
-        "<strong>"
+        "<strong>" +
         "http://" + request.host + "/nest/" + @poll.id.to_s  + "</strong>"
       redirect_to @poll
     else
