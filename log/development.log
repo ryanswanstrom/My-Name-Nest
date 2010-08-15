@@ -16327,3 +16327,21 @@ Processing ApplicationController#index (for 127.0.0.1 at 2010-08-15 03:29:34) [G
 Rendering template within layouts/application
 Rendering application/index
 Completed in 44ms (View: 22 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-15 04:07:01) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 153ms (View: 110 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-15 04:11:10) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 92ms (View: 60 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-15 04:12:11) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 100ms (View: 80 | 200 OK [http://localhost/]
