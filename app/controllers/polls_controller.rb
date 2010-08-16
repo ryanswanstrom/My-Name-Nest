@@ -23,6 +23,7 @@ class PollsController < ApplicationController
   end
   
   def create
+    puts ' in create method'
     @title = "try creating a nest again"
     @poll = Poll.new(params[:poll])
     if @poll.valid?
@@ -59,7 +60,7 @@ class PollsController < ApplicationController
     @title = "create a new nest"
     @poll = Poll.new
     10.times{@poll.babynames.build}
+    @poll.errors.clear
   end
-
   
 end

@@ -1,10 +1,10 @@
 class Poll 
 	include MongoMapper::Document
 	
-	key :title, String
+	key :title, String, :required => true
 	key :story, String
 	timestamps!
-  has_many :babynames
+  many :babynames
 
   validates_length_of :title, :maximum => 50, :message => "allows only 50 characters"
   validates_length_of :story, :maximum => 5000, :message => "allows only 5000 characters"

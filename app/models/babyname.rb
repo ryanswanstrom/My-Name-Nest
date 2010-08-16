@@ -7,7 +7,6 @@ class Babyname
 	timestamps!
 
   key :poll_id, ObjectId
-  belongs_to :poll
 
   def self.vote(nameid)
     Babyname.increment(nameid, :num_votes => 1)

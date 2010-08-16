@@ -16345,3 +16345,165 @@ Processing ApplicationController#index (for 127.0.0.1 at 2010-08-15 04:12:11) [G
 Rendering template within layouts/application
 Rendering application/index
 Completed in 100ms (View: 80 | 200 OK [http://localhost/]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-15 04:14:08) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 413ms (View: 218 | 200 OK [http://localhost/nest/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-15 19:46:15) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 40ms (View: 16 | 200 OK [http://localhost/]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-15 19:46:18) [GET]
+
+NoMethodError (undefined method `new' for []:Array):
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/associations/proxy.rb:95:in `send'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/associations/proxy.rb:95:in `method_missing'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/dynamic_querying.rb:37:in `method_missing'
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/associations/many_documents_proxy.rb:76:in `method_missing'
+  app/controllers/polls_controller.rb:61:in `new'
+  app/controllers/polls_controller.rb:61:in `times'
+  app/controllers/polls_controller.rb:61:in `new'
+
+Rendered rescues/_trace (577.7ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-15 19:51:43) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 73ms (View: 24 | 200 OK [http://localhost/]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-15 19:51:47) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 461ms (View: 243 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-15 19:52:12) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 459ms (View: 232 | 200 OK [http://localhost/nest/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-15 19:55:55) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 59ms (View: 33 | 200 OK [http://localhost/]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-15 19:55:59) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 789ms (View: 559 | 200 OK [http://localhost/nest/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-15 19:57:14) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 63ms (View: 25 | 200 OK [http://localhost/]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-15 19:57:54) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 603ms (View: 306 | 200 OK [http://localhost/nest/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-16 04:30:43) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 64ms (View: 33 | 200 OK [http://localhost/]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-16 04:31:23) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 499ms (View: 240 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-16 04:31:52) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 500ms (View: 236 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-16 04:46:21) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 751ms (View: 290 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-16 04:46:55) [POST]
+  Parameters: {"poll"=>{"title"=>"Another great nest", "story"=>"", "babynames_attributes"=>[{"name"=>"Bob", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Bill", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Sally", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+Redirected to http://localhost:3000/nest/4c68a69fbaba32080d0000be
+Completed in 329ms | 302 Found [http://localhost/polls/create]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-16 04:46:55) [GET]
+  Parameters: {"id"=>"4c68a69fbaba32080d0000be"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 163ms (View: 61 | 200 OK [http://localhost/nest/4c68a69fbaba32080d0000be]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-16 04:47:00) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 520ms (View: 243 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-16 05:09:21) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 721ms (View: 467 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-16 05:11:10) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 548ms (View: 253 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-16 05:11:30) [POST]
+  Parameters: {"poll"=>{"title"=>"", "story"=>"", "babynames_attributes"=>[{"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 560ms (View: 275 | 200 OK [http://localhost/polls/create]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-16 05:13:43) [GET]
+
+NoMethodError (undefined method `errors=' for #<Poll:0x8732ba4>):
+  /opt/rubystack-2.0-0/ruby/lib/ruby/gems/1.8/gems/mongo_mapper-0.8.2/lib/mongo_mapper/plugins/dirty.rb:26:in `method_missing'
+  app/controllers/polls_controller.rb:68:in `new'
+
+Rendered rescues/_trace (473.3ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-16 05:14:53) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 553ms (View: 260 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-16 05:16:40) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 505ms (View: 217 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-16 05:17:48) [POST]
+  Parameters: {"poll"=>{"title"=>"", "story"=>"What a great story to tell.", "babynames_attributes"=>[{"name"=>"Mark", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Chris", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Jen", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Kara", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 578ms (View: 263 | 200 OK [http://localhost/polls/create]
