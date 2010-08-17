@@ -109,6 +109,10 @@ form {
     padding-bottom: 8px;
 }
 
+.bspaceit {
+    padding-bottom: 25px;
+}
+
 a img {
   border: none;
 }

@@ -16525,3 +16525,61 @@ Processing ApplicationController#index (for 127.0.0.1 at 2010-08-17 05:14:06) [G
 Rendering template within layouts/application
 Rendering application/index
 Completed in 106ms (View: 74 | 200 OK [http://localhost/]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-17 05:20:11) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 639ms (View: 494 | 200 OK [http://localhost/nest/new]
+
+
+Processing PollsController#create (for 127.0.0.1 at 2010-08-17 05:21:21) [POST]
+  Parameters: {"poll"=>{"title"=>"Drew and Amy's name nest", "story"=>"This is great story of two love birds.  They met, got married and are now having kids.  Please help name the baby.", "babynames_attributes"=>[{"name"=>"First", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Second", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Third", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"false"}, {"name"=>"Forth", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Fifth", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"Sixth", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}, {"name"=>"", "num_votes"=>"0", "is_girl"=>"true"}]}, "submit"=>"Publish", "authenticity_token"=>"3f0ed06h6U4ERCxfA5OyqOUeelmFigPuwTIPUSwjRCc="}
+Redirected to http://localhost:3000/nest/4c6a0031baba32080d00012c
+Completed in 317ms | 302 Found [http://localhost/polls/create]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-17 05:21:21) [GET]
+  Parameters: {"id"=>"4c6a0031baba32080d00012c"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 208ms (View: 108 | 200 OK [http://localhost/nest/4c6a0031baba32080d00012c]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-17 05:21:32) [GET]
+  Parameters: {"id"=>"4c6a0031baba32080d00012c"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 225ms (View: 80 | 200 OK [http://localhost/nest/4c6a0031baba32080d00012c]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-17 05:21:51) [GET]
+  Parameters: {"id"=>"4c6a0031baba32080d00012c"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 252ms (View: 98 | 200 OK [http://localhost/nest/4c6a0031baba32080d00012c]
+
+
+Processing PollsController#show (for 127.0.0.1 at 2010-08-17 05:23:14) [GET]
+  Parameters: {"id"=>"4c6a0031baba32080d00012c"}
+Rendering template within layouts/application
+Rendering polls/show
+Completed in 411ms (View: 251 | 200 OK [http://localhost/nest/4c6a0031baba32080d00012c]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-17 05:24:25) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 357ms (View: 165 | 200 OK [http://localhost/nest/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-17 05:25:36) [GET]
+Rendering template within layouts/application
+Rendering application/index
+Completed in 47ms (View: 20 | 200 OK [http://localhost/]
+
+
+Processing PollsController#new (for 127.0.0.1 at 2010-08-17 05:26:07) [GET]
+Rendering template within layouts/application
+Rendering polls/new
+Completed in 453ms (View: 261 | 200 OK [http://localhost/nest/new]
