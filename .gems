@@ -1,3 +1,4 @@
 rails -v 2.3.4
-mongo_mapper --version '>= 0.8.2'
-bson_ext -v 1.0
+mongo_mapper --version '>= 0.8.3'
+bson -v 1.0.4
+bson_ext -v 1.0.4
