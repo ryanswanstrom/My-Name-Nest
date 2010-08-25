@@ -66,7 +66,7 @@
 
 .footer_txt a {
     color: #60183B;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .footer_img {
@@ -111,15 +111,6 @@ form {
 
 .bspaceit {
     padding-bottom: 25px;
-}
-
-a img {
-  border: none;
-}
-
-a {
-  color: #3A65A8;
-  text-decoration: none;
 }
 
 .clear {
