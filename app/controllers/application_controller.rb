@@ -12,7 +12,7 @@ class ApplicationController < ActionController::Base
   TheDomain = 'mynamenest.com'
 
   def ensure_domain
-    if request.env['HTTP_HOST'] != TheDomain
+    if Rails.env.production? && request.env['HTTP_HOST'] != TheDomain
       redirect_to TheDomain
     end
   end
@@ -26,15 +26,13 @@ class ApplicationController < ActionController::Base
 
   def rand_poll
     total = Poll.count()
-    puts "total is " + total.to_s
     random = rand(total-1) + 1
-    puts "random is " + random.to_s
-    options = {}
-    conds = {}
-    options[:skip] = 2
-    options[:conditions] = conds
-    @poll = Poll.find(:first, options)
-    puts "poll is nil  " + @poll.to_s
+#    options = {}
+#    conds = {}
+#    options[:skip] = 2
+#    options[:conditions] = conds
+    polls = Poll.all
+    @poll = polls[random]
     redirect_to @poll
   end
 
