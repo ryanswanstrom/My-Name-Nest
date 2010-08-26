@@ -7,15 +7,15 @@ class ApplicationController < ActionController::Base
 
   # Scrub sensitive parameters from your log
   # filter_parameter_logging :password
-  before_filter :ensure_domain
-
-  TheDomain = 'mynamenest.com'
-
-  def ensure_domain
-    if Rails.env.production? && request.env['HTTP_HOST'] != TheDomain
-      redirect_to TheDomain
-    end
-  end
+#  before_filter :ensure_domain
+#
+#  TheDomain = 'mynamenest.com'
+#
+#  def ensure_domain
+#    if Rails.env.production? && request.env['HTTP_HOST'] != TheDomain
+#      redirect_to TheDomain
+#    end
+#  end
 
 
   Website_name = 'my name nest'
