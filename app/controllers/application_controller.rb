@@ -7,6 +7,16 @@ class ApplicationController < ActionController::Base
 
   # Scrub sensitive parameters from your log
   # filter_parameter_logging :password
+  before_filter :ensure_domain
+
+  TheDomain = 'mynamenest.com'
+
+  def ensure_domain
+    if request.env['HTTP_HOST'] != TheDomain
+      redirect_to TheDomain
+    end
+  end
+
 
   Website_name = 'my name nest'
   Website_url = 'mynamenest.com'
@@ -21,10 +31,10 @@ class ApplicationController < ActionController::Base
     puts "random is " + random.to_s
     options = {}
     conds = {}
-    options[:skip] = random
+    options[:skip] = 2
     options[:conditions] = conds
-    @poll = Poll.find(:first, {})
-#    puts "poll id is " + @poll.id.to_s
+    @poll = Poll.find(:first, options)
+    puts "poll is nil  " + @poll.to_s
     redirect_to @poll
   end
 

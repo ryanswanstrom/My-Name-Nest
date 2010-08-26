@@ -47,12 +47,13 @@
 
 .menu li a {
     color: #9D436F;
-    text-decoration: none;
+    text-decoration: underline;
     font-weight: bold;
 }
 
 .menu li a:hover {
     background-color: #edd3e0;
+    text-decoration: none;
 }
 
 .footer { 
