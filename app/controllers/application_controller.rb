@@ -13,7 +13,7 @@ class ApplicationController < ActionController::Base
 
   def ensure_domain
     if Rails.env.production? && request.env['HTTP_HOST'] == 'www.mynamenest.com'
-      redirect_to 'http://mynamenest.com'
+      redirect_to 'http://mynamenest.com/'
     end
   end
 
