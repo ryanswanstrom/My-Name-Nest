@@ -7,15 +7,24 @@ class ApplicationController < ActionController::Base
 
   # Scrub sensitive parameters from your log
   # filter_parameter_logging :password
-#  before_filter :ensure_domain
-#
-#  TheDomain = 'mynamenest.com'
-#
-#  def ensure_domain
+
+  before_filter :ensure_domain
+
+  TheDomain = 'mynamenest.com'
+
+  def ensure_domain
 #    if Rails.env.production? && request.env['HTTP_HOST'] == 'www.mynamenest.com'
 #      redirect_to 'http://mynamenest.com/'
 #    end
-#  end
+    if Rails.env.production?
+      host = request.host.gsub(/www./,'')
+
+      if /^www/.match(request.host)
+        new_url = "#{request.protocol}#{host}#{request.request_uri}"
+        redirect_to(new_url, :status => 301)
+      end
+    end
+  end
 
 
   Website_name = 'my name nest'
