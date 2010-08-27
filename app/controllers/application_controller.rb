@@ -10,13 +10,10 @@ class ApplicationController < ActionController::Base
 
   before_filter :ensure_domain
 
-  TheDomain = 'mynamenest.com'
-
   def ensure_domain
-#    if Rails.env.production? && request.env['HTTP_HOST'] == 'www.mynamenest.com'
-#      redirect_to 'http://mynamenest.com/'
-#    end
     if Rails.env.production?
+
+      # this code will forward all www.mynamenest.com to mynamenest.com
       host = request.host.gsub(/www./,'')
 
       if /^www/.match(request.host)
