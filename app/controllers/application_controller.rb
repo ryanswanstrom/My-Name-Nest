@@ -33,7 +33,7 @@ class ApplicationController < ActionController::Base
   def rand_poll
     total = Poll.count()
     random = rand(total-1) + 1
-    puts "poll is nil " + @poll.nil?.to_s
+#    puts "poll is nil " + @poll.nil?.to_s
 #    options = {}
 #    conds = {}
 #    options[:skip] = 2

@@ -23,10 +23,24 @@ class PollsController < ApplicationController
   end
   
   def create
-    puts ' in create method'
     @title = "try creating a nest again"
     @poll = Poll.new(params[:poll])
-    if @poll.valid?
+    empty_names = 'At least one baby name must be entered.'
+    if @poll.babynames.empty?
+      @poll.errors.add_to_base(empty_names)
+    else
+      all_empty = true
+      @poll.babynames.each do |babyname|
+        if !babyname.name.strip.empty?
+          all_empty = false
+          break
+        end
+      end
+      if all_empty
+        @poll.errors.add_to_base(empty_names)
+      end
+    end
+    if @poll.errors.empty? && @poll.valid?
       @poll.save
       flash[:notice] = 
         "The following is the address to your unique nest. <br/>" +
