@@ -5,6 +5,10 @@
   color: #3A65A8;
 }
 
+.tall {
+    height: 700px;
+}
+
 .boy_title {
     color: #3A65A8;
     background: url(/images/h1bg.jpg) repeat-x bottom;
