@@ -35,6 +35,15 @@
 
 
   <h3 class="p_txt">Most Recent Nests</h3>
+
+  <% unless @recent.empty? %>
+  <ul>
+    <% @recent.each do |poll| %>
+    <li> <%= link_to poll.title, poll %> </li>
+    <% end %>
+  </ul>
+  <% end %>
+
   <ul>
     <li>
       <a href="http://mynamenest.com/nest/4c69fb536787840eac00002d">

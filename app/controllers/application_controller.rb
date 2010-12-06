@@ -28,6 +28,7 @@ class ApplicationController < ActionController::Base
   Website_url = 'mynamenest.com'
   def index
     @title = "let people vote on your top 5 baby names"
+    @recent = Poll.sort(:last_updated).limit(6).all
   end
 
   def rand_poll
