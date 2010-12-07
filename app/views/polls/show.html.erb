@@ -1,8 +1,12 @@
 <% title ApplicationController::Website_name + " | " + @title %>
 
 <div class="span-1"> &nbsp;</div>
-<div class="span-15 last">
+<div class="span-12">
   <h4 class="b_txt"><%=h @poll.title %></h4>
+ </div>
+<div class="span-3 last">
+   <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="mynamenest">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+   <iframe src="http://www.facebook.com/plugins/like.php?href=<%= request.url%>&amp;layout=standard&amp;show_faces=false&amp;width=300&amp;action=like&amp;colorscheme=light&amp;height=30" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:30px;" allowTransparency="true"></iframe>
 </div>
 
 <div class="span-8">
