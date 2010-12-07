@@ -31,6 +31,10 @@ class ApplicationController < ActionController::Base
     @recent = Poll.sort(:updated_at.desc).limit(5).all
   end
 
+  def about
+    
+  end
+
   def rand_poll
     total = Poll.count()
     random = rand(total-1) + 1
