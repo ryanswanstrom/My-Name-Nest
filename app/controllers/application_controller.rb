@@ -8,22 +8,6 @@ class ApplicationController < ActionController::Base
   # Scrub sensitive parameters from your log
   # filter_parameter_logging :password
 
-  before_filter :ensure_domain
-
-  def ensure_domain
-    if Rails.env.production?
-
-      # this code will forward all www.mynamenest.com to mynamenest.com
-      host = request.host.gsub(/www./,'')
-
-      if /^www/.match(request.host)
-        new_url = "#{request.protocol}#{host}#{request.request_uri}"
-        redirect_to(new_url, :status => 301)
-      end
-    end
-  end
-
-
   Website_name = 'my name nest'
   Website_url = 'mynamenest.com'
   def index
