@@ -1,5 +1,5 @@
 ActionController::Routing::Routes.draw do |map|
-  map.resources :polls, :as => 'nest', :only => [:show,:new]
+  map.resources :polls, :as => 'nest', :only => [:show,:new,:index]
 
   # The priority is based upon order of creation: first created -> highest priority.
 
