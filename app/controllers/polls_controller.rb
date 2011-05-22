@@ -1,6 +1,6 @@
 class PollsController < ApplicationController
   def index
-    @polls = Poll.all
+    @polls = Poll.sort(:created_at.desc).all
   end
   
   def show
